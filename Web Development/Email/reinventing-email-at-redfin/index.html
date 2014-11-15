@@ -1,0 +1,369 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Reinventing Email at Redfin - ericgideon.com</title>
+  <meta name="author" content="Eric Gideon">
+
+  
+  <meta name="description" content="This was originally published on the Redfin developer blog. Depending on what you read, around a third of the time spent on mobile devices is taken &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://egid.github.io/Web%20Development/Email/reinventing-email-at-redfin/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="ericgideon.com" type="application/atom+xml">
+  <!-- // <script src="/javascripts/modernizr-2.0.js"></script> -->
+  <!-- // <script src="/javascripts/libs/jquery.min.js"></script> -->
+  <!-- // <script src="/javascripts/octopress.js" type="text/javascript"></script> -->
+  <!-- URL.LV button -->
+	<!-- // <script src="http://static.uri.lv/js/button.js" async></script> -->
+<!-- Rich Object stuff -->
+	<meta name="google-site-verification" content="qHxhLvCpmi9WMlWIdF6U5gSTEvRI-bSZUelil4czDLs" />
+	<meta property="og:url" value="http://egid.github.io/Web%20Development/Email/reinventing-email-at-redfin/">
+	<meta property="og:type" content="website" />
+	
+		<meta property="og:title" value="Reinventing Email at Redfin">
+		<meta property="og:description" value="I'm a pilot and web developer in Seattle.">
+	
+	
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-11479088-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   class="collapse-sidebar sidebar-footer" >
+  <header role="banner"><hgroup>
+  <h1><a href="/">ericgideon.com</a></h1>
+  
+    <h2>I fly a planes.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="main-navigation">
+	<li><a href="/instruction">Flying <span class="icon cfi"></span></a></li>
+	<li><a href="/web-development">Internets <span class="icon web"></span></a></li>
+	<li><a href="/about">About <span class="icon about"></span></a></li>
+</ul>
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+	<header>
+		
+			<h1 class="entry-title">Reinventing Email at Redfin</h1>
+		
+	
+		<p class="meta">
+			
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-19T12:00:00-07:00" pubdate data-updated="true">Apr 19<span>th</span>, 2012</time>
+			
+		</p>
+	
+	</header>
+
+
+	<div class="entry-content"><p><em>This was <a href="http://blog.redfin.com/devblog/?p=634">originally published on the Redfin developer blog</a></em>.</p>
+
+
+
+
+<p><img class="bodyimg right" src="http://f.cl.ly/items/2V1v3l0V1a030M340p0F/iphone_sample.PNG" alt="Old, unresponsive Redfin email on iPhone" />Depending on what you read, around a third of the time spent on mobile devices is taken up by email. Redfin is being increasingly accessed from mobile devices. It&#8217;s the 21st century, and we&#8217;ve all got computers in our pockets.</p>
+
+
+
+
+<p>Why, then, are we sending out emails that are formatted exclusively for desktop email clients? Not even necessarily all that well, honestly. If you&#8217;re reading them on something like a MacBook Air or an ultrabook/netbook sort of machine, our font size choices are probably making that whole situation pretty tough. That said, we have some good looking templates that heavily favor desktop reading, thanks to font sizes, header elements, and (most important) multi-column layouts.</p>
+
+
+<!-- more -->
+
+
+<h3 id="thefutureofemailishereanditlooksalotlikethepast.">The future of email is here, and it looks a lot like the past.</h3>
+
+
+
+
+<p>I started working on Redfin&#8217;s emails late last year, and we immediately started cleaning things up. Fewer tables, larger font sizes, less clutter. You probably didn&#8217;t notice, or if you did you didn&#8217;t think much about it. They look pretty good, but our email is nothing special. And everything we were sending was 100% tables, with weird hacks to get around Outlook 2007 &amp; 2010. For desktop only, that&#8217;s fine, but what about for mobile? Android and iOS both boast incredibly modern WebKit-based default mail clients, supporting HTML5 and CSS3 (including things like inline video!). But the work involved in designing and coding a separate &#8216;mobile&#8217; email campaign is pretty intimidating, and the idea of going through every email we send and redesigning wasn&#8217;t particularly appealing either.</p>
+
+
+
+
+<p>What do you do, then? Lots of desktop/mobile email templates out there seem to reformat the existing table cells as <a href="http://goo.gl/b2h4U" title="preview.smartfocusdigital.com">narrower versions for mobile</a>, but that&#8217;s kind of a cop-out. They look good, and the responsive layout might be nifty, but they still run the risk of tiny text areas. So, designing emails to have secondary content that can collapse doesn&#8217;t really solve the problem of an email that is truly accessible to mobile users. It also doesn&#8217;t address the issue of the design &amp; coding workload required to get new templates designed, built, and tested.</p>
+
+
+
+
+<p>I mentioned earlier that mobile email clients (except for Gmail, on any platform) are fancy and modern; what does this actually mean for the old-school table layouts, though? That got me thinking: what if we could convince these clients that they should ignore the fact that the content is in a table? Most web developers probably use <code>display:block;</code> on inline elements like all the time, so why not on table cells? Obviously if you&#8217;re writing semantic code and using tables for tabular data, this makes no sense, but if you&#8217;re writing <em>emails</em> and using tables for <em>layout</em>, this seems like the perfect solution. It took some experimentation, but I found that, yes, we can turn a <code>td</code> into a block element that we can manipulate as a pseudo-div.</p>
+
+
+
+
+<h3 id="breakingtablesdeliberately">Breaking tables (deliberately)</h3>
+
+
+
+
+<p>First, we set up a media query that will only be triggered by small screens. This isn&#8217;t anything new if you&#8217;ve worked with CSS3 and <a href="http://goo.gl/XiBqN" title="alistapart.com">responsive design</a>. Within the media query, we build a simple class that can be assigned to whatever we want to reformat for mobile.</p>
+
+
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+</pre></td><td class='code'><pre><code class='css'><span class='line'><span class="o">&lt;</span><span class="nt">style</span> <span class="nt">type</span><span class="o">=</span><span class="s2">&quot;text/css&quot;</span><span class="o">&gt;</span>
+</span><span class='line'>    <span class="k">@media</span> <span class="nt">only</span> <span class="nt">screen</span> <span class="nt">and</span> <span class="o">(</span><span class="nt">max-device-width</span><span class="o">:</span> <span class="nt">480px</span><span class="o">)</span> <span class="p">{</span>
+</span><span class='line'>        <span class="o">*[</span><span class="nt">class</span><span class="o">~=</span><span class="nt">stackonmobile</span><span class="o">]</span> <span class="p">{</span>
+</span><span class='line'>            <span class="k">display</span><span class="o">:</span> <span class="k">block</span> <span class="cp">!important</span><span class="p">;</span>
+</span><span class='line'>            <span class="k">clear</span><span class="o">:</span> <span class="k">both</span> <span class="cp">!important</span><span class="p">;</span>
+</span><span class='line'>            <span class="k">width</span><span class="o">:</span> <span class="m">100</span><span class="o">%</span> <span class="cp">!important</span><span class="p">;</span>
+</span><span class='line'>            <span class="k">margin</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span>
+</span><span class='line'>        <span class="p">}</span>
+</span><span class='line'>        <span class="o">*[</span><span class="nt">class</span><span class="o">~=</span><span class="nt">hideonmobile</span><span class="o">]</span> <span class="p">{</span>
+</span><span class='line'>            <span class="k">display</span><span class="o">:</span> <span class="k">none</span> <span class="cp">!important</span><span class="p">;</span>
+</span><span class='line'>        <span class="p">}</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'><span class="o">&lt;/</span><span class="nt">style</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<p>There&#8217;s some weird bits to that CSS, especially in the selectors we&#8217;re using to pick out <code>.stackonmobile</code> and <code>.hideonmobile</code> - <a href="http://goo.gl/qV13N" title="campaignmonitor.com">you can thank Yahoo Mail for that</a>. Anyway, this is a class that you&#8217;ll want to apply after inlining your css, if you use a tool like <a href="http://goo.gl/sNZe9" title="premailer.dialect.ca">premailer</a>. Also, for testing and development, it can help if you use <code>max-width</code> rather than <code>max-device-width</code> - this lets you resize your browser and see your revisions live.</p>
+
+
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+</pre></td><td class='code'><pre><code class='css'><span class='line'><span class="o">&lt;</span><span class="nt">table</span> <span class="nt">class</span><span class="o">=</span><span class="s2">&quot;stackonmobile&quot;</span><span class="o">&gt;</span>
+</span><span class='line'>    <span class="o">&lt;</span><span class="nt">tr</span><span class="o">&gt;</span>
+</span><span class='line'>        <span class="o">&lt;</span><span class="nt">td</span> <span class="nt">class</span><span class="o">=</span><span class="s2">&quot;stackonmobile&quot;</span><span class="o">&gt;</span>
+</span><span class='line'>        <span class="o">&lt;/</span><span class="nt">td</span><span class="o">&gt;</span>
+</span><span class='line'>        <span class="o">&lt;</span><span class="nt">td</span> <span class="nt">class</span><span class="o">=</span><span class="s2">&quot;stackonmobile&quot;</span><span class="o">&gt;</span>
+</span><span class='line'>        <span class="o">&lt;/</span><span class="nt">td</span><span class="o">&gt;</span>
+</span><span class='line'>    <span class="o">&lt;/</span><span class="nt">tr</span><span class="o">&gt;</span>
+</span><span class='line'>    <span class="o">&lt;</span><span class="nt">tr</span><span class="o">&gt;</span>
+</span><span class='line'>        <span class="o">&lt;</span><span class="nt">td</span> <span class="nt">class</span><span class="o">=</span><span class="s2">&quot;hideonmobile&quot;</span> <span class="nt">colspan</span><span class="o">=</span><span class="s2">&quot;2&quot;</span><span class="o">&gt;</span>
+</span><span class='line'>        <span class="o">&lt;/</span><span class="nt">td</span><span class="o">&gt;</span>
+</span><span class='line'>    <span class="o">&lt;/</span><span class="nt">tr</span><span class="o">&gt;</span>
+</span><span class='line'><span class="o">&lt;/</span><span class="nt">table</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<p><img class="bodyimg right" src="http://f.cl.ly/items/232p0d0o1y2m0S29000F/Screen%20Shot%202012-03-14%20at%202.00.44%20PM.png" width="200" alt="Same email, converted to a responsive layout, on iPhone" />
+When viewed in an email client or web browser, you&#8217;ll see a normal table with two columns, and a second row spanning both. When you hit the same page in a mobile browser, or view the email on an iOS or Android device with a small screen, you&#8217;ll get a single-column layout. <a href="http://cl.ly/092N0B3X2O303a2T082U/4_sample.html">Take a look at one of our emails</a> to see what I&#8217;ve been talking about. We&#8217;ve used one set of HTML, but adapted the layout from a horizontal grid to a vertical one, perfect for the narrow confines of a mobile screen. Is it a bit hacky? Yes. Is it valid HTML and CSS? Technically, yes!</p>
+
+
+
+
+<p>We&#8217;re gradually rolling out this new format to all the email we send. If you&#8217;re a Redfin user and we send you email, please let us know if you have suggestions or see bugs!</p>
+
+
+
+
+<p>Thanks to:</p>
+
+
+
+
+<ul>
+<li><a href="http://litmus.com/blog">Litmus</a> (awesome browser testing and great articles)</li>
+<li><a href="http://www.campaignmonitor.com/blog">Campaign Monitor</a> (more great articles, and some awesome resources on compatibility)</li>
+</ul>
+
+
+
+
+<h3 id="sadlythereisadisclaimer">Sadly, there is a disclaimer!</h3>
+
+
+
+
+<p>Of course, there are a few compatibility problems. IE and IE mobile (and by extension, the Windows Phone 7.x email client, which otherwise seems quite nice) apparently <a href="http://stackoverflow.com/questions/5091503/how-can-i-make-display-block-work-on-a-td-in-ie">don&#8217;t know that you can apply <code>display:block;</code> to a table cell</a>. As a result, they apply the styles erroneously or not at all (visit the <a href="http://cl.ly/092N0B3X2O303a2T082U/4_sample.html">sample</a> in Internet Explorer to see an example of this in action). We get very few opens on Windows Phone, so we deemed it an acceptable risk, but we&#8217;re keeping an eye on stats and we are hoping to eventually find some solutions.</p>
+
+
+
+
+<p>If you&#8217;ve got a lot of subscribers reading your email on Windows Phone, this probably isn&#8217;t the solution for you.</p>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Eric Gideon</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-19T12:00:00-07:00" pubdate data-updated="true">Apr 19<span>th</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/category/email/'>Email</a>, <a class='category' href='/category/web-development/'>Web Development</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://egid.github.io/Web%20Development/Email/reinventing-email-at-redfin/" data-via="egid" data-counturl="http://egid.github.io/Web%20Development/Email/reinventing-email-at-redfin/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/lessonplans/flight-instruments/" title="Previous Post: Flight Instruments">&laquo; Flight Instruments</a>
+      
+      
+        <a class="basic-alignment right" href="/flying/travel/flying-in-iceland/" title="Next Post: Flying in Iceland">Flying in Iceland &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+    </div>
+  </div>
+  <footer role="contentinfo">
+	<form action="http://google.com/search" method="get" class="searchform">
+		<fieldset role="search">
+			<input type="hidden" name="q" value="site:egid.github.io" />
+			<input class="search" type="text" name="q" results="0" placeholder="Search"/>
+		</fieldset>
+	</form>
+
+
+<ul class="moreactions">
+	<li><a href="/about">Read about the site</a> or </li>
+	<li><a href="/archives">explore the archives</a>.</li>
+</ul>
+
+<ul class="subscription" data-subscription="rss">
+	<!-- <li><a href="http://ericgideon.com/atom.xml" class="urilv-button" name="feed-603">Subscribe to ericgideon.com</a></li> -->
+	<li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+	
+</ul>
+
+<span class="toTop">
+	<a href="#">&uarr; Top</a>
+</span>
+<p>
+  Copyright &copy; 2014 Eric Gideon  <a href="https://twitter.com/egid" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow @egid</a>
+
+</p>
+</footer>
+  
+
+
+
+<script>
+(function(w, d, s) {
+  function go(){
+    var js, fjs = d.getElementsByTagName(s)[0], load = function(url, id) {
+    if (d.getElementById(id)) {return;}
+    js = d.createElement(s); js.src = url; js.id = id;
+    fjs.parentNode.insertBefore(js, fjs);
+  };
+	
+		load('//connect.facebook.net/en_US/all.js#appId=272697932759946&xfbml=1', 'fbjssdk');
+	
+	
+		load('https://apis.google.com/js/plusone.js', 'gplus1js');
+	
+	
+		load('//platform.twitter.com/widgets.js', 'tweetjs');
+	
+  }
+  if (w.addEventListener) { w.addEventListener("load", go, false); }
+  else if (w.attachEvent) { w.attachEvent("onload",go); }
+}(window, document, 'script'));
+</script>
+
+
+
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,700' rel='stylesheet' type='text/css'>
+
+
+</body>
+</html>

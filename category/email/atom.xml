@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Email | ericgideon.com]]></title>
+  <link href="http://egid.github.io/category/email/atom.xml" rel="self"/>
+  <link href="http://egid.github.io/"/>
+  <updated>2014-11-15T11:02:20-08:00</updated>
+  <id>http://egid.github.io/</id>
+  <author>
+    <name><![CDATA[Eric Gideon]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Reinventing Email at Redfin]]></title>
+    <link href="http://egid.github.io/Web%20Development/Email/reinventing-email-at-redfin/"/>
+    <updated>2012-04-19T12:00:00-07:00</updated>
+    <id>http://egid.github.io/Web%20Development/Email/reinventing-email-at-redfin</id>
+    <content type="html"><![CDATA[<p><em>This was <a href="http://blog.redfin.com/devblog/?p=634">originally published on the Redfin developer blog</a></em>.</p>
+
+
+
+
+<p><img class="bodyimg right" src="http://f.cl.ly/items/2V1v3l0V1a030M340p0F/iphone_sample.PNG" alt="Old, unresponsive Redfin email on iPhone" />Depending on what you read, around a third of the time spent on mobile devices is taken up by email. Redfin is being increasingly accessed from mobile devices. It&#8217;s the 21st century, and we&#8217;ve all got computers in our pockets.</p>
+
+
+
+
+<p>Why, then, are we sending out emails that are formatted exclusively for desktop email clients? Not even necessarily all that well, honestly. If you&#8217;re reading them on something like a MacBook Air or an ultrabook/netbook sort of machine, our font size choices are probably making that whole situation pretty tough. That said, we have some good looking templates that heavily favor desktop reading, thanks to font sizes, header elements, and (most important) multi-column layouts.</p>
+
+
+<!-- more -->
+
+
+<h3 id="thefutureofemailishereanditlooksalotlikethepast.">The future of email is here, and it looks a lot like the past.</h3>
+
+
+
+
+<p>I started working on Redfin&#8217;s emails late last year, and we immediately started cleaning things up. Fewer tables, larger font sizes, less clutter. You probably didn&#8217;t notice, or if you did you didn&#8217;t think much about it. They look pretty good, but our email is nothing special. And everything we were sending was 100% tables, with weird hacks to get around Outlook 2007 &amp; 2010. For desktop only, that&#8217;s fine, but what about for mobile? Android and iOS both boast incredibly modern WebKit-based default mail clients, supporting HTML5 and CSS3 (including things like inline video!). But the work involved in designing and coding a separate &#8216;mobile&#8217; email campaign is pretty intimidating, and the idea of going through every email we send and redesigning wasn&#8217;t particularly appealing either.</p>
+
+
+
+
+<p>What do you do, then? Lots of desktop/mobile email templates out there seem to reformat the existing table cells as <a href="http://goo.gl/b2h4U" title="preview.smartfocusdigital.com">narrower versions for mobile</a>, but that&#8217;s kind of a cop-out. They look good, and the responsive layout might be nifty, but they still run the risk of tiny text areas. So, designing emails to have secondary content that can collapse doesn&#8217;t really solve the problem of an email that is truly accessible to mobile users. It also doesn&#8217;t address the issue of the design &amp; coding workload required to get new templates designed, built, and tested.</p>
+
+
+
+
+<p>I mentioned earlier that mobile email clients (except for Gmail, on any platform) are fancy and modern; what does this actually mean for the old-school table layouts, though? That got me thinking: what if we could convince these clients that they should ignore the fact that the content is in a table? Most web developers probably use <code>display:block;</code> on inline elements like all the time, so why not on table cells? Obviously if you&#8217;re writing semantic code and using tables for tabular data, this makes no sense, but if you&#8217;re writing <em>emails</em> and using tables for <em>layout</em>, this seems like the perfect solution. It took some experimentation, but I found that, yes, we can turn a <code>td</code> into a block element that we can manipulate as a pseudo-div.</p>
+
+
+
+
+<h3 id="breakingtablesdeliberately">Breaking tables (deliberately)</h3>
+
+
+
+
+<p>First, we set up a media query that will only be triggered by small screens. This isn&#8217;t anything new if you&#8217;ve worked with CSS3 and <a href="http://goo.gl/XiBqN" title="alistapart.com">responsive design</a>. Within the media query, we build a simple class that can be assigned to whatever we want to reformat for mobile.</p>
+
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='css'><span class='line'><span class="o">&lt;/</span><span class="nt">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nt">p</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>There&#8217;s some weird bits to that CSS, especially in the selectors we&#8217;re using to pick out <code>.stackonmobile</code> and <code>.hideonmobile</code> - <a href="http://goo.gl/qV13N" title="campaignmonitor.com">you can thank Yahoo Mail for that</a>. Anyway, this is a class that you&#8217;ll want to apply after inlining your css, if you use a tool like <a href="http://goo.gl/sNZe9" title="premailer.dialect.ca">premailer</a>. Also, for testing and development, it can help if you use <code>max-width</code> rather than <code>max-device-width</code> - this lets you resize your browser and see your revisions live.</p>
+
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+</pre></td><td class='code'><pre><code class='css'><span class='line'><span class="o">&lt;/</span><span class="nt">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nt">table</span> <span class="nt">class</span><span class="o">=</span><span class="s2">&quot;stackonmobile&quot;</span><span class="o">&gt;</span>
+</span><span class='line'>    <span class="o">&lt;</span><span class="nt">tr</span><span class="o">&gt;</span>
+</span><span class='line'>        <span class="o">&lt;</span><span class="nt">td</span> <span class="nt">class</span><span class="o">=</span><span class="s2">&quot;stackonmobile&quot;</span><span class="o">&gt;</span>
+</span><span class='line'>        <span class="o">&lt;/</span><span class="nt">td</span><span class="o">&gt;</span>
+</span><span class='line'>        <span class="o">&lt;</span><span class="nt">td</span> <span class="nt">class</span><span class="o">=</span><span class="s2">&quot;stackonmobile&quot;</span><span class="o">&gt;</span>
+</span><span class='line'>        <span class="o">&lt;/</span><span class="nt">td</span><span class="o">&gt;</span>
+</span><span class='line'>    <span class="o">&lt;/</span><span class="nt">tr</span><span class="o">&gt;</span>
+</span><span class='line'>    <span class="o">&lt;</span><span class="nt">tr</span><span class="o">&gt;</span>
+</span><span class='line'>        <span class="o">&lt;</span><span class="nt">td</span> <span class="nt">class</span><span class="o">=</span><span class="s2">&quot;hideonmobile&quot;</span> <span class="nt">colspan</span><span class="o">=</span><span class="s2">&quot;2&quot;</span><span class="o">&gt;</span>
+</span><span class='line'>        <span class="o">&lt;/</span><span class="nt">td</span><span class="o">&gt;</span>
+</span><span class='line'>    <span class="o">&lt;/</span><span class="nt">tr</span><span class="o">&gt;</span>
+</span><span class='line'><span class="o">&lt;/</span><span class="nt">table</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nt">p</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p><img class="bodyimg right" src="http://f.cl.ly/items/232p0d0o1y2m0S29000F/Screen%20Shot%202012-03-14%20at%202.00.44%20PM.png" width="200" alt="Same email, converted to a responsive layout, on iPhone" />
+When viewed in an email client or web browser, you&#8217;ll see a normal table with two columns, and a second row spanning both. When you hit the same page in a mobile browser, or view the email on an iOS or Android device with a small screen, you&#8217;ll get a single-column layout. <a href="http://cl.ly/092N0B3X2O303a2T082U/4_sample.html">Take a look at one of our emails</a> to see what I&#8217;ve been talking about. We&#8217;ve used one set of HTML, but adapted the layout from a horizontal grid to a vertical one, perfect for the narrow confines of a mobile screen. Is it a bit hacky? Yes. Is it valid HTML and CSS? Technically, yes!</p>
+
+
+
+
+<p>We&#8217;re gradually rolling out this new format to all the email we send. If you&#8217;re a Redfin user and we send you email, please let us know if you have suggestions or see bugs!</p>
+
+
+
+
+<p>Thanks to:</p>
+
+
+
+
+<ul>
+<li><a href="http://litmus.com/blog">Litmus</a> (awesome browser testing and great articles)</li>
+<li><a href="http://www.campaignmonitor.com/blog">Campaign Monitor</a> (more great articles, and some awesome resources on compatibility)</li>
+</ul>
+
+
+
+
+<h3 id="sadlythereisadisclaimer">Sadly, there is a disclaimer!</h3>
+
+
+
+
+<p>Of course, there are a few compatibility problems. IE and IE mobile (and by extension, the Windows Phone 7.x email client, which otherwise seems quite nice) apparently <a href="http://stackoverflow.com/questions/5091503/how-can-i-make-display-block-work-on-a-td-in-ie">don&#8217;t know that you can apply <code>display:block;</code> to a table cell</a>. As a result, they apply the styles erroneously or not at all (visit the <a href="http://cl.ly/092N0B3X2O303a2T082U/4_sample.html">sample</a> in Internet Explorer to see an example of this in action). We get very few opens on Windows Phone, so we deemed it an acceptable risk, but we&#8217;re keeping an eye on stats and we are hoping to eventually find some solutions.</p>
+
+
+
+
+<p>If you&#8217;ve got a lot of subscribers reading your email on Windows Phone, this probably isn&#8217;t the solution for you.</p>
+
+]]></content>
+  </entry>
+  
+</feed>

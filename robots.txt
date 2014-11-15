@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: 
+Disallow: /repos?sort=pushed&callback=?
+Disallow: /files/
+
+Sitemap: http://egid.github.io/sitemap.xml 
