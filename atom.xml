@@ -4,7 +4,7 @@
   <title><![CDATA[ericgideon.com]]></title>
   <link href="http://egid.github.io/atom.xml" rel="self"/>
   <link href="http://egid.github.io/"/>
-  <updated>2016-03-26T16:28:39-07:00</updated>
+  <updated>2016-03-26T16:29:18-07:00</updated>
   <id>http://egid.github.io/</id>
   <author>
     <name><![CDATA[Eric Gideon]]></name>
@@ -12,6 +12,100 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Building and flying with Stratux homebuilt ADS-B In]]></title>
+    <link href="http://egid.github.io/building-and-flying-with-stratux-homebuilt-ads-b-in/"/>
+    <updated>2016-03-26T15:18:00-07:00</updated>
+    <id>http://egid.github.io/building-and-flying-with-stratux-homebuilt-ads-b-in</id>
+    <content type="html"><![CDATA[<p>I first heard about the <a href="http://stratux.me">Stratux project</a> a few months back, in a <a href="http://reddit.com/r/stratux">subreddit</a> that described how to build your own ADS-B In receiver for under $120. It uses software-defined radios to pick up ADS-B data, then processes it using <a href="http://github.com/cyoung/stratux">open-source software</a>. As a pilot who&rsquo;s dabbled with the idea of plunking down around $1000 on the Straus 2S, this was a pretty attractive idea: less than $200 for traffic and weather on my iPad? Heck, I could build a receiver and order a new iPad for less than the list price of the Stratus.</p>
+
+<p>I took the plunge, ordered the parts, and tried it out.</p>
+
+<p>The verdict? It works brilliantly.</p>
+
+<p>I started with the suggested parts to build a single-radio device, much like the original Stratus or the new 1S, and spent around $10 more on a slightly better external battery pack. Here&rsquo;s my original build:</p>
+
+<p><img src="./images/stratux_v1.jpg" alt="Original setup" /></p>
+
+<ul>
+<li>$69.99: <a href="http://amzn.to/1pPNaGh">Vilros Raspberry Pi 2 starter kit</a> &ndash; now sold with the Raspberry Pi 3. Comes with a case, SD card, and wall power.</li>
+<li>$22.50: <a href="http://amzn.to/1Pxtz20">NooElec NESDR Mini 2</a> &ndash; this is the software-defined radio that receives ADS-B data. <strong>Note</strong>: don&rsquo;t buy this one, get the newer Nano 2.</li>
+<li>$36.99: <a href="http://amzn.to/1Pxs18a">Anker Astro E5</a> power bank. I wouldn&rsquo;t recommend this purely because of how massive it is. Use ship power or a smaller battery.</li>
+<li>After tax, this put me at $142.42, not including the blue tape &ndash; still pretty reasonable.</li>
+</ul>
+
+
+<p>This build got me the bare minimum: 978Mhz (UAT) weather, plus traffic if we were near enough to an ADS-B Out equipped aircraft to get the messages meant for them. After reading some more posts that added GPS (and the possibility of AHRS &ndash; basically making it a Stratus 2S), I ordered a Reyax RY835AI for $46.00 via eBay. This GPS isn&rsquo;t recommended anymore, as it&rsquo;s glitchy and require soldering, but it works fine.</p>
+
+<p>That setup &ndash; GPS + 978Mhz &ndash; took us to Reno for the Air Races, and worked flawlessly the whole way. Between Seattle and Sacramento, where we picked up our car, we saw between one and three ADS-B towers the entire trip.</p>
+
+<p>After that first trip proved how useful it was, getting us weather and traffic far in advance and with very little workload, I&rsquo;ve gotten more involved in the Stratux community and continued building out my receiver. After a few others had success with using MakeXYZ to 3D-print cases, I ordered one and set it up.</p>
+
+<p><img src="./images/stratux_installed.jpg" alt="" /></p>
+
+<p>More recently, I picked up two of the newer NooElec Nano2 SDRs to save space, then joined them to share a single antenna. Here&rsquo;s the current parts list:</p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th align="right"> Cost        </th>
+<th> Description </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td align="right"> $38.70      </td>
+<td> 3D printed case designed by /u/helno and printed by MakeXYZ. If I was to do this again, I&rsquo;d go for <a href="http://www.thingiverse.com/thing:1182619">a newer, cheaper design</a> that he recently published. |</td>
+</tr>
+<tr>
+<td></td>
+<td align="right"> $69.99      </td>
+<td> <a href="http://amzn.to/1pPNaGh">Vilros Raspberry Pi 2 starter kit</a>, as before |</td>
+</tr>
+<tr>
+<td></td>
+<td align="right"> $49.90      </td>
+<td> 2&times; <a href="http://amzn.to/1pPPKvH">NooElec NESDR Nano 2</a>, slightly more expensive at $24.95 but around 1/3 the size of the original radio |</td>
+</tr>
+<tr>
+<td></td>
+<td align="right"> $46.00      </td>
+<td> RY835AI GPS from eBay &ndash; if I was building new, I&rsquo;d use the <a href="http://amzn.to/1pPQ4KZ">Diymall VK-172</a> GPS for $25.99 |</td>
+</tr>
+<tr>
+<td></td>
+<td align="right"> $ 9.99      </td>
+<td> <a href="http://amzn.to/1pPQ9hV">SMA female to Y type 2X L MCX y-splitter pigtail</a>, which allows me to join both radios to a single antenna at the cost of reduced reception |</td>
+</tr>
+<tr>
+<td></td>
+<td align="right"> $ 8.35      </td>
+<td> <a href="http://amzn.to/1Pxu8ZJ">6&#8217; SMA extension cable</a>, currently around $12.00 |</td>
+</tr>
+<tr>
+<td></td>
+<td align="right"> $10.39      </td>
+<td> <a href="https://www.digikey.com/product-detail/en/linx-technologies-inc/ANT-916-CW-HWR-SMA/ANT-916-CW-HWR-SMA-ND/1139580">Digikey ANT-916-CW-HWR-SMA-ND</a> antenna, based on some reddit users&#8217; recommendations |</td>
+</tr>
+<tr>
+<td></td>
+<td align="right"> <strong>$233.32</strong> </td>
+<td> <strong>total</strong> |</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>I&rsquo;ve also got a 10&#8217; USB extension cable, and a 2-port, 2.1A car charger that provides power for the Stratux and one iPad or smartphone. This means you can skip the battery pack, or get a much smaller one for backup purposes. The 10&#8217; cable allows me to mount it in the back of the baggage compartment, and the 6&#8217; SMA cable lets the antenna hang in the center of the cabin where it gets the best reception.</p>
+
+<p><img src="./images/stratux_mounted2.jpg" alt="" /></p>
+
+<p>It&rsquo;s easy to blow past the original $120 promise, but the value is pretty impossible to beat. Add in the fact that the community is very active on both <a href="http://reddit.com/r/stratux">reddit</a> and <a href="http://github.com/cyoung/stratux">github</a>, and you&rsquo;ve got a pretty much future-proof Stratus replacement.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Plan of Action: Instrument Proficiency Check]]></title>
@@ -2312,272 +2406,6 @@ The ILS is a precision approach, providing both lateral and vertical guidance do
 </li>
 <li>when two dots from centering on the approach course, or when crossing the lead-in radial (on some approaches), start a standard rate turn to intercept</li>
 <li>Illustrate with Tim&rsquo;s simulator, using approach terminology</li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[IFR cross-country planning and regulations]]></title>
-    <link href="http://egid.github.io/lessonplans/ifr-cross-country-planning-and-regulations/"/>
-    <updated>2007-05-19T14:25:00-07:00</updated>
-    <id>http://egid.github.io/lessonplans/ifr-cross-country-planning-and-regulations</id>
-    <content type="html"><![CDATA[<p><header class="lessonIntro">
-<section class="module"></p>
-
-<h3>Elements</h3>
-
-<ul>
-<li>FARs
-
-<ul>
-<li>Part 91 Subpart B</li>
-<li>Part 95</li>
-</ul>
-</li>
-<li>IFR cross-country planning
-
-<ul>
-<li>Weather</li>
-<li>Enroute charts</li>
-<li>Nav log preparation</li>
-</ul>
-</li>
-<li>Lost communications procedures</li>
-</ul>
-
-
-<p></section>
-<section class="module"></p>
-
-<h3>Resources</h3>
-
-<ul>
-<li>pen and paper</li>
-<li><em>Instrument Flying Handbook</em> and <em>The Pilot&rsquo;s Manual: Instrument Flying</em></li>
-<li>NACO enroute and approach charts</li>
-<li>nav logs</li>
-<li>laptop with internet access, or iPad with ForeFlight/WingX</li>
-</ul>
-
-
-<p></section>
-<section class="module"></p>
-
-<h3>Instructor actions</h3>
-
-<ul>
-<li>Compare and contrast instrument cross-country planning to visual</li>
-<li>Use FliteStar to show the selection of routes based on departure and arrival procedures</li>
-<li>Discuss weather information relevant to planning
-
-<ul>
-<li>Describe night-before and day-of elements</li>
-<li>Difference between outlook and standard weather briefing</li>
-</ul>
-</li>
-<li>Have the student present their route, with the first four navlog waypoints completed</li>
-<li>Conclude with an oral quiz, identifying and correcting errors</li>
-</ul>
-
-
-<p></section>
-<section class="module"></p>
-
-<h3>Student actions</h3>
-
-<ul>
-<li>Arrive with completed route and navlog, including at least four waypoints</li>
-<li>Maintain active involvement by responding to questions and taking notes</li>
-<li>Complete an oral quiz and demonstration of the concepts</li>
-</ul>
-
-
-<p></section>
-</header></p>
-
-<h3>Completion Standards</h3>
-
-<p>The lesson will be complete when the student can apply their knowledge of instrument flight planning to a cross-country route and identify elements of charts and regulations with minimal instructor guidance.</p>
-
-<h2>Teaching outline</h2>
-
-<h3>Regulations</h3>
-
-<h4>&ldquo;Known icing <em>conditions</em>&rdquo;</h4>
-
-<ul>
-<li>Unless the aircraft is approved for flight into &ldquo;known icing conditions&rdquo; (note: not <em>known ice</em>), the FAA&rsquo;s stance is very black and white.</li>
-<li>To quote <a href="https://www.dropbox.com/s/ohjwj5fj4miuzxa/icing_exp.pdf">FAA legal counsel</a>:
-
-<ul>
-<li>&ldquo;Reduced to basic terms, known icing conditions exist where visible moisture or high relative humidity combines with <em>temperatures near or below freezing</em>. Since clouds are a form of visible moisture, flying through clouds at an altitude that is near or below freezing would constitute flight into known icing conditions.&rdquo;</li>
-<li>&ldquo;Flight into known icing conditions when the airplane flight manual or pilot operating handbook prohibits such flight would constitute a violation whether the aircraft accretes ice or not.&rdquo;</li>
-</ul>
-</li>
-<li>Airframe temperature may be below freezing when OAT is not, causing water droplets to accumulate as rime ice in temperatures above freezing.</li>
-</ul>
-
-
-<h4>§91.121 &mdash; Altimeter settings</h4>
-
-<ul>
-<li>Altimeter must be set to:
-
-<ul>
-<li>reported altimeter setting from a station within 100 nm along the route <em>when below 18,000 ft MSL</em></li>
-<li>29.92&#8221; Hg <em>when at or above 18,000 ft MSL</em></li>
-</ul>
-</li>
-</ul>
-
-
-<h4>§91.167 &mdash; Fuel requirements for flight in IFR conditions</h4>
-
-<ul>
-<li>45 minute fuel reserve should be carried</li>
-<li>enough fuel to fly to the destination, shoot the approach, and divert to the alternate <em>without dipping into the reserve</em></li>
-<li>1-2-3 rule allows us to eliminate the alternate fuel requirement:
-
-<ul>
-<li>For at least 1 hour before, and for 1 hour after the estimated time of arrival, the ceiling will be at least 2,000 feet above the airport elevation and the visibility will be at least 3 statute miles.</li>
-<li>Required alternates must have approaches <em>other than GPS</em> available at the ETA.</li>
-</ul>
-</li>
-</ul>
-
-
-<h4>§91.177 &mdash; Minimum altitudes for IFR operations</h4>
-
-<ul>
-<li>Except when necessary for takeoff or landing, no person may operate an aircraft under IFR below minimum altitudes prescribed in §95 and §97 <em>or</em>, if no minimum altitude designated,
-
-<ol>
-<li> over mountainous areas an altitude of 2,000 feet above the highest obstacle within a horizontal distance of 4 nautical miles from the course to be flown</li>
-<li> an altitude of 1,000 feet above the highest obstacle within a horizontal distance of 4 nautical miles from the course to be flown</li>
-</ol>
-</li>
-<li>If an MEA and MOCA are established, operations are permitted below the MEA but not below the MOCA when within 22 nm of the station</li>
-<li>Climb to a higher minimum altitude should begin immediately after passing the point beyond which that minimum altitude applies
-
-<ul>
-<li>when ground obstructions are present, the point should be crossed at or above the applicable MCA</li>
-</ul>
-</li>
-</ul>
-
-
-<h4>§91.179 &mdash; IFR cruising altitude or flight level</h4>
-
-<ul>
-<li>When in controlled airspace, fly ATC assigned headings and altitudes
-
-<ul>
-<li>if VFR on top, fly VFR cruising altitudes</li>
-</ul>
-</li>
-<li>When in uncontrolled airspace, below 18,000 ft MSL, and on a course between:
-
-<ul>
-<li>0-179°, fly odd thousands</li>
-<li>180-359°, fly even thousands</li>
-</ul>
-</li>
-</ul>
-
-
-<h4>§91.181 &mdash; Course to be flown</h4>
-
-<ul>
-<li>Fly the centerline of an airway, or on a direct course between navaids</li>
-<li>Maneuvering to avoid aircraft or to clear the flight path in VFR is permitted</li>
-</ul>
-
-
-<h4><a href="http://www.ecfr.gov/cgi-bin/text-idx?c=ecfr&amp;sid=da2485cc5f823c50f004c6b5e8bebd85&amp;tpl=/ecfrbrowse/Title14/14cfr95_main_02.tpl">§95.x &mdash; IFR Altitudes</a></h4>
-
-<p>As defined in §95.1:</p>
-
-<ul>
-<li>MAA(maximum authorized altitude) defines the upper limit of an airway</li>
-<li>MCA(minimum crossing altitude) determines the lowest permitted altitude when <em>crossing the waypoint or fix</em> to a higher altitude segment</li>
-<li>MEA(minimum enroute altitude) is the lowest altitude permitted on the <em>entire</em> route, airway, or segment</li>
-<li>MOCA(minimum obstruction clearance altitude) provides safe obstacle clearance along the route or airway, but reception is only guaranteed within 25 nm of the station</li>
-<li>MRA(minimum reception altitude) is the lowest altitude at which an intersection can be determined using ground stations</li>
-<li>COP(change-over point) suggests the best point to switch to the next station along an airway, guaranteeing continuous reception between facilities</li>
-</ul>
-
-
-<p>Mountainous areas are defined by latitude and longitude.</p>
-
-<h3>IFR cross-country planning</h3>
-
-<p>Materials should include: A/FD, enroute and area charts, departure procedures, STARs, and approach plates for the intended route of flight.</p>
-
-<h4>Weather</h4>
-
-<p>Get an IFR briefing from FSS or a DUAT provider, including:</p>
-
-<ul>
-<li>current and forecast conditions for departure, enroute, arrival, and alternate</li>
-<li>winds aloft</li>
-<li>ATC flow control</li>
-<li>NOTAMs</li>
-</ul>
-
-
-<h4>Enroute charts</h4>
-
-<ul>
-<li>Use FliteStar to show Jeppesen format</li>
-<li>Compare to approach plates</li>
-</ul>
-
-
-<h4>Nav log preparation</h4>
-
-<ul>
-<li>Take advantage of the FAA&rsquo;s existing routes:
-
-<ul>
-<li>start with a departure procedure</li>
-<li>find STARs, if available, or the best approach&rsquo;s IAF</li>
-<li>connect the dots using airways</li>
-</ul>
-</li>
-<li>ATC may assign a different route, if traffic is high</li>
-<li>Factor in any performance considerations
-
-<ul>
-<li>climb rates</li>
-<li>winds aloft</li>
-</ul>
-</li>
-<li>Determine cruising altitude using magnetic course and MEA</li>
-<li>Consider alternates enroute as well as at destination</li>
-</ul>
-
-
-<h4>Lost communications</h4>
-
-<ul>
-<li>Route mnemonic:
-
-<ul>
-<li><strong>A</strong>ssigned</li>
-<li><strong>V</strong>ectored</li>
-<li><strong>E</strong>xpected</li>
-<li><strong>F</strong>iled</li>
-</ul>
-</li>
-<li>Altitude mnemonic:
-
-<ul>
-<li><strong>M</strong>inimum</li>
-<li><strong>E</strong>xpected</li>
-<li><strong>A</strong>ssigned</li>
-</ul>
-</li>
 </ul>
 
 ]]></content>
