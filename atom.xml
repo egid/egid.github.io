@@ -4,7 +4,7 @@
   <title><![CDATA[ericgideon.com]]></title>
   <link href="http://egid.github.io/atom.xml" rel="self"/>
   <link href="http://egid.github.io/"/>
-  <updated>2016-03-26T16:36:54-07:00</updated>
+  <updated>2016-03-26T16:37:56-07:00</updated>
   <id>http://egid.github.io/</id>
   <author>
     <name><![CDATA[Eric Gideon]]></name>
@@ -29,7 +29,7 @@
 
 <p>I started with the suggested parts to build a single-radio device, much like the original Stratus or the new 1S, and spent around $10 more on a slightly better external battery pack. Assembly is simple: plug the radios into the USB ports, and (if you&rsquo;ve got a case) screw the Raspberry Pi down. Here&rsquo;s my original build:</p>
 
-<p><img src="./images/stratux_v1.jpg" alt="Original setup" /></p>
+<p><img src="http://egid.github.io/images/stratux_v1.jpg" alt="Original setup" /></p>
 
 <ul>
 <li>$69.99: <a href="http://amzn.to/1pPNaGh">Vilros Raspberry Pi 2 starter kit</a> &ndash; now sold with the Raspberry Pi 3. Comes with a case, SD card, and wall power.</li>
@@ -43,7 +43,7 @@
 
 <p>That setup &ndash; GPS + 978Mhz &ndash; took us to Reno for the Air Races, and worked flawlessly the whole way. Between Seattle and Sacramento, where we picked up our car, we saw between one and three ADS-B towers the entire trip.</p>
 
-<p><img src="./images/stratux_installed.jpg" alt="" /></p>
+<p><img src="http://egid.github.io/images/stratux_installed.jpg" alt="" /></p>
 
 <p>After that first trip proved how useful it was, getting us weather and traffic far in advance and with very little workload, I&rsquo;ve gotten more involved in the Stratux community and continued building out my receiver. After a few others had success with using MakeXYZ to 3D-print cases, I ordered one and set it up.</p>
 
@@ -102,7 +102,7 @@
 </table>
 
 
-<p><img src="./images/stratux_mounted2.jpg" alt="" /></p>
+<p><img src="http://egid.github.io/images/stratux_mounted2.jpg" alt="" /></p>
 
 <p>I&rsquo;ve also got a 10&#8217; USB extension cable, and a 2-port, 2.1A car charger that provides power for the Stratux and one iPad or smartphone. This means you can skip the battery pack, or get a much smaller one for backup purposes. The 10&#8217; cable allows me to mount it in the back of the baggage compartment, and the 6&#8217; SMA cable lets the antenna hang in the center of the cabin where it gets the best reception.</p>
 
