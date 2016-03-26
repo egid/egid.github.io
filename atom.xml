@@ -4,7 +4,7 @@
   <title><![CDATA[ericgideon.com]]></title>
   <link href="http://egid.github.io/atom.xml" rel="self"/>
   <link href="http://egid.github.io/"/>
-  <updated>2016-03-26T16:35:06-07:00</updated>
+  <updated>2016-03-26T16:36:45-07:00</updated>
   <id>http://egid.github.io/</id>
   <author>
     <name><![CDATA[Eric Gideon]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Building and flying with Stratux homebuilt ADS-B In]]></title>
+    <title type="html"><![CDATA[Building (and flying with) Stratux homebuilt ADS-B In]]></title>
     <link href="http://egid.github.io/flying/open-source/building-and-flying-with-stratux-homebuilt-ads-b-in/"/>
     <updated>2016-03-26T15:18:00-07:00</updated>
     <id>http://egid.github.io/flying/open-source/building-and-flying-with-stratux-homebuilt-ads-b-in</id>
@@ -27,7 +27,7 @@
 <!-- more -->
 
 
-<p>I started with the suggested parts to build a single-radio device, much like the original Stratus or the new 1S, and spent around $10 more on a slightly better external battery pack. Here&rsquo;s my original build:</p>
+<p>I started with the suggested parts to build a single-radio device, much like the original Stratus or the new 1S, and spent around $10 more on a slightly better external battery pack. Assembly is simple: plug the radios into the USB ports, and (if you&rsquo;ve got a case) screw the Raspberry Pi down. Here&rsquo;s my original build:</p>
 
 <p><img src="./images/stratux_v1.jpg" alt="Original setup" /></p>
 
