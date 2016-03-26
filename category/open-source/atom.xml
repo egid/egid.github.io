@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: open-source | ericgideon.com]]></title>
+  <link href="http://egid.github.io/category/open-source/atom.xml" rel="self"/>
+  <link href="http://egid.github.io/"/>
+  <updated>2016-03-26T16:34:42-07:00</updated>
+  <id>http://egid.github.io/</id>
+  <author>
+    <name><![CDATA[Eric Gideon]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Building and flying with Stratux homebuilt ADS-B In]]></title>
+    <link href="http://egid.github.io/flying/open-source/building-and-flying-with-stratux-homebuilt-ads-b-in/"/>
+    <updated>2016-03-26T15:18:00-07:00</updated>
+    <id>http://egid.github.io/flying/open-source/building-and-flying-with-stratux-homebuilt-ads-b-in</id>
+    <content type="html"><![CDATA[<p>I first heard about the <a href="http://stratux.me">Stratux project</a> a few months back, in a <a href="http://reddit.com/r/stratux">subreddit</a> that described how to build your own ADS-B In receiver for under $120. It uses software-defined radios to pick up ADS-B data, then processes it using <a href="http://github.com/cyoung/stratux">open-source software</a>. As a pilot who&rsquo;s dabbled with the idea of plunking down around $1000 on the Straus 2S, this was a pretty attractive idea: less than $200 for traffic and weather on my iPad? Heck, I could build a receiver and order a new iPad for less than the list price of the Stratus.</p>
+
+<p>I took the plunge, ordered the parts, and tried it out.</p>
+
+<p>The verdict? It works brilliantly.</p>
+
+<!-- more -->
+
+
+<p>I started with the suggested parts to build a single-radio device, much like the original Stratus or the new 1S, and spent around $10 more on a slightly better external battery pack. Here&rsquo;s my original build:</p>
+
+<p><img src="./images/stratux_v1.jpg" alt="Original setup" /></p>
+
+<ul>
+<li>$69.99: <a href="http://amzn.to/1pPNaGh">Vilros Raspberry Pi 2 starter kit</a> &ndash; now sold with the Raspberry Pi 3. Comes with a case, SD card, and wall power.</li>
+<li>$22.50: <a href="http://amzn.to/1Pxtz20">NooElec NESDR Mini 2</a> &ndash; this is the software-defined radio that receives ADS-B data. <strong>Note</strong>: don&rsquo;t buy this one, get the newer Nano 2.</li>
+<li>$36.99: <a href="http://amzn.to/1Pxs18a">Anker Astro E5</a> power bank. I wouldn&rsquo;t recommend this purely because of how massive it is. Use ship power or a smaller battery.</li>
+<li>After tax, this put me at $142.42, not including the blue tape &ndash; still pretty reasonable.</li>
+</ul>
+
+
+<p>This build got me the bare minimum: 978Mhz (UAT) weather, plus traffic if we were near enough to an ADS-B Out equipped aircraft to get the messages meant for them. After reading some more posts that added GPS (and the possibility of AHRS &ndash; basically making it a Stratus 2S), I ordered a Reyax RY835AI for $46.00 via eBay. This GPS isn&rsquo;t recommended anymore, as it&rsquo;s glitchy and require soldering, but it works fine.</p>
+
+<p>That setup &ndash; GPS + 978Mhz &ndash; took us to Reno for the Air Races, and worked flawlessly the whole way. Between Seattle and Sacramento, where we picked up our car, we saw between one and three ADS-B towers the entire trip.</p>
+
+<p><img src="./images/stratux_installed.jpg" alt="" /></p>
+
+<p>After that first trip proved how useful it was, getting us weather and traffic far in advance and with very little workload, I&rsquo;ve gotten more involved in the Stratux community and continued building out my receiver. After a few others had success with using MakeXYZ to 3D-print cases, I ordered one and set it up.</p>
+
+<p>More recently, I picked up two of the newer NooElec Nano2 SDRs to save space, then joined them to share a single antenna. Here&rsquo;s the current parts list:</p>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th align="right"> Cost        </th>
+<th> Description </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td align="right"> $38.70      </td>
+<td> 3D printed case designed by /u/helno and printed by MakeXYZ. If I was to do this again, I&rsquo;d go for <a href="http://www.thingiverse.com/thing:1182619">a newer, cheaper design</a> that he recently published.</td>
+</tr>
+<tr>
+<td></td>
+<td align="right"> $69.99      </td>
+<td> <a href="http://amzn.to/1pPNaGh">Vilros Raspberry Pi 2 starter kit</a>, as before</td>
+</tr>
+<tr>
+<td></td>
+<td align="right"> $49.90      </td>
+<td> 2&times; <a href="http://amzn.to/1pPPKvH">NooElec NESDR Nano 2</a>, slightly more expensive at $24.95 but around 1/3 the size of the original radio</td>
+</tr>
+<tr>
+<td></td>
+<td align="right"> $46.00      </td>
+<td> RY835AI GPS from eBay &ndash; if I was building new, I&rsquo;d use the <a href="http://amzn.to/1pPQ4KZ">Diymall VK-172</a> GPS for $25.99</td>
+</tr>
+<tr>
+<td></td>
+<td align="right"> $ 9.99      </td>
+<td> <a href="http://amzn.to/1pPQ9hV">SMA female to Y type 2X L MCX y-splitter pigtail</a>, which allows me to join both radios to a single antenna at the cost of reduced reception</td>
+</tr>
+<tr>
+<td></td>
+<td align="right"> $ 8.35      </td>
+<td> <a href="http://amzn.to/1Pxu8ZJ">6' SMA extension cable</a>, currently around $12.00</td>
+</tr>
+<tr>
+<td></td>
+<td align="right"> $10.39      </td>
+<td> <a href="https://www.digikey.com/product-detail/en/linx-technologies-inc/ANT-916-CW-HWR-SMA/ANT-916-CW-HWR-SMA-ND/1139580">Digikey ANT-916-CW-HWR-SMA-ND</a> antenna, based on some reddit users' recommendations</td>
+</tr>
+<tr>
+<td></td>
+<td align="right"> <strong>$233.32</strong> </td>
+<td> <strong>total</strong></td>
+</tr>
+</tbody>
+</table>
+
+
+<p><img src="./images/stratux_mounted2.jpg" alt="" /></p>
+
+<p>I&rsquo;ve also got a 10' USB extension cable, and a 2-port, 2.1A car charger that provides power for the Stratux and one iPad or smartphone. This means you can skip the battery pack, or get a much smaller one for backup purposes. The 10' cable allows me to mount it in the back of the baggage compartment, and the 6' SMA cable lets the antenna hang in the center of the cabin where it gets the best reception.</p>
+
+<p>It&rsquo;s easy to blow past the original $120 promise, but the value is pretty impossible to beat. Add in the fact that the community is very active on both <a href="http://reddit.com/r/stratux">reddit</a> and <a href="http://github.com/cyoung/stratux">github</a>, and you&rsquo;ve got a pretty much future-proof Stratus replacement.</p>
+]]></content>
+  </entry>
+  
+</feed>

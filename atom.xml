@@ -4,7 +4,7 @@
   <title><![CDATA[ericgideon.com]]></title>
   <link href="http://egid.github.io/atom.xml" rel="self"/>
   <link href="http://egid.github.io/"/>
-  <updated>2016-03-26T16:31:56-07:00</updated>
+  <updated>2016-03-26T16:34:42-07:00</updated>
   <id>http://egid.github.io/</id>
   <author>
     <name><![CDATA[Eric Gideon]]></name>
@@ -15,14 +15,17 @@
   
   <entry>
     <title type="html"><![CDATA[Building and flying with Stratux homebuilt ADS-B In]]></title>
-    <link href="http://egid.github.io/building-and-flying-with-stratux-homebuilt-ads-b-in/"/>
+    <link href="http://egid.github.io/flying/open-source/building-and-flying-with-stratux-homebuilt-ads-b-in/"/>
     <updated>2016-03-26T15:18:00-07:00</updated>
-    <id>http://egid.github.io/building-and-flying-with-stratux-homebuilt-ads-b-in</id>
+    <id>http://egid.github.io/flying/open-source/building-and-flying-with-stratux-homebuilt-ads-b-in</id>
     <content type="html"><![CDATA[<p>I first heard about the <a href="http://stratux.me">Stratux project</a> a few months back, in a <a href="http://reddit.com/r/stratux">subreddit</a> that described how to build your own ADS-B In receiver for under $120. It uses software-defined radios to pick up ADS-B data, then processes it using <a href="http://github.com/cyoung/stratux">open-source software</a>. As a pilot who&rsquo;s dabbled with the idea of plunking down around $1000 on the Straus 2S, this was a pretty attractive idea: less than $200 for traffic and weather on my iPad? Heck, I could build a receiver and order a new iPad for less than the list price of the Stratus.</p>
 
 <p>I took the plunge, ordered the parts, and tried it out.</p>
 
 <p>The verdict? It works brilliantly.</p>
+
+<!-- more -->
+
 
 <p>I started with the suggested parts to build a single-radio device, much like the original Stratus or the new 1S, and spent around $10 more on a slightly better external battery pack. Here&rsquo;s my original build:</p>
 
