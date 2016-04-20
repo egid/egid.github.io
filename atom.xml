@@ -4,7 +4,7 @@
   <title><![CDATA[ericgideon.com]]></title>
   <link href="http://egid.github.io/atom.xml" rel="self"/>
   <link href="http://egid.github.io/"/>
-  <updated>2016-03-26T16:37:56-07:00</updated>
+  <updated>2016-04-20T10:21:37-07:00</updated>
   <id>http://egid.github.io/</id>
   <author>
     <name><![CDATA[Eric Gideon]]></name>
@@ -609,7 +609,7 @@ When viewed in an email client or web browser, you&#8217;ll see a normal table w
 <ul>
 <li>model aircraft</li>
 <li>whiteboard and markers</li>
-<li>ASA&rsquo;s <em>Instrument Flying</em>, chapter 2</li>
+<li><a href="http://amzn.to/1Vk53d7">ASA&rsquo;s <em>Instrument Flying</em></a>, chapter 2</li>
 <li>Flight simulator</li>
 <li>Warrior systems trainer</li>
 </ul>
@@ -892,13 +892,13 @@ When viewed in an email client or web browser, you&#8217;ll see a normal table w
 <h2>Resources</h2></li>
 <li><p>model aircraft</p></li>
 <li>whiteboard and markers</li>
-<li>ASA’s Pilot’s Manual 3: <em>Instrument Flying</em>, chapter 12b and 12c</li>
-<li><em>Instrument Flying Handbook</em></li>
+<li><a href="http://amzn.to/1Vk53d7">ASA’s Pilot’s Manual 3: <em>Instrument Flying</em></a>, chapter 12b and 12c</li>
+<li><a href="http://amzn.to/1Vk5jc2"><em>Instrument Flying Handbook</em></a></li>
 <li>laptop with internet access
 
 <ul>
-<li><a href="http://www.visi.com/~mim/nav">Tim&rsquo;s Navigation Simulator</a></li>
-<li><a href="http://selair.selkirk.bc.ca/ProfessionalPilot/ifr_course/section4/arcing.htm">DME arc simulator</a>
+<li><a href="http://www.atlasaviation.com/vorsim/">Tim&rsquo;s Navigation Simulator</a></li>
+<li><a href="http://www.luizmonteiro.com/learning_vor_sim.aspx">DME arc simulator</a>
 </section>
 <section class="module"></li>
 </ul>
