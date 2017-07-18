@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>ericgideon.com</title>
+  <title>Building and Flying with Stratux ADS-B In, part 2 - ericgideon.com</title>
   <meta name="author" content="Eric Gideon">
 
   
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://egid.github.io/">
+  <link rel="canonical" href="http://egid.github.io/flying/open-source/building-and-flying-with-stratux-ads-b-in-part-2/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="ericgideon.com" type="application/atom+xml">
@@ -29,10 +29,10 @@
 	<!-- // <script src="http://static.uri.lv/js/button.js" async></script> -->
 <!-- Rich Object stuff -->
 	<meta name="google-site-verification" content="qHxhLvCpmi9WMlWIdF6U5gSTEvRI-bSZUelil4czDLs" />
-	<meta property="og:url" value="http://egid.github.io/index.html">
+	<meta property="og:url" value="http://egid.github.io/flying/open-source/building-and-flying-with-stratux-ads-b-in-part-2/">
 	<meta property="og:type" content="website" />
 	
-		<meta property="og:title" value="ericgideon.com">
+		<meta property="og:title" value="Building and Flying with Stratux ADS-B In, part 2">
 		<meta property="og:description" value="I'm a pilot and web developer in Seattle.">
 	
 	
@@ -69,15 +69,12 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
 	<header>
 		
-			<h1 class="entry-title"><a href="/flying/open-source/building-and-flying-with-stratux-ads-b-in-part-2/">Building and Flying With Stratux ADS-B in, Part 2</a></h1>
+			<h1 class="entry-title">Building and Flying With Stratux ADS-B in, Part 2</h1>
 		
 	
 		<p class="meta">
@@ -162,72 +159,39 @@
 
 <p>If you&rsquo;re a pilot without existing access to ADS-B In weather and traffic, build this list. Nearly the exact same results cost me $233 a year ago, and the software has matured while the hardware has improved. For under $150, you can get dual-band ADS-B In traffic and weather with WAAS position data. It&rsquo;s fantastic.</p>
 
+<!-- more -->
+
+
+<h2>In use</h2>
+
+<p>The one thing you might want to add is suction cups or velcro tape to position the unit. I fly a Grumman AA-1A, which (like the AA-5 Traveler/Cheetah and AG-5B Tiger) has an aluminum honeycomb fuselage structure. My best results involved positioning the device so that I could extend the antennas vertically, improving reception. This would probably be less necessary in something like a Piper or Cessna.</p>
+
+<p><img src="/images/stratux_2.jpg" alt="Current setup" /></p>
+
+<p>As far as the reception performance goes, it ranges from &lsquo;decent&rsquo; to &lsquo;great&rsquo;, depending on the situation. I found that signal strength for traffic is often far better than that for weather. Still, in the Seattle area, I frequently see 4 or more ground stations in ForeFlight, which keeps weather up to date satisfactorily. On trips south, especially beyond Portland, reception can drop to a single tower. I haven&rsquo;t compared this to a Stratus 2S unit, but there just aren&rsquo;t that many ground stations out there in the first place.</p>
+
+<p>GPS reception isn&rsquo;t perfect &ndash; it&rsquo;s not an external antenna, so accuracy is usually good at best &ndash; but it&rsquo;s totally functional. I use ForeFlight track recordings to debrief instrument training and currency flights, and it works great.</p>
+
+<h2>Compared to OEM equipment</h2>
+
+<p>I&rsquo;ve flown with a few pilots who have Stratus 2S units, and they seem pretty comparable. ForeFlight AHRS fed by a Stratus 2S is glitchy but usable; there are new Stratux builds that support AHRS with the right hardware, but I haven&rsquo;t been able to compare.</p>
+
+<p>We recently installed the Stratus ESGi transponder in our Grumman (it&rsquo;s an ADS-B Out transponder, with a hard connection to a battery-less Stratus 2S). Because it&rsquo;s receiving 978 and 1090 signals via the aircraft&rsquo;s belly-mounted transponder antenna, the signal strength is exceptional and easily beats the Stratux&hellip; but installed it was around $4,000. Getting similar performance for $150 is a steal.</p>
+
+<p>I know a few folks in the Stratux community have repurposed old DME antennas, using a Y-splitter connected to their Stratux to get a belly antenna, and they report similarly excellent results. If you&rsquo;ve got the old hardware still dragging along, getting an A&amp;P to rig up a BNC to SMA adapter can be a powerful option.</p>
+
+<p>No matter what you build, check out the <a href="https://github.com/cyoung/stratux">community on GitHub</a> and consider contributing! There&rsquo;s a fair number of contributors on the <a href="http://slack.stratux.me/">Slack chat</a> as well.</p>
 </div>
-	
-	<footer>
-		
-			<a rel="full-article" href="/flying/open-source/building-and-flying-with-stratux-ads-b-in-part-2/">Read more &rarr;</a>
-		
-	</footer>
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-	<header>
-		
-			<h1 class="entry-title"><a href="/flying/open-source/building-and-flying-with-stratux-homebuilt-ads-b-in/">Building (and Flying With) Stratux Homebuilt ADS-B In</a></h1>
-		
-	
-		<p class="meta">
-			
-
-
-
-
-
-
-
-
   
 
+<span class="byline author vcard">Posted by <span class="fn">Eric Gideon</span></span>
 
-<time datetime="2016-03-26T15:18:00-07:00" pubdate data-updated="true">Mar 26<span>th</span>, 2016</time>
-			
-		</p>
-	
-	</header>
-
-
-	<div class="entry-content"><p>I first heard about the <a href="http://stratux.me">Stratux project</a> a few months back, in a <a href="http://reddit.com/r/stratux">subreddit</a> that described how to build your own ADS-B In receiver for under $120. It uses software-defined radios to pick up ADS-B data, then processes it using <a href="http://github.com/cyoung/stratux">open-source software</a>. As a pilot who&rsquo;s dabbled with the idea of plunking down around $1000 on the Stratus 2S, this was a pretty attractive idea: less than $200 for traffic and weather on my iPad? Heck, I could build a receiver and order a new iPad for less than the list price of the Stratus.</p>
-
-<p>I took the plunge, ordered the parts, and tried it out.</p>
-
-<p>The verdict? It works brilliantly.</p>
-
-</div>
-	
-	<footer>
-		
-			<a rel="full-article" href="/flying/open-source/building-and-flying-with-stratux-homebuilt-ads-b-in/">Read more &rarr;</a>
-		
-	</footer>
-
-
-    </article>
-  
-  
-    <article>
       
-	<header>
-		
-			<h1 class="entry-title"><a href="/Aviation/Code/teach-everything/">Teach Everything</a></h1>
-		
-	
-		<p class="meta">
-			
 
 
 
@@ -239,70 +203,35 @@
   
 
 
-<time datetime="2013-04-15T08:00:00-07:00" pubdate data-updated="true">Apr 15<span>th</span>, 2013</time>
-			
-		</p>
-	
-	</header>
+<time datetime="2017-07-17T18:00:00-07:00" pubdate data-updated="true">Jul 17<span>th</span>, 2017</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/category/flying/'>flying</a>, <a class='category' href='/category/open-source/'>open-source</a>
+  
+</span>
 
 
-	<div class="entry-content"><p>It&rsquo;s always fascinated me that most pilots first become professionals as flight instructors. Before starting jobs at airlines or charter companies, most pilots&#8217; careers begin by teaching brand-new private students the basics of aviation. Not everybody is good, and most don&rsquo;t do it for long even if they are, but it&rsquo;s somehow become The Way It Works in aviation.</p>
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/flying/open-source/building-and-flying-with-stratux-homebuilt-ads-b-in/" title="Previous Post: Building (and flying with) Stratux homebuilt ADS-B In">&laquo; Building (and flying with) Stratux homebuilt ADS-B In</a>
+      
+      
+    </p>
+  </footer>
+</article>
 
 </div>
-	
-	<footer>
-		
-			<a rel="full-article" href="/Aviation/Code/teach-everything/">Read more &rarr;</a>
-		
-	</footer>
-
-
-    </article>
-  
-  <div class="pagination">
-    
-      <a class="prev" href="/archives/page/2/">&larr; Older</a>
-    
-    <a href="/archives">Blog Archives</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/flying/open-source/building-and-flying-with-stratux-ads-b-in-part-2/">Building and Flying with Stratux ADS-B In, part 2</a>
-      </li>
-    
-      <li class="post">
-        <a href="/flying/open-source/building-and-flying-with-stratux-homebuilt-ads-b-in/">Building (and flying with) Stratux homebuilt ADS-B In</a>
-      </li>
-    
-      <li class="post">
-        <a href="/lessonplans/instrument-proficiency-check-plan-of-action/">Plan of Action: Instrument Proficiency Check</a>
-      </li>
-    
-      <li class="post">
-        <a href="/Aviation/Code/teach-everything/">Teach Everything</a>
-      </li>
-    
-      <li class="post">
-        <a href="/flying/travel/flight-seeing-in-iceland/">Flight-seeing in Iceland</a>
-      </li>
-    
-  </ul>
-</section>
-
-
-
-
-
-  
-</aside>
-
     </div>
   </div>
   <footer role="contentinfo">
