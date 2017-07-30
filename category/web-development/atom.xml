@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Web Development | ericgideon.com]]></title>
   <link href="http://egid.github.io/category/web-development/atom.xml" rel="self"/>
   <link href="http://egid.github.io/"/>
-  <updated>2017-07-29T19:55:12-07:00</updated>
+  <updated>2017-07-29T20:02:34-07:00</updated>
   <id>http://egid.github.io/</id>
   <author>
     <name><![CDATA[Eric Gideon]]></name>
@@ -62,32 +62,56 @@
 <p>First, we set up a media query that will only be triggered by small screens. This isn&#8217;t anything new if you&#8217;ve worked with CSS3 and <a href="http://goo.gl/XiBqN" title="alistapart.com">responsive design</a>. Within the media query, we build a simple class that can be assigned to whatever we want to reformat for mobile.</p>
 
 
-<p>{% codeblock lang:css %}</p>
-
-
-
-<p>{% endcodeblock %}</p>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='css'><span class='line'><span class="o">&lt;/</span><span class="nt">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nt">p</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>There&#8217;s some weird bits to that CSS, especially in the selectors we&#8217;re using to pick out <code>.stackonmobile</code> and <code>.hideonmobile</code> - <a href="http://goo.gl/qV13N" title="campaignmonitor.com">you can thank Yahoo Mail for that</a>. Anyway, this is a class that you&#8217;ll want to apply after inlining your css, if you use a tool like <a href="http://goo.gl/sNZe9" title="premailer.dialect.ca">premailer</a>. Also, for testing and development, it can help if you use <code>max-width</code> rather than <code>max-device-width</code> - this lets you resize your browser and see your revisions live.</p>
 
 
-<p>{% codeblock lang:css %}</p>
-
-<table class="stackonmobile">
-    <tr>
-        <td class="stackonmobile">
-        </td>
-        <td class="stackonmobile">
-        </td>
-    </tr>
-    <tr>
-        <td class="hideonmobile" colspan="2">
-        </td>
-    </tr>
-</table>
-
-
-<p>{% endcodeblock %}</p>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+</pre></td><td class='code'><pre><code class='css'><span class='line'><span class="o">&lt;/</span><span class="nt">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nt">table</span> <span class="nt">class</span><span class="o">=</span><span class="s2">&quot;stackonmobile&quot;</span><span class="o">&gt;</span>
+</span><span class='line'>    <span class="o">&lt;</span><span class="nt">tr</span><span class="o">&gt;</span>
+</span><span class='line'>        <span class="o">&lt;</span><span class="nt">td</span> <span class="nt">class</span><span class="o">=</span><span class="s2">&quot;stackonmobile&quot;</span><span class="o">&gt;</span>
+</span><span class='line'>        <span class="o">&lt;/</span><span class="nt">td</span><span class="o">&gt;</span>
+</span><span class='line'>        <span class="o">&lt;</span><span class="nt">td</span> <span class="nt">class</span><span class="o">=</span><span class="s2">&quot;stackonmobile&quot;</span><span class="o">&gt;</span>
+</span><span class='line'>        <span class="o">&lt;/</span><span class="nt">td</span><span class="o">&gt;</span>
+</span><span class='line'>    <span class="o">&lt;/</span><span class="nt">tr</span><span class="o">&gt;</span>
+</span><span class='line'>    <span class="o">&lt;</span><span class="nt">tr</span><span class="o">&gt;</span>
+</span><span class='line'>        <span class="o">&lt;</span><span class="nt">td</span> <span class="nt">class</span><span class="o">=</span><span class="s2">&quot;hideonmobile&quot;</span> <span class="nt">colspan</span><span class="o">=</span><span class="s2">&quot;2&quot;</span><span class="o">&gt;</span>
+</span><span class='line'>        <span class="o">&lt;/</span><span class="nt">td</span><span class="o">&gt;</span>
+</span><span class='line'>    <span class="o">&lt;/</span><span class="nt">tr</span><span class="o">&gt;</span>
+</span><span class='line'><span class="o">&lt;/</span><span class="nt">table</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nt">p</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p><img class="bodyimg right" src="http://f.cl.ly/items/232p0d0o1y2m0S29000F/Screen%20Shot%202012-03-14%20at%202.00.44%20PM.png" width="200" alt="Same email, converted to a responsive layout, on iPhone" />
 When viewed in an email client or web browser, you&#8217;ll see a normal table with two columns, and a second row spanning both. When you hit the same page in a mobile browser, or view the email on an iOS or Android device with a small screen, you&#8217;ll get a single-column layout. <a href="http://cl.ly/092N0B3X2O303a2T082U/4_sample.html">Take a look at one of our emails</a> to see what I&#8217;ve been talking about. We&#8217;ve used one set of HTML, but adapted the layout from a horizontal grid to a vertical one, perfect for the narrow confines of a mobile screen. Is it a bit hacky? Yes. Is it valid HTML and CSS? Technically, yes!</p>
