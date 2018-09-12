@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: lessonplans | ericgideon.com]]></title>
-  <link href="http://egid.github.io/category/lessonplans/atom.xml" rel="self"/>
-  <link href="http://egid.github.io/"/>
-  <updated>2018-09-11T22:20:32-07:00</updated>
-  <id>http://egid.github.io/</id>
+  <link href="https://ericgideon.com/category/lessonplans/atom.xml" rel="self"/>
+  <link href="https://ericgideon.com/"/>
+  <updated>2018-09-11T22:31:07-07:00</updated>
+  <id>https://ericgideon.com/</id>
   <author>
     <name><![CDATA[Eric Gideon]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Plan of Action: Instrument Proficiency Check]]></title>
-    <link href="http://egid.github.io/lessonplans/instrument-proficiency-check-plan-of-action/"/>
+    <link href="https://ericgideon.com/lessonplans/instrument-proficiency-check-plan-of-action/"/>
     <updated>2013-04-20T18:34:00-07:00</updated>
-    <id>http://egid.github.io/lessonplans/instrument-proficiency-check-plan-of-action</id>
+    <id>https://ericgideon.com/lessonplans/instrument-proficiency-check-plan-of-action</id>
     <content type="html"><![CDATA[<p>This is a rough guide for an IPC. Unlike the <a href="/lessonplans/flight-review">Flight Review</a>, an IPC doesn&rsquo;t require an instructor to evaluate preflight actions or preflight procedures &mdash; any discussion of regulations and other oral-exam type questions must be viewed as purely educational. The IPC itself can only be passed during a flight.</p>
 
 <h2>Requirement per §<a href="http://rgl.faa.gov/Regulatory_and_Guidance_Library/rgFar.nsf/FARSBySectLookup/61.57">61.57</a>(d)</h2>
@@ -216,9 +216,9 @@
   
   <entry>
     <title type="html"><![CDATA[Flight Instruments]]></title>
-    <link href="http://egid.github.io/lessonplans/flight-instruments/"/>
+    <link href="https://ericgideon.com/lessonplans/flight-instruments/"/>
     <updated>2011-04-27T21:39:00-07:00</updated>
-    <id>http://egid.github.io/lessonplans/flight-instruments</id>
+    <id>https://ericgideon.com/lessonplans/flight-instruments</id>
     <content type="html"><![CDATA[<p>After this ~40 minute briefing, the student should have a working knowledge of the pitot-static and gyroscopic flight instruments. In order to better understand the operation and limitations (and to keep the briefing interesting) the discussion should include instruments' failure modes as well.</p>
 
 <p><header class="lessonIntro">
@@ -519,9 +519,9 @@
   
   <entry>
     <title type="html"><![CDATA[RMI and HSI Navigation]]></title>
-    <link href="http://egid.github.io/lessonplans/rmi-and-hsi/"/>
+    <link href="https://ericgideon.com/lessonplans/rmi-and-hsi/"/>
     <updated>2011-04-27T18:22:00-07:00</updated>
-    <id>http://egid.github.io/lessonplans/rmi-and-hsi</id>
+    <id>https://ericgideon.com/lessonplans/rmi-and-hsi</id>
     <content type="html"><![CDATA[<p>After this briefing, the student should have a reasonable understanding of navigating with the Radio Magnetic Indicator (RMI) and Horizontal Situation Indicator (HSI). The lesson will be complete when they can apply that knowledge to a DME arc using a desktop flight simulator.</p>
 
 <p><header class="lessonIntro">
@@ -721,9 +721,9 @@
   
   <entry>
     <title type="html"><![CDATA[Instrument rating knowledge areas]]></title>
-    <link href="http://egid.github.io/lessonplans/instrument-rating-knowledge-areas/"/>
+    <link href="https://ericgideon.com/lessonplans/instrument-rating-knowledge-areas/"/>
     <updated>2010-04-04T22:19:00-07:00</updated>
-    <id>http://egid.github.io/lessonplans/instrument-rating-knowledge-areas</id>
+    <id>https://ericgideon.com/lessonplans/instrument-rating-knowledge-areas</id>
     <content type="html"><![CDATA[<p>This is a rough overview of the FAA requirements for an instrument rating &ndash; what <strong>must be part of the checkride</strong> &ndash; and some of the areas that are worth focusing on for the examiners I have sent students to.</p>
 
 <blockquote><p>b) Aeronautical knowledge. A person who applies for an instrument rating must have received and logged ground training from an authorized instructor or accomplished a home-study course on the following aeronautical knowledge areas that apply to the instrument rating sought:</p>
@@ -864,9 +864,9 @@
   
   <entry>
     <title type="html"><![CDATA[Flight by reference to instruments]]></title>
-    <link href="http://egid.github.io/lessonplans/flight-by-reference-to-instruments/"/>
+    <link href="https://ericgideon.com/lessonplans/flight-by-reference-to-instruments/"/>
     <updated>2010-04-03T16:43:00-07:00</updated>
-    <id>http://egid.github.io/lessonplans/flight-by-reference-to-instruments</id>
+    <id>https://ericgideon.com/lessonplans/flight-by-reference-to-instruments</id>
     <content type="html"><![CDATA[<p>The student should gain a working knowledge of instrument flight maneuvers and unusual attitude recovery, and understand the techniques and methods required for safe instrument flight.</p>
 
 <p><header class="lessonIntro">

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Aviation | ericgideon.com]]></title>
-  <link href="http://egid.github.io/category/aviation/atom.xml" rel="self"/>
-  <link href="http://egid.github.io/"/>
-  <updated>2018-09-11T22:20:32-07:00</updated>
-  <id>http://egid.github.io/</id>
+  <link href="https://ericgideon.com/category/aviation/atom.xml" rel="self"/>
+  <link href="https://ericgideon.com/"/>
+  <updated>2018-09-11T22:31:07-07:00</updated>
+  <id>https://ericgideon.com/</id>
   <author>
     <name><![CDATA[Eric Gideon]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Flying for Fun]]></title>
-    <link href="http://egid.github.io/Aviation/flying-for-fun/"/>
+    <link href="https://ericgideon.com/Aviation/flying-for-fun/"/>
     <updated>2008-05-07T16:40:00-07:00</updated>
-    <id>http://egid.github.io/Aviation/flying-for-fun</id>
+    <id>https://ericgideon.com/Aviation/flying-for-fun</id>
     <content type="html"><![CDATA[<p>That&rsquo;s the ultimate standard for success, right? Take something that you enjoy, then find a way to get paid for it. So far, I think I&rsquo;m doing pretty well. Next month I fly down to Bend, Oregon to spend a week at the Cessna (née Columbia) factory. We&rsquo;re taking delivery of a brand-new <a href="http://se.cessna.com/cessna400/">Cessna 400</a>, and I&rsquo;m going to pick it up with the owner after sitting in on the <abbr title="FAA/Industry Training Standards">FITS</abbr> course.</p>
 
 <p><a href="http://www.flickr.com/photos/thatguyeric/2546715698/"><img src="http://farm3.staticflickr.com/2116/2546715698_45027a2df0_b.jpg" alt="" /></a>
@@ -34,9 +34,9 @@ In a nutshell, the Cessna 400 is a certified, production version of the Lancair 
   
   <entry>
     <title type="html"><![CDATA[Checkride season]]></title>
-    <link href="http://egid.github.io/Aviation/checkride-season/"/>
+    <link href="https://ericgideon.com/Aviation/checkride-season/"/>
     <updated>2008-04-10T10:00:00-07:00</updated>
-    <id>http://egid.github.io/Aviation/checkride-season</id>
+    <id>https://ericgideon.com/Aviation/checkride-season</id>
     <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/thatguyeric/2396867903/"><img src="http://farm3.static.flickr.com/2196/2396867903_ef935b15aa.jpg" alt="" /></a>
 After a pretty marginal winter here in the Puget Sound, the weather is finally starting to improve. Low ceilings and lots of rain have hampered progress for my students working on private pilot certificates, but I&rsquo;m fortunately also flying with three instrument rating candidates. It&rsquo;s been a lot of fun, and the weather is less of a problem &ndash; although low temperatures have often grounded us due to <a href="http://www.aopa.org/whatsnew/newsitems/2006/061127icing.html">known icing conditions</a>. Two of them just graduated our instrument training course, and the last is waiting for the examiner to return from visiting his grandkids.</p>
 
@@ -50,9 +50,9 @@ After a pretty marginal winter here in the Puget Sound, the weather is finally s
   
   <entry>
     <title type="html"><![CDATA[Improvements]]></title>
-    <link href="http://egid.github.io/Aviation/improvements/"/>
+    <link href="https://ericgideon.com/Aviation/improvements/"/>
     <updated>2008-03-03T14:45:00-08:00</updated>
-    <id>http://egid.github.io/Aviation/improvements</id>
+    <id>https://ericgideon.com/Aviation/improvements</id>
     <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/22392473@N00/504635598/in/photostream/"><img src="http://farm1.static.flickr.com/197/504635598_11c1258d19_m.jpg" alt="" /></a></p>
 
 <p>I&rsquo;ve spent some more time lately flying our Skylane with the Garmin GFC 700 autopilot (or automatic flight control system, as they call it). The smallest change to the system &ndash; new autopilot and trim servos &ndash; winds up having the largest impact in the real IFR environment. Where the Bendix/King KAP 140 was a rate-based system and didn&rsquo;t have the precision to command rapid pitch or roll inputs, the Garmin uses the G1000&rsquo;s own ADC/AHRS to figure out if the airplane is where it needs to be. The higher precision means that it also can react much faster.</p>
@@ -65,9 +65,9 @@ After a pretty marginal winter here in the Puget Sound, the weather is finally s
   
   <entry>
     <title type="html"><![CDATA[The Past & Future of Turboprops]]></title>
-    <link href="http://egid.github.io/Aviation/the-past-and-future-of-turboprops/"/>
+    <link href="https://ericgideon.com/Aviation/the-past-and-future-of-turboprops/"/>
     <updated>2006-08-04T14:34:00-07:00</updated>
-    <id>http://egid.github.io/Aviation/the-past-and-future-of-turboprops</id>
+    <id>https://ericgideon.com/Aviation/the-past-and-future-of-turboprops</id>
     <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/hedgehog/11383470/"><img src="http://static.flickr.com/10/11383470_23b2988a2e_m.jpg" alt="Tupolev Tu-114" /></a></p>
 
 <p>One of the last <a href="http://en.wikipedia.org/wiki/Tupolev_Tu-114">Tupolev Tu-114</a> airliners has been sent to the scrapyard, leaving one of the fastest propeller aircraft in history with a mere handful of survivors. Flight Global has some <a href="http://www.flightglobal.com/Articles/2006/08/03/Navigation/179/208269/Pictures+One+of+last+remaining+examples+of+world's+fastest+turboprop%2c+Tupolev+Tu-114%2c+broken+up+at.html">photos and a brief article</a> on the matter. It&rsquo;s unfortunate the aircraft couldn&rsquo;t be saved, as it truly is one of the great technological breakthroughs of aviation.</p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: travel | ericgideon.com]]></title>
-  <link href="http://egid.github.io/category/travel/atom.xml" rel="self"/>
-  <link href="http://egid.github.io/"/>
-  <updated>2018-09-11T22:20:32-07:00</updated>
-  <id>http://egid.github.io/</id>
+  <link href="https://ericgideon.com/category/travel/atom.xml" rel="self"/>
+  <link href="https://ericgideon.com/"/>
+  <updated>2018-09-11T22:31:07-07:00</updated>
+  <id>https://ericgideon.com/</id>
   <author>
     <name><![CDATA[Eric Gideon]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Flight-seeing in Iceland]]></title>
-    <link href="http://egid.github.io/flying/travel/flight-seeing-in-iceland/"/>
+    <link href="https://ericgideon.com/flying/travel/flight-seeing-in-iceland/"/>
     <updated>2013-04-09T19:19:00-07:00</updated>
-    <id>http://egid.github.io/flying/travel/flight-seeing-in-iceland</id>
+    <id>https://ericgideon.com/flying/travel/flight-seeing-in-iceland</id>
     <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/thatguyeric/8088858114/" title="AlÞing (site of the world's first parliament), Þingvallir, Ísland by thatguyeric, on Flickr"><img class="flex-content" src="https://farm9.staticflickr.com/8183/8088858114_21298589de_b.jpg" width="1024" height="228" alt="AlÞing (site of the world's first parliament), Þingvallir, Ísland"></a></p>
 
 <p>I previously talked about <a href="/flying/travel/flying-in-iceland">figuring out how to use an FAA certificate</a> and other steps towards flight-seeing as a pilot in Iceland. This is a more in-depth review of the planning involved, what I used, and where I went.</p>
@@ -59,9 +59,9 @@
   
   <entry>
     <title type="html"><![CDATA[Flying in Iceland]]></title>
-    <link href="http://egid.github.io/flying/travel/flying-in-iceland/"/>
+    <link href="https://ericgideon.com/flying/travel/flying-in-iceland/"/>
     <updated>2013-04-06T17:55:00-07:00</updated>
-    <id>http://egid.github.io/flying/travel/flying-in-iceland</id>
+    <id>https://ericgideon.com/flying/travel/flying-in-iceland</id>
     <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/thatguyeric/8296170396/in/photostream/"><img src="http://farm9.staticflickr.com/8351/8296170396_d4f6f7f4a7.jpg" class="right"></a>Shanna and I recently took a week-long trip to Iceland, where I was lucky enough to get some flying in. When we&rsquo;d  stopped over in Reykjavik for a couple days during a previous trip to Europe, I noticed how many light aircraft were in the air. The landscape is so weird and compelling that getting up in the air became a mandatory part of our return to Iceland.</p>
 
 <p>Unfortunately, there&rsquo;s not a ton of information about flying in Iceland on an FAA certificate. I found a <a href="http://www.pprune.org/private-flying/116715-flying-iceland.html">2004 thread on the PPRuNe forum</a> that didn&rsquo;t offer much, and <a href="http://www.hang-out.co.uk/index.php/flying/iceland">another article</a> that had some useful info on where to fly, but prices &amp; recommendations from 1998. Eventually, I just scraped around the <a href="http://caa.is/english">English-language version of the ICAA website</a> (the Icelandic Civil Aviation Authority) and emailed them directly, asking what I needed to do to fly there. <!-- more --> I got a response within 24 hours:</p>

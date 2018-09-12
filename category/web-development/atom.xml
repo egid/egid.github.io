@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Web Development | ericgideon.com]]></title>
-  <link href="http://egid.github.io/category/web-development/atom.xml" rel="self"/>
-  <link href="http://egid.github.io/"/>
-  <updated>2018-09-11T22:20:32-07:00</updated>
-  <id>http://egid.github.io/</id>
+  <link href="https://ericgideon.com/category/web-development/atom.xml" rel="self"/>
+  <link href="https://ericgideon.com/"/>
+  <updated>2018-09-11T22:31:07-07:00</updated>
+  <id>https://ericgideon.com/</id>
   <author>
     <name><![CDATA[Eric Gideon]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Reinventing Email at Redfin]]></title>
-    <link href="http://egid.github.io/Web%20Development/Email/reinventing-email-at-redfin/"/>
+    <link href="https://ericgideon.com/Web%20Development/Email/reinventing-email-at-redfin/"/>
     <updated>2012-04-19T12:00:00-07:00</updated>
-    <id>http://egid.github.io/Web%20Development/Email/reinventing-email-at-redfin</id>
+    <id>https://ericgideon.com/Web%20Development/Email/reinventing-email-at-redfin</id>
     <content type="html"><![CDATA[<p><em>This was <a href="http://blog.redfin.com/devblog/?p=634">originally published on the Redfin developer blog</a></em>.</p>
 
 

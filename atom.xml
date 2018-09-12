@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[ericgideon.com]]></title>
-  <link href="http://egid.github.io/atom.xml" rel="self"/>
-  <link href="http://egid.github.io/"/>
-  <updated>2018-09-11T22:20:32-07:00</updated>
-  <id>http://egid.github.io/</id>
+  <link href="https://ericgideon.com/atom.xml" rel="self"/>
+  <link href="https://ericgideon.com/"/>
+  <updated>2018-09-11T22:31:07-07:00</updated>
+  <id>https://ericgideon.com/</id>
   <author>
     <name><![CDATA[Eric Gideon]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Building and Flying with Stratux ADS-B In, part 2]]></title>
-    <link href="http://egid.github.io/flying/open-source/building-and-flying-with-stratux-ads-b-in-part-2/"/>
+    <link href="https://ericgideon.com/flying/open-source/building-and-flying-with-stratux-ads-b-in-part-2/"/>
     <updated>2017-07-17T18:00:00-07:00</updated>
-    <id>http://egid.github.io/flying/open-source/building-and-flying-with-stratux-ads-b-in-part-2</id>
+    <id>https://ericgideon.com/flying/open-source/building-and-flying-with-stratux-ads-b-in-part-2</id>
     <content type="html"><![CDATA[<p>Over a year ago I wrote about my initial experiences building and testing out the <a href="https://github.com/cyoung/stratux">open-source Stratux</a> ADS-B In receiver. I&rsquo;ve gotten more involved with the project since then, testing out new hardware and changing my existing build. I&rsquo;ve also had the chance to use some competing hardware!</p>
 
 <h2>TL;DR: build yourself this $140 Stratux</h2>
@@ -87,7 +87,7 @@
 
 <p>The one thing you might want to add is suction cups or velcro tape to position the unit. I fly a Grumman AA-1A, which (like the AA-5 Traveler/Cheetah and AG-5B Tiger) has an aluminum honeycomb fuselage structure. My best reception involved positioning the  with the antennas in a vertical orientation. This would not be as necessary in something like a Piper or Cessna.</p>
 
-<p><img src="http://egid.github.io/images/stratux_2.jpg" alt="Current setup" /></p>
+<p><img src="https://ericgideon.com/images/stratux_2.jpg" alt="Current setup" /></p>
 
 <p>As far as the reception performance goes, it ranges from &lsquo;decent&rsquo; to &lsquo;great&rsquo;, depending on the situation. I found that signal strength for traffic is often far better than that for weather. Still, in the Seattle area, I frequently see 4 or more ground stations in ForeFlight, which keeps weather up to date satisfactorily. South of Portland, reception can drop to a single tower. I haven&rsquo;t compared this to a Stratus 2S unit, but minimal ground stations exist out there in the first place.</p>
 
@@ -107,10 +107,10 @@
   
   <entry>
     <title type="html"><![CDATA[Building (and flying with) Stratux homebuilt ADS-B In]]></title>
-    <link href="http://egid.github.io/flying/open-source/building-and-flying-with-stratux-homebuilt-ads-b-in/"/>
+    <link href="https://ericgideon.com/flying/open-source/building-and-flying-with-stratux-homebuilt-ads-b-in/"/>
     <updated>2016-03-26T15:18:00-07:00</updated>
-    <id>http://egid.github.io/flying/open-source/building-and-flying-with-stratux-homebuilt-ads-b-in</id>
-    <content type="html"><![CDATA[<h3><a href="http://egid.github.io/flying/open-source/building-and-flying-with-stratux-ads-b-in-part-2/">UPDATE: new writeup 17 July 2017, with a new $140 parts list</a></h3>
+    <id>https://ericgideon.com/flying/open-source/building-and-flying-with-stratux-homebuilt-ads-b-in</id>
+    <content type="html"><![CDATA[<h3><a href="https://ericgideon.com/flying/open-source/building-and-flying-with-stratux-ads-b-in-part-2/">UPDATE: new writeup 17 July 2017, with a new $140 parts list</a></h3>
 
 <p>I first heard about the <a href="http://stratux.me">Stratux project</a> a few months back, in a <a href="http://reddit.com/r/stratux">subreddit</a> that described how to build your own ADS-B In receiver for under $120. It uses software-defined radios to pick up ADS-B data, then processes it using <a href="http://github.com/cyoung/stratux">open-source software</a>. As a pilot who&rsquo;s dabbled with the idea of plunking down around $1000 on the Stratus 2S, this was a pretty attractive idea: less than $200 for traffic and weather on my iPad? Heck, I could build a receiver and order a new iPad for less than the list price of the Stratus.</p>
 
@@ -123,7 +123,7 @@
 
 <p>I started with the suggested parts to build a single-radio device, much like the original Stratus or the new 1S, and spent around $10 more on a slightly better external battery pack. Assembly is simple: plug the radios into the USB ports, and (if you&rsquo;ve got a case) screw the Raspberry Pi down. Here&rsquo;s my original build:</p>
 
-<p><img src="http://egid.github.io/images/stratux_v1.jpg" alt="Original setup" /></p>
+<p><img src="https://ericgideon.com/images/stratux_v1.jpg" alt="Original setup" /></p>
 
 <ul>
 <li>$69.99: <a href="http://amzn.to/1pPNaGh">Vilros Raspberry Pi 2 starter kit</a> &ndash; now sold with the Raspberry Pi 3. Comes with a case, SD card, and wall power.</li>
@@ -137,7 +137,7 @@
 
 <p>That setup &ndash; GPS + 978Mhz &ndash; took us to Reno for the Air Races, and worked flawlessly the whole way. Between Seattle and Sacramento, where we picked up our car, we saw between one and three ADS-B towers the entire trip.</p>
 
-<p><img src="http://egid.github.io/images/stratux_installed.jpg" alt="" /></p>
+<p><img src="https://ericgideon.com/images/stratux_installed.jpg" alt="" /></p>
 
 <p>After that first trip proved how useful it was, getting us weather and traffic far in advance and with very little workload, I&rsquo;ve gotten more involved in the Stratux community and continued building out my receiver. After a few others had success with using MakeXYZ to 3D-print cases, I ordered one and set it up.</p>
 
@@ -196,7 +196,7 @@
 </table>
 
 
-<p><img src="http://egid.github.io/images/stratux_mounted2.jpg" alt="" /></p>
+<p><img src="https://ericgideon.com/images/stratux_mounted2.jpg" alt="" /></p>
 
 <p>I&rsquo;ve also got a 10&#8217; USB extension cable, and a 2-port, 2.1A car charger that provides power for the Stratux and one iPad or smartphone. This means you can skip the battery pack, or get a much smaller one for backup purposes. The 10&#8217; cable allows me to mount it in the back of the baggage compartment, and the 6&#8217; SMA cable lets the antenna hang in the center of the cabin where it gets the best reception.</p>
 
@@ -206,10 +206,10 @@
   
   <entry>
     <title type="html"><![CDATA[Plan of Action: Instrument Proficiency Check]]></title>
-    <link href="http://egid.github.io/lessonplans/instrument-proficiency-check-plan-of-action/"/>
+    <link href="https://ericgideon.com/lessonplans/instrument-proficiency-check-plan-of-action/"/>
     <updated>2013-04-20T18:34:00-07:00</updated>
-    <id>http://egid.github.io/lessonplans/instrument-proficiency-check-plan-of-action</id>
-    <content type="html"><![CDATA[<p>This is a rough guide for an IPC. Unlike the <a href="http://egid.github.io/lessonplans/flight-review">Flight Review</a>, an IPC doesn&rsquo;t require an instructor to evaluate preflight actions or preflight procedures &mdash; any discussion of regulations and other oral-exam type questions must be viewed as purely educational. The IPC itself can only be passed during a flight.</p>
+    <id>https://ericgideon.com/lessonplans/instrument-proficiency-check-plan-of-action</id>
+    <content type="html"><![CDATA[<p>This is a rough guide for an IPC. Unlike the <a href="https://ericgideon.com/lessonplans/flight-review">Flight Review</a>, an IPC doesn&rsquo;t require an instructor to evaluate preflight actions or preflight procedures &mdash; any discussion of regulations and other oral-exam type questions must be viewed as purely educational. The IPC itself can only be passed during a flight.</p>
 
 <h2>Requirement per §<a href="http://rgl.faa.gov/Regulatory_and_Guidance_Library/rgFar.nsf/FARSBySectLookup/61.57">61.57</a>(d)</h2>
 
@@ -407,12 +407,12 @@
   
   <entry>
     <title type="html"><![CDATA[Flight-seeing in Iceland]]></title>
-    <link href="http://egid.github.io/flying/travel/flight-seeing-in-iceland/"/>
+    <link href="https://ericgideon.com/flying/travel/flight-seeing-in-iceland/"/>
     <updated>2013-04-09T19:19:00-07:00</updated>
-    <id>http://egid.github.io/flying/travel/flight-seeing-in-iceland</id>
+    <id>https://ericgideon.com/flying/travel/flight-seeing-in-iceland</id>
     <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/thatguyeric/8088858114/" title="AlÞing (site of the world's first parliament), Þingvallir, Ísland by thatguyeric, on Flickr"><img class="flex-content" src="https://farm9.staticflickr.com/8183/8088858114_21298589de_b.jpg" width="1024" height="228" alt="AlÞing (site of the world's first parliament), Þingvallir, Ísland"></a></p>
 
-<p>I previously talked about <a href="http://egid.github.io/flying/travel/flying-in-iceland">figuring out how to use an FAA certificate</a> and other steps towards flight-seeing as a pilot in Iceland. This is a more in-depth review of the planning involved, what I used, and where I went.</p>
+<p>I previously talked about <a href="https://ericgideon.com/flying/travel/flying-in-iceland">figuring out how to use an FAA certificate</a> and other steps towards flight-seeing as a pilot in Iceland. This is a more in-depth review of the planning involved, what I used, and where I went.</p>
 
 <!-- more -->
 
@@ -451,9 +451,9 @@
   
   <entry>
     <title type="html"><![CDATA[Flying in Iceland]]></title>
-    <link href="http://egid.github.io/flying/travel/flying-in-iceland/"/>
+    <link href="https://ericgideon.com/flying/travel/flying-in-iceland/"/>
     <updated>2013-04-06T17:55:00-07:00</updated>
-    <id>http://egid.github.io/flying/travel/flying-in-iceland</id>
+    <id>https://ericgideon.com/flying/travel/flying-in-iceland</id>
     <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/thatguyeric/8296170396/in/photostream/"><img src="http://farm9.staticflickr.com/8351/8296170396_d4f6f7f4a7.jpg" class="right"></a>Shanna and I recently took a week-long trip to Iceland, where I was lucky enough to get some flying in. When we&rsquo;d  stopped over in Reykjavik for a couple days during a previous trip to Europe, I noticed how many light aircraft were in the air. The landscape is so weird and compelling that getting up in the air became a mandatory part of our return to Iceland.</p>
 
 <p>Unfortunately, there&rsquo;s not a ton of information about flying in Iceland on an FAA certificate. I found a <a href="http://www.pprune.org/private-flying/116715-flying-iceland.html">2004 thread on the PPRuNe forum</a> that didn&rsquo;t offer much, and <a href="http://www.hang-out.co.uk/index.php/flying/iceland">another article</a> that had some useful info on where to fly, but prices &amp; recommendations from 1998. Eventually, I just scraped around the <a href="http://caa.is/english">English-language version of the ICAA website</a> (the Icelandic Civil Aviation Authority) and emailed them directly, asking what I needed to do to fly there. <!-- more --> I got a response within 24 hours:</p>
@@ -470,9 +470,9 @@
   
   <entry>
     <title type="html"><![CDATA[Reinventing Email at Redfin]]></title>
-    <link href="http://egid.github.io/Web%20Development/Email/reinventing-email-at-redfin/"/>
+    <link href="https://ericgideon.com/Web%20Development/Email/reinventing-email-at-redfin/"/>
     <updated>2012-04-19T12:00:00-07:00</updated>
-    <id>http://egid.github.io/Web%20Development/Email/reinventing-email-at-redfin</id>
+    <id>https://ericgideon.com/Web%20Development/Email/reinventing-email-at-redfin</id>
     <content type="html"><![CDATA[<p><em>This was <a href="http://blog.redfin.com/devblog/?p=634">originally published on the Redfin developer blog</a></em>.</p>
 
 
@@ -625,9 +625,9 @@ When viewed in an email client or web browser, you&#8217;ll see a normal table w
   
   <entry>
     <title type="html"><![CDATA[Flight Instruments]]></title>
-    <link href="http://egid.github.io/lessonplans/flight-instruments/"/>
+    <link href="https://ericgideon.com/lessonplans/flight-instruments/"/>
     <updated>2011-04-27T21:39:00-07:00</updated>
-    <id>http://egid.github.io/lessonplans/flight-instruments</id>
+    <id>https://ericgideon.com/lessonplans/flight-instruments</id>
     <content type="html"><![CDATA[<p>After this ~40 minute briefing, the student should have a working knowledge of the pitot-static and gyroscopic flight instruments. In order to better understand the operation and limitations (and to keep the briefing interesting) the discussion should include instruments&#8217; failure modes as well.</p>
 
 <p><header class="lessonIntro">
@@ -928,9 +928,9 @@ When viewed in an email client or web browser, you&#8217;ll see a normal table w
   
   <entry>
     <title type="html"><![CDATA[RMI and HSI Navigation]]></title>
-    <link href="http://egid.github.io/lessonplans/rmi-and-hsi/"/>
+    <link href="https://ericgideon.com/lessonplans/rmi-and-hsi/"/>
     <updated>2011-04-27T18:22:00-07:00</updated>
-    <id>http://egid.github.io/lessonplans/rmi-and-hsi</id>
+    <id>https://ericgideon.com/lessonplans/rmi-and-hsi</id>
     <content type="html"><![CDATA[<p>After this briefing, the student should have a reasonable understanding of navigating with the Radio Magnetic Indicator (RMI) and Horizontal Situation Indicator (HSI). The lesson will be complete when they can apply that knowledge to a DME arc using a desktop flight simulator.</p>
 
 <p><header class="lessonIntro">
@@ -1130,9 +1130,9 @@ When viewed in an email client or web browser, you&#8217;ll see a normal table w
   
   <entry>
     <title type="html"><![CDATA[Onward &amp; Upward]]></title>
-    <link href="http://egid.github.io/flying/onward-and-upward/"/>
+    <link href="https://ericgideon.com/flying/onward-and-upward/"/>
     <updated>2011-02-26T22:59:00-08:00</updated>
-    <id>http://egid.github.io/flying/onward-and-upward</id>
+    <id>https://ericgideon.com/flying/onward-and-upward</id>
     <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/thatguyeric/4468623772"><img src="http://farm5.static.flickr.com/4009/4468623772_e32b324757_m.jpg" class="bodyimg right" title="" alt="" /></a> Over the last year, a lot has changed. I got married, flew our <a href="http://www.flickr.com/photos/thatguyeric/sets/72157621661336277/">newly-restored &amp; upgraded Grumman</a>, <a href="http://www.flickr.com/photos/thatguyeric/sets/72157625344903588/">spent three weeks in Europe &amp; Iceland</a>, started looking into Masters programs, stopped instructing full time, and got a Real Job™. Oh, and http://aeronaut.ca now redirects to http://ericgideon.com, so update your shit. It&#8217;s been a fun year, I&#8217;ve enjoyed the changes so far, and I&#8217;m looking forward to what the future holds. The only downside to leaving instruction is that I spend a lot of time wishing I was flying, but &#8211; and this is key &#8211; <em>all of my flying I now enjoy</em>.</p>
 
 
@@ -1150,9 +1150,9 @@ When viewed in an email client or web browser, you&#8217;ll see a normal table w
   
   <entry>
     <title type="html"><![CDATA[Instrument rating knowledge areas]]></title>
-    <link href="http://egid.github.io/lessonplans/instrument-rating-knowledge-areas/"/>
+    <link href="https://ericgideon.com/lessonplans/instrument-rating-knowledge-areas/"/>
     <updated>2010-04-04T22:19:00-07:00</updated>
-    <id>http://egid.github.io/lessonplans/instrument-rating-knowledge-areas</id>
+    <id>https://ericgideon.com/lessonplans/instrument-rating-knowledge-areas</id>
     <content type="html"><![CDATA[<p>This is a rough overview of the FAA requirements for an instrument rating &ndash; what <strong>must be part of the checkride</strong> &ndash; and some of the areas that are worth focusing on for the examiners I have sent students to.</p>
 
 <blockquote><p>b) Aeronautical knowledge. A person who applies for an instrument rating must have received and logged ground training from an authorized instructor or accomplished a home-study course on the following aeronautical knowledge areas that apply to the instrument rating sought:</p>
@@ -1293,9 +1293,9 @@ When viewed in an email client or web browser, you&#8217;ll see a normal table w
   
   <entry>
     <title type="html"><![CDATA[Flight by reference to instruments]]></title>
-    <link href="http://egid.github.io/lessonplans/flight-by-reference-to-instruments/"/>
+    <link href="https://ericgideon.com/lessonplans/flight-by-reference-to-instruments/"/>
     <updated>2010-04-03T16:43:00-07:00</updated>
-    <id>http://egid.github.io/lessonplans/flight-by-reference-to-instruments</id>
+    <id>https://ericgideon.com/lessonplans/flight-by-reference-to-instruments</id>
     <content type="html"><![CDATA[<p>The student should gain a working knowledge of instrument flight maneuvers and unusual attitude recovery, and understand the techniques and methods required for safe instrument flight.</p>
 
 <p><header class="lessonIntro">
@@ -1560,9 +1560,9 @@ When viewed in an email client or web browser, you&#8217;ll see a normal table w
   
   <entry>
     <title type="html"><![CDATA[Instrument approaches]]></title>
-    <link href="http://egid.github.io/lessonplans/instrument-approaches/"/>
+    <link href="https://ericgideon.com/lessonplans/instrument-approaches/"/>
     <updated>2009-05-04T18:28:00-07:00</updated>
-    <id>http://egid.github.io/lessonplans/instrument-approaches</id>
+    <id>https://ericgideon.com/lessonplans/instrument-approaches</id>
     <content type="html"><![CDATA[<p>The student should be able to apply previous lessons about approach components to an instrument approach chart, and be prepared to fly an approach in the aircraft.
 <header class="lessonIntro">
 <section class="module"></p>
@@ -1669,7 +1669,7 @@ When viewed in an email client or web browser, you&#8217;ll see a normal table w
 
 <h4>Visual maneuvering: straight-in &amp; circling</h4>
 
-<p>Refer to <a href="http://egid.github.io/lessonplans/visual-maneuvering">visual maneuvering lesson plan</a></p>
+<p>Refer to <a href="https://ericgideon.com/lessonplans/visual-maneuvering">visual maneuvering lesson plan</a></p>
 
 <h4>Holding</h4>
 
@@ -1716,9 +1716,9 @@ When viewed in an email client or web browser, you&#8217;ll see a normal table w
   
   <entry>
     <title type="html"><![CDATA[Private Pilot question bank]]></title>
-    <link href="http://egid.github.io/lessonplans/correlation-question-bank/"/>
+    <link href="https://ericgideon.com/lessonplans/correlation-question-bank/"/>
     <updated>2008-12-22T22:26:00-08:00</updated>
-    <id>http://egid.github.io/lessonplans/correlation-question-bank</id>
+    <id>https://ericgideon.com/lessonplans/correlation-question-bank</id>
     <content type="html"><![CDATA[<p>These are sample questions for private pilot candidates that will hopefully allow them to demonstrate some level of correlation-level knowledge.</p>
 
 <ul>
@@ -1740,9 +1740,9 @@ When viewed in an email client or web browser, you&#8217;ll see a normal table w
   
   <entry>
     <title type="html"><![CDATA[Flying for Fun]]></title>
-    <link href="http://egid.github.io/Aviation/flying-for-fun/"/>
+    <link href="https://ericgideon.com/Aviation/flying-for-fun/"/>
     <updated>2008-05-07T16:40:00-07:00</updated>
-    <id>http://egid.github.io/Aviation/flying-for-fun</id>
+    <id>https://ericgideon.com/Aviation/flying-for-fun</id>
     <content type="html"><![CDATA[<p>That&rsquo;s the ultimate standard for success, right? Take something that you enjoy, then find a way to get paid for it. So far, I think I&rsquo;m doing pretty well. Next month I fly down to Bend, Oregon to spend a week at the Cessna (née Columbia) factory. We&rsquo;re taking delivery of a brand-new <a href="http://se.cessna.com/cessna400/">Cessna 400</a>, and I&rsquo;m going to pick it up with the owner after sitting in on the <abbr title="FAA/Industry Training Standards">FITS</abbr> course.</p>
 
 <p><a href="http://www.flickr.com/photos/thatguyeric/2546715698/"><img src="http://farm3.staticflickr.com/2116/2546715698_45027a2df0_b.jpg" alt="" /></a>
@@ -1759,9 +1759,9 @@ In a nutshell, the Cessna 400 is a certified, production version of the Lancair 
   
   <entry>
     <title type="html"><![CDATA[Checkride season]]></title>
-    <link href="http://egid.github.io/Aviation/checkride-season/"/>
+    <link href="https://ericgideon.com/Aviation/checkride-season/"/>
     <updated>2008-04-10T10:00:00-07:00</updated>
-    <id>http://egid.github.io/Aviation/checkride-season</id>
+    <id>https://ericgideon.com/Aviation/checkride-season</id>
     <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/thatguyeric/2396867903/"><img src="http://farm3.static.flickr.com/2196/2396867903_ef935b15aa.jpg" alt="" /></a>
 After a pretty marginal winter here in the Puget Sound, the weather is finally starting to improve. Low ceilings and lots of rain have hampered progress for my students working on private pilot certificates, but I&rsquo;m fortunately also flying with three instrument rating candidates. It&rsquo;s been a lot of fun, and the weather is less of a problem &ndash; although low temperatures have often grounded us due to <a href="http://www.aopa.org/whatsnew/newsitems/2006/061127icing.html">known icing conditions</a>. Two of them just graduated our instrument training course, and the last is waiting for the examiner to return from visiting his grandkids.</p>
 
@@ -1775,9 +1775,9 @@ After a pretty marginal winter here in the Puget Sound, the weather is finally s
   
   <entry>
     <title type="html"><![CDATA[Improvements]]></title>
-    <link href="http://egid.github.io/Aviation/improvements/"/>
+    <link href="https://ericgideon.com/Aviation/improvements/"/>
     <updated>2008-03-03T14:45:00-08:00</updated>
-    <id>http://egid.github.io/Aviation/improvements</id>
+    <id>https://ericgideon.com/Aviation/improvements</id>
     <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/22392473@N00/504635598/in/photostream/"><img src="http://farm1.static.flickr.com/197/504635598_11c1258d19_m.jpg" alt="" /></a></p>
 
 <p>I&rsquo;ve spent some more time lately flying our Skylane with the Garmin GFC 700 autopilot (or automatic flight control system, as they call it). The smallest change to the system &ndash; new autopilot and trim servos &ndash; winds up having the largest impact in the real IFR environment. Where the Bendix/King KAP 140 was a rate-based system and didn&rsquo;t have the precision to command rapid pitch or roll inputs, the Garmin uses the G1000&rsquo;s own ADC/AHRS to figure out if the airplane is where it needs to be. The higher precision means that it also can react much faster.</p>
@@ -1790,9 +1790,9 @@ After a pretty marginal winter here in the Puget Sound, the weather is finally s
   
   <entry>
     <title type="html"><![CDATA[Steep spirals]]></title>
-    <link href="http://egid.github.io/lessonplans/steep-spirals/"/>
+    <link href="https://ericgideon.com/lessonplans/steep-spirals/"/>
     <updated>2007-08-12T18:51:00-07:00</updated>
-    <id>http://egid.github.io/lessonplans/steep-spirals</id>
+    <id>https://ericgideon.com/lessonplans/steep-spirals</id>
     <content type="html"><![CDATA[<p>Develop the student’s ability to plan and execute a steep spiral, improving options in an emergency situation.<header class="lessonIntro">
 <section class="module"></p>
 
@@ -1891,9 +1891,9 @@ After a pretty marginal winter here in the Puget Sound, the weather is finally s
   
   <entry>
     <title type="html"><![CDATA[Steep turns]]></title>
-    <link href="http://egid.github.io/lessonplans/steep-turns/"/>
+    <link href="https://ericgideon.com/lessonplans/steep-turns/"/>
     <updated>2007-08-12T18:44:00-07:00</updated>
-    <id>http://egid.github.io/lessonplans/steep-turns</id>
+    <id>https://ericgideon.com/lessonplans/steep-turns</id>
     <content type="html"><![CDATA[<p>Develop the student&rsquo;s knowledge of the aerodynamics, setup, and execution of steep turns to improve aircraft control and finesse.
 <header class="lessonIntro">
 <section class="module"></p>
@@ -1997,9 +1997,9 @@ After a pretty marginal winter here in the Puget Sound, the weather is finally s
   
   <entry>
     <title type="html"><![CDATA[Air Traffic Control Clearances]]></title>
-    <link href="http://egid.github.io/lessonplans/air-traffic-control-clearances/"/>
+    <link href="https://ericgideon.com/lessonplans/air-traffic-control-clearances/"/>
     <updated>2007-06-27T22:06:00-07:00</updated>
-    <id>http://egid.github.io/lessonplans/air-traffic-control-clearances</id>
+    <id>https://ericgideon.com/lessonplans/air-traffic-control-clearances</id>
     <content type="html"><![CDATA[<p>The student should gain an understanding of air traffic control clearances, and how they relate to instrument flight operations.</p>
 
 <p><header class="lessonIntro">
@@ -2200,9 +2200,9 @@ After a pretty marginal winter here in the Puget Sound, the weather is finally s
   
   <entry>
     <title type="html"><![CDATA[ILS & DME systems]]></title>
-    <link href="http://egid.github.io/lessonplans/ils-dme/"/>
+    <link href="https://ericgideon.com/lessonplans/ils-dme/"/>
     <updated>2007-05-22T13:51:00-07:00</updated>
-    <id>http://egid.github.io/lessonplans/ils-dme</id>
+    <id>https://ericgideon.com/lessonplans/ils-dme</id>
     <content type="html"><![CDATA[<p>The student should gain an understanding of DME operation and the instrument landing system, and be able to apply that knowledge to flight scenarios.</p>
 
 <p><header class="lessonIntro">

@@ -3,4 +3,4 @@ Disallow:
 Disallow: /repos?sort=pushed&callback=?
 Disallow: /files/
 
-Sitemap: http://egid.github.io/sitemap.xml 
+Sitemap: https://ericgideon.com/sitemap.xml 

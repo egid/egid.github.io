@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: flying | ericgideon.com]]></title>
-  <link href="http://egid.github.io/category/flying/atom.xml" rel="self"/>
-  <link href="http://egid.github.io/"/>
-  <updated>2018-09-11T22:20:32-07:00</updated>
-  <id>http://egid.github.io/</id>
+  <link href="https://ericgideon.com/category/flying/atom.xml" rel="self"/>
+  <link href="https://ericgideon.com/"/>
+  <updated>2018-09-11T22:31:07-07:00</updated>
+  <id>https://ericgideon.com/</id>
   <author>
     <name><![CDATA[Eric Gideon]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Building and Flying with Stratux ADS-B In, part 2]]></title>
-    <link href="http://egid.github.io/flying/open-source/building-and-flying-with-stratux-ads-b-in-part-2/"/>
+    <link href="https://ericgideon.com/flying/open-source/building-and-flying-with-stratux-ads-b-in-part-2/"/>
     <updated>2017-07-17T18:00:00-07:00</updated>
-    <id>http://egid.github.io/flying/open-source/building-and-flying-with-stratux-ads-b-in-part-2</id>
+    <id>https://ericgideon.com/flying/open-source/building-and-flying-with-stratux-ads-b-in-part-2</id>
     <content type="html"><![CDATA[<p>Over a year ago I wrote about my initial experiences building and testing out the <a href="https://github.com/cyoung/stratux">open-source Stratux</a> ADS-B In receiver. I&rsquo;ve gotten more involved with the project since then, testing out new hardware and changing my existing build. I&rsquo;ve also had the chance to use some competing hardware!</p>
 
 <h2>TL;DR: build yourself this $140 Stratux</h2>
@@ -107,9 +107,9 @@
   
   <entry>
     <title type="html"><![CDATA[Building (and flying with) Stratux homebuilt ADS-B In]]></title>
-    <link href="http://egid.github.io/flying/open-source/building-and-flying-with-stratux-homebuilt-ads-b-in/"/>
+    <link href="https://ericgideon.com/flying/open-source/building-and-flying-with-stratux-homebuilt-ads-b-in/"/>
     <updated>2016-03-26T15:18:00-07:00</updated>
-    <id>http://egid.github.io/flying/open-source/building-and-flying-with-stratux-homebuilt-ads-b-in</id>
+    <id>https://ericgideon.com/flying/open-source/building-and-flying-with-stratux-homebuilt-ads-b-in</id>
     <content type="html"><![CDATA[<h3><a href="/flying/open-source/building-and-flying-with-stratux-ads-b-in-part-2/">UPDATE: new writeup 17 July 2017, with a new $140 parts list</a></h3>
 
 <p>I first heard about the <a href="http://stratux.me">Stratux project</a> a few months back, in a <a href="http://reddit.com/r/stratux">subreddit</a> that described how to build your own ADS-B In receiver for under $120. It uses software-defined radios to pick up ADS-B data, then processes it using <a href="http://github.com/cyoung/stratux">open-source software</a>. As a pilot who&rsquo;s dabbled with the idea of plunking down around $1000 on the Stratus 2S, this was a pretty attractive idea: less than $200 for traffic and weather on my iPad? Heck, I could build a receiver and order a new iPad for less than the list price of the Stratus.</p>
@@ -206,9 +206,9 @@
   
   <entry>
     <title type="html"><![CDATA[Flight-seeing in Iceland]]></title>
-    <link href="http://egid.github.io/flying/travel/flight-seeing-in-iceland/"/>
+    <link href="https://ericgideon.com/flying/travel/flight-seeing-in-iceland/"/>
     <updated>2013-04-09T19:19:00-07:00</updated>
-    <id>http://egid.github.io/flying/travel/flight-seeing-in-iceland</id>
+    <id>https://ericgideon.com/flying/travel/flight-seeing-in-iceland</id>
     <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/thatguyeric/8088858114/" title="AlÞing (site of the world's first parliament), Þingvallir, Ísland by thatguyeric, on Flickr"><img class="flex-content" src="https://farm9.staticflickr.com/8183/8088858114_21298589de_b.jpg" width="1024" height="228" alt="AlÞing (site of the world's first parliament), Þingvallir, Ísland"></a></p>
 
 <p>I previously talked about <a href="/flying/travel/flying-in-iceland">figuring out how to use an FAA certificate</a> and other steps towards flight-seeing as a pilot in Iceland. This is a more in-depth review of the planning involved, what I used, and where I went.</p>
@@ -250,9 +250,9 @@
   
   <entry>
     <title type="html"><![CDATA[Flying in Iceland]]></title>
-    <link href="http://egid.github.io/flying/travel/flying-in-iceland/"/>
+    <link href="https://ericgideon.com/flying/travel/flying-in-iceland/"/>
     <updated>2013-04-06T17:55:00-07:00</updated>
-    <id>http://egid.github.io/flying/travel/flying-in-iceland</id>
+    <id>https://ericgideon.com/flying/travel/flying-in-iceland</id>
     <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/thatguyeric/8296170396/in/photostream/"><img src="http://farm9.staticflickr.com/8351/8296170396_d4f6f7f4a7.jpg" class="right"></a>Shanna and I recently took a week-long trip to Iceland, where I was lucky enough to get some flying in. When we&rsquo;d  stopped over in Reykjavik for a couple days during a previous trip to Europe, I noticed how many light aircraft were in the air. The landscape is so weird and compelling that getting up in the air became a mandatory part of our return to Iceland.</p>
 
 <p>Unfortunately, there&rsquo;s not a ton of information about flying in Iceland on an FAA certificate. I found a <a href="http://www.pprune.org/private-flying/116715-flying-iceland.html">2004 thread on the PPRuNe forum</a> that didn&rsquo;t offer much, and <a href="http://www.hang-out.co.uk/index.php/flying/iceland">another article</a> that had some useful info on where to fly, but prices &amp; recommendations from 1998. Eventually, I just scraped around the <a href="http://caa.is/english">English-language version of the ICAA website</a> (the Icelandic Civil Aviation Authority) and emailed them directly, asking what I needed to do to fly there. <!-- more --> I got a response within 24 hours:</p>
@@ -269,9 +269,9 @@
   
   <entry>
     <title type="html"><![CDATA[Onward &amp; Upward]]></title>
-    <link href="http://egid.github.io/flying/onward-and-upward/"/>
+    <link href="https://ericgideon.com/flying/onward-and-upward/"/>
     <updated>2011-02-26T22:59:00-08:00</updated>
-    <id>http://egid.github.io/flying/onward-and-upward</id>
+    <id>https://ericgideon.com/flying/onward-and-upward</id>
     <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/thatguyeric/4468623772"><img src="http://farm5.static.flickr.com/4009/4468623772_e32b324757_m.jpg" class="bodyimg right" title="" alt="" /></a> Over the last year, a lot has changed. I got married, flew our <a href="http://www.flickr.com/photos/thatguyeric/sets/72157621661336277/">newly-restored &amp; upgraded Grumman</a>, <a href="http://www.flickr.com/photos/thatguyeric/sets/72157625344903588/">spent three weeks in Europe &amp; Iceland</a>, started looking into Masters programs, stopped instructing full time, and got a Real Job™. Oh, and http://aeronaut.ca now redirects to http://ericgideon.com, so update your shit. It&#8217;s been a fun year, I&#8217;ve enjoyed the changes so far, and I&#8217;m looking forward to what the future holds. The only downside to leaving instruction is that I spend a lot of time wishing I was flying, but &#8211; and this is key &#8211; <em>all of my flying I now enjoy</em>.</p>
 
 
