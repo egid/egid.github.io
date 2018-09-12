@@ -4,7 +4,7 @@
   <title><![CDATA[ericgideon.com]]></title>
   <link href="http://egid.github.io/atom.xml" rel="self"/>
   <link href="http://egid.github.io/"/>
-  <updated>2017-12-04T14:05:12-08:00</updated>
+  <updated>2018-09-11T22:20:32-07:00</updated>
   <id>http://egid.github.io/</id>
   <author>
     <name><![CDATA[Eric Gideon]]></name>
@@ -410,7 +410,7 @@
     <link href="http://egid.github.io/flying/travel/flight-seeing-in-iceland/"/>
     <updated>2013-04-09T19:19:00-07:00</updated>
     <id>http://egid.github.io/flying/travel/flight-seeing-in-iceland</id>
-    <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/thatguyeric/8088858114/" title="AlÞing (site of the world's first parliament), Þingvallir, Ísland by thatguyeric, on Flickr"><img class="flex-content" src="http://farm9.staticflickr.com/8183/8088858114_21298589de_b.jpg" width="1024" height="228" alt="AlÞing (site of the world's first parliament), Þingvallir, Ísland"></a></p>
+    <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/thatguyeric/8088858114/" title="AlÞing (site of the world's first parliament), Þingvallir, Ísland by thatguyeric, on Flickr"><img class="flex-content" src="https://farm9.staticflickr.com/8183/8088858114_21298589de_b.jpg" width="1024" height="228" alt="AlÞing (site of the world's first parliament), Þingvallir, Ísland"></a></p>
 
 <p>I previously talked about <a href="http://egid.github.io/flying/travel/flying-in-iceland">figuring out how to use an FAA certificate</a> and other steps towards flight-seeing as a pilot in Iceland. This is a more in-depth review of the planning involved, what I used, and where I went.</p>
 
@@ -419,7 +419,7 @@
 
 <h3>Planning</h3>
 
-<p><a href="http://www.flickr.com/photos/thatguyeric/8296171156/" title="Flying in Iceland! by thatguyeric, on Flickr"><img src="http://farm9.staticflickr.com/8500/8296171156_d7945a06ff.jpg" width="640" height="480" alt="Flying in Iceland!"></a>One of the major difficulties I had in researching my flights was getting charts and information about airspace and facilities around Iceland. I found this out too late to be of use for my trip, but airspace, airways, and other Icelandic chart data are now available online at <a href="http://skyvector.com/?ll=64.13042283188456,-21.94042969313066&amp;chart=301&amp;zoom=9">SkyVector</a>.  Their data compares accurately to the paper chart I borrowed, and can help with figuring out where to go and how to get there.</p>
+<p><a href="http://www.flickr.com/photos/thatguyeric/8296171156/" title="Flying in Iceland! by thatguyeric, on Flickr"><img src="https://farm9.staticflickr.com/8500/8296171156_d7945a06ff.jpg" width="640" height="480" alt="Flying in Iceland!"></a>One of the major difficulties I had in researching my flights was getting charts and information about airspace and facilities around Iceland. I found this out too late to be of use for my trip, but airspace, airways, and other Icelandic chart data are now available online at <a href="http://skyvector.com/?ll=64.13042283188456,-21.94042969313066&amp;chart=301&amp;zoom=9">SkyVector</a>.  Their data compares accurately to the paper chart I borrowed, and can help with figuring out where to go and how to get there.</p>
 
 <p>Airport (aerodrome) information can be found by browsing through the <a href="http://www.caa.is/FlugmalahandbokinAIP/AeronauticalInformationPublication/">Aeronautical Information Publication (AIP)</a>, the functional equivalent to a mashup of regulations similar to our FARs, some IFR enroute charts, and a couple of terminal approach diagrams and airport maps. Take your time and give it a read &mdash; everything is in English, and some parts are also in Icelandic. It isn&rsquo;t as bland as the FAR, so be thorough! Many airports have gravel runways and limited facilities, and you don&rsquo;t want to find out the hard way.</p>
 
@@ -427,7 +427,7 @@
 
 <h3>Operational differences</h3>
 
-<p><a href="http://www.flickr.com/photos/thatguyeric/8295118463/" title="Flying in Iceland! by thatguyeric, on Flickr"><img src="http://farm9.staticflickr.com/8362/8295118463_13c692a37c.jpg" width="640" height="480" alt="Flying in Iceland!"></a>One of the weirdest mental changes I had to make was the flight plan system. Unlike the US, all flights must be on a flight plan &mdash; and (at least when operating at Reykjavik) you file with the control tower of the airport where you are based. Outside of towered airports I think you wind up filing and closing with the enroute ATC.</p>
+<p><a href="http://www.flickr.com/photos/thatguyeric/8295118463/" title="Flying in Iceland! by thatguyeric, on Flickr"><img src="https://farm9.staticflickr.com/8362/8295118463_13c692a37c.jpg" width="640" height="480" alt="Flying in Iceland!"></a>One of the weirdest mental changes I had to make was the flight plan system. Unlike the US, all flights must be on a flight plan &mdash; and (at least when operating at Reykjavik) you file with the control tower of the airport where you are based. Outside of towered airports I think you wind up filing and closing with the enroute ATC.</p>
 
 <p>Also important to reiterate &mdash; most of the airports in Iceland are pretty bare bones even when compared to small fields in the US. Avgas is uncommon, and paved runways are a luxury. The gravel surfaces available are good, but they&rsquo;re still gravel. Don&rsquo;t expect to find a terminal or tiedown facilities everywhere, either.</p>
 
@@ -443,7 +443,7 @@
 
 <h3>Where to go</h3>
 
-<p><a href="http://www.flickr.com/photos/thatguyeric/8088859076/" title="Gulfoss (Golden Falls), Ísland by thatguyeric, on Flickr"><img src="http://farm9.staticflickr.com/8465/8088859076_36d89c1b3e.jpg" width="640" height="480" alt="Gulfoss (Golden Falls), Ísland"></a>After talking with our instructor and some of the other staff at Flugskóli Íslands, we settled on Stykkishólmur as our destination. It&rsquo;s a small city in the northwest of Iceland, and about .9 hours flying time away from Reykjavik &mdash; <a href="http://skyvector.com/?ll=64.61587193873675,-22.169311529060174&amp;chart=301&amp;zoom=5&amp;plan=A.BI.BIRK:G.64.1763235316484,-21.865539556414546:G.64.33538793457097,-21.830749517353265:G.64.9261025904075,-22.381896978271467:A.BI.BIST">here&rsquo;s an approximation of the route we flew</a>. We didn&rsquo;t have a ton of time to explore (I strongly recommend booking the airplane for the whole day) but it looked like a neat little fishing town.</p>
+<p><a href="http://www.flickr.com/photos/thatguyeric/8088859076/" title="Gulfoss (Golden Falls), Ísland by thatguyeric, on Flickr"><img src="https://farm9.staticflickr.com/8465/8088859076_36d89c1b3e.jpg" width="640" height="480" alt="Gulfoss (Golden Falls), Ísland"></a>After talking with our instructor and some of the other staff at Flugskóli Íslands, we settled on Stykkishólmur as our destination. It&rsquo;s a small city in the northwest of Iceland, and about .9 hours flying time away from Reykjavik &mdash; <a href="http://skyvector.com/?ll=64.61587193873675,-22.169311529060174&amp;chart=301&amp;zoom=5&amp;plan=A.BI.BIRK:G.64.1763235316484,-21.865539556414546:G.64.33538793457097,-21.830749517353265:G.64.9261025904075,-22.381896978271467:A.BI.BIST">here&rsquo;s an approximation of the route we flew</a>. We didn&rsquo;t have a ton of time to explore (I strongly recommend booking the airplane for the whole day) but it looked like a neat little fishing town.</p>
 
 <p>Also recommended was <a href="http://en.wikipedia.org/wiki/Vestmannaeyjar">Vestmannaeyjar</a>, an island community off the south coast. If you&rsquo;re less interested in getting out and exploring a destination, you could probably do an aerial <a href="http://en.wikipedia.org/wiki/Golden_Circle_(Iceland">Golden Circle Tour</a>). You wouldn&rsquo;t get up super close, but you would be able to see Þingvellir, Geysir (the original geyser), and the waterfall Gulfoss. Honestly, though, just getting into the air over Iceland is cool enough. The entire island is gorgeous, rain or shine, and it&rsquo;s an amazing experience. Enjoy, and if you&rsquo;ve got questions feel free to <a href="https://twitter.com/intent/tweet?screen_name=egid&amp;original_referer=http://ericgideon.com/flying/travel/flight-seeing-in-iceland/">ask me @egid on twitter</a>.</p>
 ]]></content>
