@@ -4,7 +4,7 @@
   <title><![CDATA[Category: lessonplans | ericgideon.com]]></title>
   <link href="https://ericgideon.com/category/lessonplans/atom.xml" rel="self"/>
   <link href="https://ericgideon.com/"/>
-  <updated>2019-01-06T18:17:40-08:00</updated>
+  <updated>2019-01-06T18:45:40-08:00</updated>
   <id>https://ericgideon.com/</id>
   <author>
     <name><![CDATA[Eric Gideon]]></name>
@@ -18,199 +18,153 @@
     <link href="https://ericgideon.com/lessonplans/instrument-proficiency-check-plan-of-action/"/>
     <updated>2013-04-20T18:34:00-07:00</updated>
     <id>https://ericgideon.com/lessonplans/instrument-proficiency-check-plan-of-action</id>
-    <content type="html"><![CDATA[<p>This is a rough guide for an IPC. Unlike the <a href="/lessonplans/flight-review">Flight Review</a>, an IPC doesn&rsquo;t require an instructor to evaluate preflight actions or preflight procedures &mdash; any discussion of regulations and other oral-exam type questions must be viewed as purely educational. The IPC itself can only be passed during a flight.</p>
+    <content type="html"><![CDATA[<p>This is a rough guide for an IPC. Unlike the <a href="/lessonplans/flight-review">Flight Review</a>, an IPC doesn’t require an instructor to evaluate preflight actions or preflight procedures – any discussion of regulations and other oral-exam type questions must be viewed as purely educational. The IPC itself can only be passed during a flight.</p>
 
-<h2>Requirement per §<a href="http://rgl.faa.gov/Regulatory_and_Guidance_Library/rgFar.nsf/FARSBySectLookup/61.57">61.57</a>(d)</h2>
-
-<blockquote><p>Instrument proficiency check. Except as provided in paragraph (e) of this section, a person who has failed to meet the instrument experience requirements of paragraph &copy; for more than six calendar months may reestablish instrument currency only by completing an instrument proficiency check. The instrument proficiency check must consist of the areas of operation and instrument tasks required in the instrument rating practical test standards.</p></blockquote>
+<h2 id="requirement-per-61576157d">Requirement per §<a href="http://rgl.faa.gov/Regulatory_and_Guidance_Library/rgFar.nsf/FARSBySectLookup/61.57">61.57</a>(d)</h2>
+<blockquote>
+  <p>Instrument proficiency check. Except as provided in paragraph (e) of this section, a person who has failed to meet the instrument experience requirements of paragraph (c) for more than six calendar months may reestablish instrument currency only by completing an instrument proficiency check. The instrument proficiency check must consist of the areas of operation and instrument tasks required in the instrument rating practical test standards.</p>
+</blockquote>
 
 <p>Like all Practical Test Standards, the Instrument Rating standards <a href="https://www.faa.gov/training_testing/testing/test_standards/media/faa-s-8081-4e.pdf">are available online in PDF format</a> (FAA-S-8081-4E, 290KB).</p>
 
 <p>The Rating Task Table on page 1-vii describes the Areas of Operation an IPC requires:</p>
 
 <ol>
-<li><del>Preflight preparation</del> (none)</li>
-<li><del>Preflight procedures</del> (none)</li>
-<li>ATC Clearances &amp; Procedures
-
-<ul>
-<li><ol type="a">
-<li>Task: Holding procedures</li>
-</ol>
-</li>
-</ul>
-</li>
-<li>Flight by Reference to Instruments
-
-<ul>
-<li><ol type="a">
-<li>Task: Recovery from unusual flight attitudes</li>
-</ol>
-</li>
-</ul>
-</li>
-<li>Navigation Systems
-
-<ul>
-<li><ol type="a">
-<li>Task: Intercept &amp; track navigational systems &amp; DME arcs</li>
-</ol>
-</li>
-</ul>
-</li>
-<li>Instrument Approach Procedures
-
-<ul>
-<li><ol type="a">
-<li>Task: Nonprecision approach</li>
-</ol>
-</li>
-<li><ol type="a">
-<li>Task: Precision approach</li>
-</ol>
-</li>
-<li><ol type="a">
-<li>Task: Missed approach</li>
-</ol>
-</li>
-<li><ol type="a">
-<li>Task: Circling approach (if airplane)</li>
-</ol>
-</li>
-<li><ol type="a">
-<li>Task: Landing from a straight-in approach</li>
-</ol>
-</li>
-</ul>
-</li>
-<li>Emergency operations
-
-<ul>
-<li>B, if multiengine. Task: One engine inoperative during straight &amp; level flight &amp; turns</li>
-<li>C, if multiengine. Task: One engine inoperative instrument approach</li>
-<li><ol type="a">
-<li>Task: Approach with loss of primary flight instruments</li>
-</ol>
-</li>
-</ul>
-</li>
-<li>Postflight procedures
-
-<ul>
-<li><ol type="a">
-<li>Task: Checking instruments and equipment</li>
-</ol>
-</li>
-</ul>
-</li>
+  <li><del>Preflight preparation</del> (none)</li>
+  <li><del>Preflight procedures</del> (none)</li>
+  <li>ATC Clearances &amp; Procedures
+    <ul>
+      <li>C. Task: Holding procedures</li>
+    </ul>
+  </li>
+  <li>Flight by Reference to Instruments
+    <ul>
+      <li>B. Task: Recovery from unusual flight attitudes</li>
+    </ul>
+  </li>
+  <li>Navigation Systems
+    <ul>
+      <li>A. Task: Intercept &amp; track navigational systems &amp; DME arcs</li>
+    </ul>
+  </li>
+  <li>Instrument Approach Procedures
+    <ul>
+      <li>A. Task: Nonprecision approach</li>
+      <li>B. Task: Precision approach</li>
+      <li>C. Task: Missed approach</li>
+      <li>D. Task: Circling approach (if airplane)</li>
+      <li>E. Task: Landing from a straight-in approach</li>
+    </ul>
+  </li>
+  <li>Emergency operations
+    <ul>
+      <li>B, if multiengine. Task: One engine inoperative during straight &amp; level flight &amp; turns</li>
+      <li>C, if multiengine. Task: One engine inoperative instrument approach</li>
+      <li>D. Task: Approach with loss of primary flight instruments</li>
+    </ul>
+  </li>
+  <li>Postflight procedures
+    <ul>
+      <li>A. Task: Checking instruments and equipment</li>
+    </ul>
+  </li>
 </ol>
 
-
-<h2>Briefing knowledge areas</h2>
+<h2 id="briefing-knowledge-areas">Briefing knowledge areas</h2>
 
 <ol>
-<li>FAR Part 91 review
-
-<ul>
-<li>Subpart B (instrument flight rules)</li>
-<li>Subpart C (equipment, instrument, and certificate requirements)</li>
-<li>Subpart E (maintenance)</li>
-</ul>
-</li>
-<li>Instrument enroute and approach charts
-
-<ul>
-<li>SID/DPs</li>
-<li>STARs</li>
-</ul>
-</li>
-<li>Weather analysis and knowledge</li>
-<li>Preflight planning
-
-<ul>
-<li>performance data and fuel planning</li>
-<li>alternates</li>
-<li>publications and NOTAMS</li>
-</ul>
-</li>
-<li>Aircraft systems related to IFR operations</li>
-<li>Aircraft flight instruments and navigation equipment
-
-<ul>
-<li>technologically advanced aircraft</li>
-<li>oxygen and anti- or de-icing equipment</li>
-</ul>
-</li>
-<li>Airworthiness status of aircraft and avionics related to IFR flight</li>
-<li>Other areas, as appropriate</li>
+  <li>FAR Part 91 review
+    <ul>
+      <li>Subpart B (instrument flight rules)</li>
+      <li>Subpart C (equipment, instrument, and certificate requirements)</li>
+      <li>Subpart E (maintenance)</li>
+    </ul>
+  </li>
+  <li>Instrument enroute and approach charts
+    <ul>
+      <li>SID/DPs</li>
+      <li>STARs</li>
+    </ul>
+  </li>
+  <li>Weather analysis and knowledge</li>
+  <li>Preflight planning
+    <ul>
+      <li>performance data and fuel planning</li>
+      <li>alternates</li>
+      <li>publications and NOTAMS</li>
+    </ul>
+  </li>
+  <li>Aircraft systems related to IFR operations</li>
+  <li>Aircraft flight instruments and navigation equipment
+    <ul>
+      <li>technologically advanced aircraft</li>
+      <li>oxygen and anti- or de-icing equipment</li>
+    </ul>
+  </li>
+  <li>Airworthiness status of aircraft and avionics related to IFR flight</li>
+  <li>Other areas, as appropriate</li>
 </ol>
 
-
-<h2>Plan of Action &amp; standards</h2>
-
-<ul>
-<li>Basic proficiency
+<h2 id="plan-of-action--standards">Plan of Action &amp; standards</h2>
 
 <ul>
-<li>Instrument departure (hood optional)</li>
-<li>Unusual attitude recovery</li>
-<li>Holding procedures
-
-<ul>
-<li>±10KIAS, 100', 10°, 3/4CDI</li>
-</ul>
-</li>
-<li>Navigation tracking / use of systems
-
-<ul>
-<li>±10KIAS, 100', 5°, 1NM</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Approaches
-
-<ul>
-<li>Precision
-
-<ul>
-<li>±10KIAS, 100', 10°, 3/4CDI</li>
-</ul>
-</li>
-<li>Non-precision
-
-<ul>
-<li>±10KIAS, 100', 10°, 3/4CDI</li>
-</ul>
-</li>
-<li>Non-precision, partial-panel
-
-<ul>
-<li>±10KIAS, 100', 10°, 3/4CDI</li>
-</ul>
-</li>
-<li>Missed approach
-
-<ul>
-<li>±10KIAS, 100', 10°, 3/4CDI</li>
-</ul>
-</li>
-<li>Circling
-
-<ul>
-<li>+100 -0 until normal approach</li>
-</ul>
-</li>
-</ul>
-</li>
+  <li>Basic proficiency
+    <ul>
+      <li>Instrument departure (hood optional)</li>
+      <li>Unusual attitude recovery</li>
+      <li>Holding procedures
+        <ul>
+          <li>±10KIAS, 100’, 10°, 3/4CDI</li>
+        </ul>
+      </li>
+      <li>Navigation tracking / use of systems
+        <ul>
+          <li>±10KIAS, 100’, 5°, 1NM</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Approaches
+    <ul>
+      <li>Precision
+        <ul>
+          <li>±10KIAS, 100’, 10°, 3/4CDI</li>
+        </ul>
+      </li>
+      <li>Non-precision
+        <ul>
+          <li>±10KIAS, 100’, 10°, 3/4CDI</li>
+        </ul>
+      </li>
+      <li>Non-precision, partial-panel
+        <ul>
+          <li>±10KIAS, 100’, 10°, 3/4CDI</li>
+        </ul>
+      </li>
+      <li>Missed approach
+        <ul>
+          <li>±10KIAS, 100’, 10°, 3/4CDI</li>
+        </ul>
+      </li>
+      <li>Circling
+        <ul>
+          <li>+100 -0 until normal approach</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
 </ul>
 
+<h2 id="logbook-endorsement-per-6157d">Logbook endorsement per §61.57(d)</h2>
 
-<h2>Logbook endorsement per §61.57(d)</h2>
+<blockquote>
+  <p>I certify that <code>John Doe</code>, <code>Private Pilot #1234567</code>, has satisfactorily completed the instrument proficiency check of section 61.57(d) in a <code>Cessna 172</code> on <code>01 Jan 2020</code>.</p>
+</blockquote>
 
-<blockquote><p>I certify that <code>John Doe</code>, <code>Private Pilot #1234567</code>, has satisfactorily completed the instrument proficiency check of section 61.57(d) in a <code>Cessna 172</code> on <code>01 Jan 2020</code>.</p>
+<blockquote>
+  <p><code>Date, signature, CFI #, exp date</code></p>
+</blockquote>
 
-<p><code>Date, signature, CFI #, exp date</code></p></blockquote>
 ]]></content>
   </entry>
   
@@ -219,301 +173,247 @@
     <link href="https://ericgideon.com/lessonplans/flight-instruments/"/>
     <updated>2011-04-27T21:39:00-07:00</updated>
     <id>https://ericgideon.com/lessonplans/flight-instruments</id>
-    <content type="html"><![CDATA[<p>After this ~40 minute briefing, the student should have a working knowledge of the pitot-static and gyroscopic flight instruments. In order to better understand the operation and limitations (and to keep the briefing interesting) the discussion should include instruments' failure modes as well.</p>
+    <content type="html"><![CDATA[<p>After this ~40 minute briefing, the student should have a working knowledge of the pitot-static and gyroscopic flight instruments. In order to better understand the operation and limitations (and to keep the briefing interesting) the discussion should include instruments’ failure modes as well.</p>
 
-<p><header class="lessonIntro">
-<section class="module"></p>
+<header class="lessonIntro">
+<section class="module">
 
-<h3>Elements</h3>
+### Elements
 
-<ul>
-<li>Pitot Static
+* Pitot Static
+	* Altimeter
+	* Airspeed indicator
+	* Vertical speed indicator
+* Gyroscopic
+	* Attitude indicator
+	* Heading indicator
+	* Horizontal situation indicator
+	* Turn-and-slip indicator / turn coordinator and inclinometer
+* Magnetic compass
+* Clock
 
-<ul>
-<li>Altimeter</li>
-<li>Airspeed indicator</li>
-<li>Vertical speed indicator</li>
-</ul>
-</li>
-<li>Gyroscopic
-
-<ul>
-<li>Attitude indicator</li>
-<li>Heading indicator</li>
-<li>Horizontal situation indicator</li>
-<li>Turn-and-slip indicator / turn coordinator and inclinometer</li>
-</ul>
-</li>
-<li>Magnetic compass</li>
-<li>Clock</li>
-</ul>
-
-
-<p></section>
-<section class="module"></p>
-
-<h3>Equipment</h3>
-
-<ul>
-<li>model aircraft</li>
-<li>whiteboard and markers</li>
-<li><a href="http://amzn.to/1Vk53d7">ASA&rsquo;s <em>Instrument Flying</em></a>, chapter 2</li>
-<li>Flight simulator</li>
-<li>Warrior systems trainer</li>
-</ul>
-
-
-<p></section>
-<section class="module"></p>
-
-<h3>Instructor actions</h3>
-
-<ul>
-<li>Discuss the lesson objective</li>
-<li>Introduce by discussing earlier private-level instrument experience</li>
-<li>Describe and introduce the basic flight instruments</li>
-<li>With illustrations from ASA&rsquo;s <em>Instrument Flying</em>, describe instrument construction</li>
-<li>Describe operation using the Warrior systems trainer</li>
-<li>Explain and review flight instrument use, using flight simulator to show relationships</li>
-<li>Evaluate student&rsquo;s learning by posing review questions throughout and correcting to 100%</li>
-</ul>
-
-
-<p></section>
-<section class="module"></p>
-
-<h3>Student actions</h3>
-
-<ul>
-<li>Prepare for the briefing by reading <em>Instrument Flying</em> chapter 2 or Jeppesen chapter</li>
-<li>Participate with discussion, taking notes throughout</li>
-<li>Answer questions and leave with a general understanding
 </section>
-</header></li>
-</ul>
+<section class="module">
+
+### Equipment
 
 
-<h3>Completion Standards</h3>
+* model aircraft
+* whiteboard and markers
+* [ASA's *Instrument Flying*](http://amzn.to/1Vk53d7), chapter 2
+* Flight simulator
+* Warrior systems trainer
+
+</section>
+<section class="module">
+
+### Instructor actions
+
+* Discuss the lesson objective
+* Introduce by discussing earlier private-level instrument experience
+* Describe and introduce the basic flight instruments
+* With illustrations from ASA's *Instrument Flying*, describe instrument construction
+* Describe operation using the Warrior systems trainer
+* Explain and review flight instrument use, using flight simulator to show relationships
+* Evaluate student's learning by posing review questions throughout and correcting to 100%
+
+</section>
+<section class="module">
+
+### Student actions
+
+* Prepare for the briefing by reading *Instrument Flying* chapter 2 or Jeppesen chapter 
+* Participate with discussion, taking notes throughout
+* Answer questions and leave with a general understanding
+</section>
+</header>
+
+<h3 id="completion-standards">Completion Standards</h3>
 
 <p>The lesson is complete when the student can demonstrate an adequate level of understanding of the flight instruments, their construction, and their operation. A private pilot level of knowledge is expected in the interpretation of flight instrument indications. Throughout the lesson they should be able to correctly answer a majority of the questions without significant instructor prompting.</p>
 
-<h2>Teaching outline</h2>
+<h2 id="teaching-outline">Teaching outline</h2>
 
 <p>Throughout, the Warrior systems trainer should be used to illustrate the construction and operation of the flight instruments and their systems.</p>
 
-<h3>Pitot-static system</h3>
+<h3 id="pitot-static-system">Pitot-static system</h3>
 
 <ul>
-<li>Airspeed, altimeter, and VSI <a href="http://www.flickr.com/photos/thatguyeric/374892885/" title="pitot+static probe by thatguyeric, on Flickr"><img src="http://farm1.staticflickr.com/165/374892885_275c76d655_q.jpg" width="150" height="150" alt="pitot+static probe"></a></li>
-<li>Static port(s) provide &lsquo;ambient&rsquo; air to the system
+  <li>Airspeed, altimeter, and VSI <a href="http://www.flickr.com/photos/thatguyeric/374892885/" title="pitot+static probe by thatguyeric, on Flickr"><img src="http://farm1.staticflickr.com/165/374892885_275c76d655_q.jpg" width="150" height="150" alt="pitot+static probe" /></a></li>
+  <li>Static port(s) provide ‘ambient’ air to the system
+    <ul>
+      <li>alternate air is available in some systems, causing a rise in airspeed, altitude, and vertical trend</li>
+      <li>if alternate air is unavailable, breaking the glass of the VSI will create one</li>
+    </ul>
+  </li>
+  <li>Pitot tube provides ‘ram’ air to the airspeed indicator
+    <ul>
+      <li>heated to prevent blockage</li>
+      <li>drain hole to allow impacted rain or other potential blockages to leave the lines</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="airspeed-indicator-if-36">Airspeed indicator, <em>IF</em> 36</h4>
+<p><a href="http://www.flickr.com/photos/thatguyeric/374892889/" title="airspeed indicator by thatguyeric, on Flickr"><img src="http://farm1.staticflickr.com/146/374892889_1299aba915_z.jpg?zz=1" width="640" height="454" alt="airspeed indicator" /></a></p>
 
 <ul>
-<li>alternate air is available in some systems, causing a rise in airspeed, altitude, and vertical trend</li>
-<li>if alternate air is unavailable, breaking the glass of the VSI will create one</li>
+  <li>Displays <em>indicated airspeed</em> only; Kollsmann window allows for correction to true airspeed with density altitude</li>
+  <li>Limitations and markings:
+    <ul>
+      <li>White arc - flap range</li>
+      <li>Green arc - normal operation</li>
+      <li>Yellow arc - caution range</li>
+      <li>Red line - never exceed</li>
+    </ul>
+  </li>
+  <li>Operated by ram air moves a diaphragm which is linked to the airspeed needle
+    <ul>
+      <li>Measures <em>dynamic</em> air pressure - the difference between static and ram</li>
+    </ul>
+  </li>
 </ul>
-</li>
-<li>Pitot tube provides &lsquo;ram&rsquo; air to the airspeed indicator
+
+<h4 id="altimeter-if-46">Altimeter, <em>IF</em> 46</h4>
+<p><a href="http://www.flickr.com/photos/thatguyeric/374892891/" title="sensitive altimeter by thatguyeric, on Flickr"><img src="http://farm1.staticflickr.com/111/374892891_ce7953d6cf_z.jpg?zz=1" width="640" height="452" alt="sensitive altimeter" /></a></p>
 
 <ul>
-<li>heated to prevent blockage</li>
-<li>drain hole to allow impacted rain or other potential blockages to leave the lines</li>
+  <li>Displays indicated altitude</li>
+  <li>Operated by static system pressure entering the sealed case
+    <ul>
+      <li>Sealed aneroid disks expand with higher altitudes and contract with lower</li>
+      <li>Mechanical linkage to altitude needles</li>
+      <li>Kollsmann window allows sea level pressure input using the calibration knob</li>
+    </ul>
+  </li>
+  <li>SLP must be adjusted as flight proceeds and pressure changes
+    <ul>
+      <li>If the flight encounters lower pressure unadjusted, the altitude will indicate lower than true; the opposite holds for higher pressure</li>
+      <li>High to low, look out below.</li>
+    </ul>
+  </li>
 </ul>
-</li>
-</ul>
 
-
-<h4>Airspeed indicator, <em>IF</em> 36</h4>
-
-<p><a href="http://www.flickr.com/photos/thatguyeric/374892889/" title="airspeed indicator by thatguyeric, on Flickr"><img src="http://farm1.staticflickr.com/146/374892889_1299aba915_z.jpg?zz=1" width="640" height="454" alt="airspeed indicator"></a></p>
+<h4 id="vertical-speed-indicator-if-52">Vertical speed indicator, <em>IF</em> 52</h4>
+<p><a href="http://www.flickr.com/photos/thatguyeric/374892886/" title="vertical speed indicator by thatguyeric, on Flickr"><img src="http://farm1.staticflickr.com/136/374892886_0354d59bfd_z.jpg?zz=1" width="640" height="472" alt="vertical speed indicator" /></a></p>
 
 <ul>
-<li>Displays <em>indicated airspeed</em> only; Kollsmann window allows for correction to true airspeed with density altitude</li>
-<li>Limitations and markings:
+  <li>Displays ascent and descent rate, or <em>vertical speed</em></li>
+  <li>Not a required IFR instrument, but commonly found in the six pack of instruments</li>
+  <li>Configured like the altimeter, but with a calibrated leak in the case
+    <ul>
+      <li>The static system is connected directly to the diaphragm, causing pressure changes to indicate a trend</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="system-malfunctions-and-errors">System malfunctions and errors</h4>
 
 <ul>
-<li>White arc &ndash; flap range</li>
-<li>Green arc &ndash; normal operation</li>
-<li>Yellow arc &ndash; caution range</li>
-<li>Red line &ndash; never exceed</li>
+  <li>Errors stem from blockages
+    <ul>
+      <li>pitot blocked, drain open: IAS reads zero</li>
+      <li>pitot and drain blocked: acts like an altimeter, and airspeed increases with altitude</li>
+      <li>static blocked: altimeter, VSI frozen, airspeed functions but incorrect</li>
+    </ul>
+  </li>
 </ul>
-</li>
-<li>Operated by ram air moves a diaphragm which is linked to the airspeed needle
+
+<h3 id="gyroscopic-systems">Gyroscopic systems</h3>
 
 <ul>
-<li>Measures <em>dynamic</em> air pressure &ndash; the difference between static and ram</li>
+  <li>Vacuum or electric
+    <ul>
+      <li>Motor spins the gyro if electric</li>
+      <li>Engine-operated vacuum pump, often with electric backup pump</li>
+    </ul>
+  </li>
+  <li>Suction gauge indicates system pressure - know the safe range</li>
 </ul>
-</li>
-</ul>
 
-
-<h4>Altimeter, <em>IF</em> 46</h4>
-
-<p><a href="http://www.flickr.com/photos/thatguyeric/374892891/" title="sensitive altimeter by thatguyeric, on Flickr"><img src="http://farm1.staticflickr.com/111/374892891_ce7953d6cf_z.jpg?zz=1" width="640" height="452" alt="sensitive altimeter"></a></p>
+<h4 id="principles-of-gyroscope-operation">Principles of gyroscope operation</h4>
 
 <ul>
-<li>Displays indicated altitude</li>
-<li>Operated by static system pressure entering the sealed case
+  <li><em>Precession</em> causes errors in the heading and attitude indicators, and is used by the turn coordinator</li>
+  <li><em>Rigidity in space</em> is used by the heading and attitude indicators</li>
+</ul>
+
+<h4 id="attitude-indicator-or-artificial-horizon-if-31">Attitude indicator or artificial horizon, <em>IF</em> 31</h4>
+<p><a href="http://www.flickr.com/photos/thatguyeric/374889393/" title="attitude indicator by thatguyeric, on Flickr"><img src="http://farm1.staticflickr.com/142/374889393_797372e543.jpg" width="500" height="337" alt="attitude indicator" /></a></p>
 
 <ul>
-<li>Sealed aneroid disks expand with higher altitudes and contract with lower</li>
-<li>Mechanical linkage to altitude needles</li>
-<li>Kollsmann window allows sea level pressure input using the calibration knob</li>
+  <li>As the name suggests, it’s a replacement for the real, outside horizon</li>
+  <li>Fixed airplane or wings on the face of the instrument</li>
+  <li>Gimballed, moving horizon reference in the back</li>
+  <li>Shows changes in pitch and bank</li>
+  <li>Self-erecting gyroscope, spinning around a vertical axis
+    <ul>
+      <li>double-gimballed</li>
+      <li>rigidity in space - the airplane moves around the gyroscope</li>
+    </ul>
+  </li>
+  <li>Precession (when rolling out of a steep 180° turn) and acceleration errors
+    <ul>
+      <li>self-corrects with pendulous vanes - when not upright, vanes open due to forces and air corrects the spin</li>
+    </ul>
+  </li>
+  <li>During the after-start checklist and taxi it should stabilize after 5 minutes and bank less than 5° during level taxi turns</li>
 </ul>
-</li>
-<li>SLP must be adjusted as flight proceeds and pressure changes
+
+<h4 id="turn-and-slip-indicator--turn-coordinator-if-53-and-inclinometer-if-55">Turn-and-slip indicator / turn coordinator, <em>IF</em> 53, and inclinometer, <em>IF</em> 55</h4>
+<p><a href="http://www.flickr.com/photos/thatguyeric/374889365/" title="turn coordinator by thatguyeric, on Flickr"><img src="http://farm1.staticflickr.com/149/374889365_7703ba6c1c_z.jpg?zz=1" width="640" height="519" alt="turn coordinator" /></a></p>
 
 <ul>
-<li>If the flight encounters lower pressure unadjusted, the altitude will indicate lower than true; the opposite holds for higher pressure</li>
-<li>High to low, look out below.</li>
+  <li>Simplified way to maintain a 3°/second turn rate</li>
+  <li>Electrically driven gyroscope, set at a 30° angle
+    <ul>
+      <li>senses roll and rate</li>
+    </ul>
+  </li>
+  <li>Inclinometer displays the aircraft’s coordination - the <em>quality</em> of the turn
+    <ul>
+      <li>much like a carpenter’s bubble level</li>
+    </ul>
+  </li>
+  <li>During the instrument check, there should be no flag, the aircraft should bank into the turn, and the ball should go outside, indicating a skid</li>
 </ul>
-</li>
-</ul>
 
-
-<h4>Vertical speed indicator, <em>IF</em> 52</h4>
-
-<p><a href="http://www.flickr.com/photos/thatguyeric/374892886/" title="vertical speed indicator by thatguyeric, on Flickr"><img src="http://farm1.staticflickr.com/136/374892886_0354d59bfd_z.jpg?zz=1" width="640" height="472" alt="vertical speed indicator"></a></p>
+<h4 id="heading-indicator-if-40">Heading indicator, <em>IF</em> 40</h4>
+<p><a href="http://www.flickr.com/photos/thatguyeric/374889341/" title="heading indicator by thatguyeric, on Flickr"><img src="http://farm1.staticflickr.com/129/374889341_1a1e4deaa5_z.jpg?zz=1" width="640" height="499" alt="heading indicator" /></a></p>
 
 <ul>
-<li>Displays ascent and descent rate, or <em>vertical speed</em></li>
-<li>Not a required IFR instrument, but commonly found in the six pack of instruments</li>
-<li>Configured like the altimeter, but with a calibrated leak in the case
+  <li>Shows a top-down representation of the aircraft, with a compass card rotating around the outside</li>
+  <li>Uses rigidity in space; the aircraft pivots around the gyro, indicating the turn</li>
+  <li>Must be regularly reset to the magnetic compass, due to gyroscopic precession and mechanical inaccuracies
+    <ul>
+      <li>15 minutes is the general rule</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="horizontal-situation-indicator-if-45">Horizontal situation indicator, <em>IF</em> 45</h4>
+<p><a href="http://www.flickr.com/photos/thatguyeric/391617994/" title="Horizontal situation indicator by thatguyeric, on Flickr"><img src="http://farm1.staticflickr.com/125/391617994_a42fb34c5b.jpg" width="500" height="439" alt="Horizontal situation indicator" /></a></p>
 
 <ul>
-<li>The static system is connected directly to the diaphragm, causing pressure changes to indicate a trend</li>
-</ul>
-</li>
+  <li>Gets data from a remote sensing flux gate compas
+    <ul>
+      <li>updates the compass card with the slaving motor</li>
+    </ul>
+  </li>
 </ul>
 
-
-<h4>System malfunctions and errors</h4>
+<h4 id="magnetic-compass-if-56">Magnetic compass, <em>IF</em> 56</h4>
 
 <ul>
-<li>Errors stem from blockages
+  <li>Points to magnetic north, subject to a variety of turn and acceleration errors</li>
+</ul>
+
+<h4 id="clock-if-57">Clock, <em>IF</em> 57</h4>
 
 <ul>
-<li>pitot blocked, drain open: IAS reads zero</li>
-<li>pitot and drain blocked: acts like an altimeter, and airspeed increases with altitude</li>
-<li>static blocked: altimeter, VSI frozen, airspeed functions but incorrect</li>
+  <li>Needs to be physically installed in the aircraft, set, and turning</li>
+  <li>It’s a clock. It tells time.</li>
 </ul>
-</li>
-</ul>
-
-
-<h3>Gyroscopic systems</h3>
-
-<ul>
-<li>Vacuum or electric
-
-<ul>
-<li>Motor spins the gyro if electric</li>
-<li>Engine-operated vacuum pump, often with electric backup pump</li>
-</ul>
-</li>
-<li>Suction gauge indicates system pressure &ndash; know the safe range</li>
-</ul>
-
-
-<h4>Principles of gyroscope operation</h4>
-
-<ul>
-<li><em>Precession</em> causes errors in the heading and attitude indicators, and is used by the turn coordinator</li>
-<li><em>Rigidity in space</em> is used by the heading and attitude indicators</li>
-</ul>
-
-
-<h4>Attitude indicator or artificial horizon, <em>IF</em> 31</h4>
-
-<p><a href="http://www.flickr.com/photos/thatguyeric/374889393/" title="attitude indicator by thatguyeric, on Flickr"><img src="http://farm1.staticflickr.com/142/374889393_797372e543.jpg" width="500" height="337" alt="attitude indicator"></a></p>
-
-<ul>
-<li>As the name suggests, it&rsquo;s a replacement for the real, outside horizon</li>
-<li>Fixed airplane or wings on the face of the instrument</li>
-<li>Gimballed, moving horizon reference in the back</li>
-<li>Shows changes in pitch and bank</li>
-<li>Self-erecting gyroscope, spinning around a vertical axis
-
-<ul>
-<li>double-gimballed</li>
-<li>rigidity in space &ndash; the airplane moves around the gyroscope</li>
-</ul>
-</li>
-<li>Precession (when rolling out of a steep 180° turn) and acceleration errors
-
-<ul>
-<li>self-corrects with pendulous vanes &ndash; when not upright, vanes open due to forces and air corrects the spin</li>
-</ul>
-</li>
-<li>During the after-start checklist and taxi it should stabilize after 5 minutes and bank less than 5° during level taxi turns</li>
-</ul>
-
-
-<h4>Turn-and-slip indicator / turn coordinator, <em>IF</em> 53, and inclinometer, <em>IF</em> 55</h4>
-
-<p><a href="http://www.flickr.com/photos/thatguyeric/374889365/" title="turn coordinator by thatguyeric, on Flickr"><img src="http://farm1.staticflickr.com/149/374889365_7703ba6c1c_z.jpg?zz=1" width="640" height="519" alt="turn coordinator"></a></p>
-
-<ul>
-<li>Simplified way to maintain a 3°/second turn rate</li>
-<li>Electrically driven gyroscope, set at a 30° angle
-
-<ul>
-<li>senses roll and rate</li>
-</ul>
-</li>
-<li>Inclinometer displays the aircraft&rsquo;s coordination &ndash; the <em>quality</em> of the turn
-
-<ul>
-<li>much like a carpenter&rsquo;s bubble level</li>
-</ul>
-</li>
-<li>During the instrument check, there should be no flag, the aircraft should bank into the turn, and the ball should go outside, indicating a skid</li>
-</ul>
-
-
-<h4>Heading indicator, <em>IF</em> 40</h4>
-
-<p><a href="http://www.flickr.com/photos/thatguyeric/374889341/" title="heading indicator by thatguyeric, on Flickr"><img src="http://farm1.staticflickr.com/129/374889341_1a1e4deaa5_z.jpg?zz=1" width="640" height="499" alt="heading indicator"></a></p>
-
-<ul>
-<li>Shows a top-down representation of the aircraft, with a compass card rotating around the outside</li>
-<li>Uses rigidity in space; the aircraft pivots around the gyro, indicating the turn</li>
-<li>Must be regularly reset to the magnetic compass, due to gyroscopic precession and mechanical inaccuracies
-
-<ul>
-<li>15 minutes is the general rule</li>
-</ul>
-</li>
-</ul>
-
-
-<h4>Horizontal situation indicator, <em>IF</em> 45</h4>
-
-<p><a href="http://www.flickr.com/photos/thatguyeric/391617994/" title="Horizontal situation indicator by thatguyeric, on Flickr"><img src="http://farm1.staticflickr.com/125/391617994_a42fb34c5b.jpg" width="500" height="439" alt="Horizontal situation indicator"></a></p>
-
-<ul>
-<li>Gets data from a remote sensing flux gate compas
-
-<ul>
-<li>updates the compass card with the slaving motor</li>
-</ul>
-</li>
-</ul>
-
-
-<h4>Magnetic compass, <em>IF</em> 56</h4>
-
-<ul>
-<li>Points to magnetic north, subject to a variety of turn and acceleration errors</li>
-</ul>
-
-
-<h4>Clock, <em>IF</em> 57</h4>
-
-<ul>
-<li>Needs to be physically installed in the aircraft, set, and turning</li>
-<li>It&rsquo;s a clock. It tells time.</li>
-</ul>
-
 ]]></content>
   </entry>
   
@@ -524,198 +424,163 @@
     <id>https://ericgideon.com/lessonplans/rmi-and-hsi</id>
     <content type="html"><![CDATA[<p>After this briefing, the student should have a reasonable understanding of navigating with the Radio Magnetic Indicator (RMI) and Horizontal Situation Indicator (HSI). The lesson will be complete when they can apply that knowledge to a DME arc using a desktop flight simulator.</p>
 
-<p><header class="lessonIntro">
-<section class="module"></p>
+<header class="lessonIntro">
+<section class="module">
+## Elements
 
-<h2>Elements</h2>
-
-<ul>
-<li>RMI</li>
-<li>HSI</li>
-<li>Navigating and tracking</li>
-<li><p>Arcing
+* RMI
+* HSI
+* Navigating and tracking
+* Arcing
 </section>
-<section class="module"></p>
+<section class="module">
+## Resources
 
-<h2>Resources</h2></li>
-<li><p>model aircraft</p></li>
-<li>whiteboard and markers</li>
-<li><a href="http://amzn.to/1Vk53d7">ASA’s Pilot’s Manual 3: <em>Instrument Flying</em></a>, chapter 12b and 12c</li>
-<li><a href="http://amzn.to/1Vk5jc2"><em>Instrument Flying Handbook</em></a></li>
-<li>laptop with internet access
-
-<ul>
-<li><a href="http://www.atlasaviation.com/vorsim/">Tim&rsquo;s Navigation Simulator</a></li>
-<li><a href="http://www.luizmonteiro.com/learning_vor_sim.aspx">DME arc simulator</a>
+* model aircraft
+* whiteboard and markers
+* [ASA’s Pilot’s Manual 3: _Instrument Flying_](http://amzn.to/1Vk53d7), chapter 12b and 12c
+* [_Instrument Flying Handbook_](http://amzn.to/1Vk5jc2)
+* laptop with internet access
+	* [Tim's Navigation Simulator](http://www.atlasaviation.com/vorsim/)
+	* [DME arc simulator](http://www.luizmonteiro.com/learning_vor_sim.aspx)
 </section>
-<section class="module"></li>
-</ul>
-</li>
-</ul>
+<section class="module">
 
+## Instructor actions
 
-<h2>Instructor actions</h2>
-
-<ul>
-<li>Describe the basics of the RMI and HSI
-
-<ul>
-<li>how it functions</li>
-<li>what aircraft it would be found in</li>
-</ul>
-</li>
-<li>Explain use of the RMI using <em>Instrument Flying</em> chapter 12c</li>
-<li>Explain use of the HSI using <em>IF</em> chapter</li>
-<li>Demonstrate tracking and arcing with Tim&rsquo;s simulator</li>
-<li>Evaluate student&rsquo;s knowledge with various &lsquo;random&rsquo; scenarios in Tim&rsquo;s simulator
+* Describe the basics of the RMI and HSI
+	* how it functions
+	* what aircraft it would be found in
+* Explain use of the RMI using _Instrument Flying_ chapter 12c
+* Explain use of the HSI using _IF_ chapter 
+* Demonstrate tracking and arcing with Tim's simulator
+* Evaluate student's knowledge with various 'random' scenarios in Tim's simulator
 </section>
-<section class="module"></li>
-</ul>
+<section class="module">
 
+## Student actions
 
-<h2>Student actions</h2>
+* Prepare by spending a half hour with Tim's simulator
+* Maintain active involvement by responding to questions and taking notes
+* Guide the instructor through the intercepting and tracking of several simulator scenarios
 
-<ul>
-<li>Prepare by spending a half hour with Tim&rsquo;s simulator</li>
-<li>Maintain active involvement by responding to questions and taking notes</li>
-<li>Guide the instructor through the intercepting and tracking of several simulator scenarios</li>
-</ul>
+</section>
+</header>
 
-
-<p></section>
-</header></p>
-
-<h2>Completion standards</h2>
+<h2 id="completion-standards">Completion standards</h2>
 
 <p>The lesson will be complete when the student can demonstrate an understanding of the techniques required to smoothly and accurately intercept, track, and arc using an RMI with minimal instructor guidance.</p>
 
-<h2>Teaching outline</h2>
+<h2 id="teaching-outline">Teaching outline</h2>
 
 <ul>
-<li>What is an RMI?
+  <li>What is an RMI?
+    <ul>
+      <li>RBI overlaid on a heading indicator</li>
+      <li>it also allows us to tune a VOR and use it like an NDB</li>
+    </ul>
+  </li>
+  <li>Relatively common equipment in more advanced aircraft
+    <ul>
+      <li>newer cockpits generally incorporate an RMI</li>
+      <li>included in many digital HSIs and most glass PFD setups</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="design-and-operation">Design and operation</h4>
+
+<p><img src="http://farm1.static.flickr.com/192/477897464_06787687e6_m.jpg" alt="http://www.flickr.com/photos/thatguyeric/477897464/" /> </p>
 
 <ul>
-<li>RBI overlaid on a heading indicator</li>
-<li>it also allows us to tune a VOR and use it like an NDB</li>
+  <li>Essentially an ADF with a slaved compass card
+    <ul>
+      <li>flux gate compass doesn’t require constant pilot attention</li>
+      <li>if we tune a VOR, it works just like another ADF and constantly points to the station</li>
+    </ul>
+  </li>
+  <li>Graphic representation of where we are relative to a station
+    <ul>
+      <li>head (arrow) shows the magnetic bearing <em>TO</em> the ground station</li>
+      <li>tail shows our current bearing <em>FROM</em></li>
+      <li>if we’re tuning a VOR, it shows to and from <em>radials</em></li>
+    </ul>
+  </li>
+  <li>Intercepting and tracking illustrated <em>IF</em> 260</li>
+  <li>Intercepting and <em>arcing</em> illustrated <em>IF</em> 568
+    <ul>
+      <li>much like arcing with a VOR, but we wait until the head is 10° behind, then turn 20° </li>
+      <li>we can up our precision by waiting 5°, turning 10°</li>
+    </ul>
+  </li>
+  <li>Following explanation, demonstrate tracking and arcing with Tim’s simulator</li>
 </ul>
-</li>
-<li>Relatively common equipment in more advanced aircraft
+
+<h4 id="hsi">HSI</h4>
 
 <ul>
-<li>newer cockpits generally incorporate an RMI</li>
-<li>included in many digital HSIs and most glass PFD setups</li>
+  <li>What is an HSI?
+    <ul>
+      <li>all in one instrument that gives you: heading, course selector, glide slope and to/from.</li>
+      <li>makes instrument scan easier and faster by getting more information from one instrument. </li>
+    </ul>
+  </li>
+  <li>Frequency and bearing set just like a VOR or ILS</li>
+  <li>Information is interpreted like the VOR or ILS. </li>
 </ul>
-</li>
-</ul>
-
-
-<h4>Design and operation</h4>
-
-<p><img src="http://farm1.static.flickr.com/192/477897464_06787687e6_m.jpg" alt="http://www.flickr.com/photos/thatguyeric/477897464/" /></p>
-
-<ul>
-<li>Essentially an ADF with a slaved compass card
-
-<ul>
-<li>flux gate compass doesn&rsquo;t require constant pilot attention</li>
-<li>if we tune a VOR, it works just like another ADF and constantly points to the station</li>
-</ul>
-</li>
-<li>Graphic representation of where we are relative to a station
-
-<ul>
-<li>head (arrow) shows the magnetic bearing <em>TO</em> the ground station</li>
-<li>tail shows our current bearing <em>FROM</em></li>
-<li>if we&rsquo;re tuning a VOR, it shows to and from <em>radials</em></li>
-</ul>
-</li>
-<li>Intercepting and tracking illustrated <em>IF</em> 260</li>
-<li>Intercepting and <em>arcing</em> illustrated <em>IF</em> 568
-
-<ul>
-<li>much like arcing with a VOR, but we wait until the head is 10° behind, then turn 20°</li>
-<li>we can up our precision by waiting 5°, turning 10°</li>
-</ul>
-</li>
-<li>Following explanation, demonstrate tracking and arcing with Tim&rsquo;s simulator</li>
-</ul>
-
-
-<h4>HSI</h4>
-
-<ul>
-<li>What is an HSI?
-
-<ul>
-<li>all in one instrument that gives you: heading, course selector, glide slope and to/from.</li>
-<li>makes instrument scan easier and faster by getting more information from one instrument.</li>
-</ul>
-</li>
-<li>Frequency and bearing set just like a VOR or ILS</li>
-<li>Information is interpreted like the VOR or ILS.</li>
-</ul>
-
 
 <p><img src="http://farm1.static.flickr.com/125/391617994_a42fb34c5b.jpg?v=1171590344" alt="http://www.flickr.com/photos/thatguyeric/391617994" /></p>
 
-<h4>HSI display</h4>
+<h4 id="hsi-display">HSI display</h4>
 
 <ul>
-<li>terminology</li>
-<li>operation</li>
+  <li>terminology</li>
+  <li>operation</li>
 </ul>
 
-
-<h4>Components and operation</h4>
+<h4 id="components-and-operation">Components and operation</h4>
 
 <ul>
-<li>Flux gate compass, mounted remotely
+  <li>Flux gate compass, mounted remotely
+    <ul>
+      <li>Usually on a wingtip – as far from equipment as possible</li>
+      <li>Measures amount of magnetic flux through three coils</li>
+      <li>As the aircraft rotates, the current through each coil varies</li>
+    </ul>
+  </li>
+  <li>HSI 
+    <ul>
+      <li>Compass card and directional gyro</li>
+      <li>Slaved to the flux gate, automatically updates</li>
+      <li>Can be overridden in manual mode and then suffers from precession errors just like a normal heading indicator</li>
+    </ul>
+  </li>
+  <li>CDI
+    <ul>
+      <li>Functions like a normal fixed CDI</li>
+      <li>OBS knob selects the radial by turning the actual course pointer and CDI needle</li>
+    </ul>
+  </li>
+  <li>Glide slope
+    <ul>
+      <li>Glide slope bars are on the sides of the instrument, rather than a needle</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="advantages">Advantages</h4>
 
 <ul>
-<li>Usually on a wingtip – as far from equipment as possible</li>
-<li>Measures amount of magnetic flux through three coils</li>
-<li>As the aircraft rotates, the current through each coil varies</li>
+  <li>Arcing is made easy – we visually cross the radials</li>
+  <li>Provides us with constant position information</li>
+  <li>We speed up our scan by combining heading with VLOC</li>
+  <li>ILS and localizer backcourse
+    <ul>
+      <li>Set HSI to the “front course” heading; the HSI will read correctly</li>
+      <li>Unlike normal CDI, we do not get reverse sensing provided front course is set</li>
+    </ul>
+  </li>
 </ul>
-</li>
-<li>HSI
-
-<ul>
-<li>Compass card and directional gyro</li>
-<li>Slaved to the flux gate, automatically updates</li>
-<li>Can be overridden in manual mode and then suffers from precession errors just like a normal heading indicator</li>
-</ul>
-</li>
-<li>CDI
-
-<ul>
-<li>Functions like a normal fixed CDI</li>
-<li>OBS knob selects the radial by turning the actual course pointer and CDI needle</li>
-</ul>
-</li>
-<li>Glide slope
-
-<ul>
-<li>Glide slope bars are on the sides of the instrument, rather than a needle</li>
-</ul>
-</li>
-</ul>
-
-
-<h4>Advantages</h4>
-
-<ul>
-<li>Arcing is made easy – we visually cross the radials</li>
-<li>Provides us with constant position information</li>
-<li>We speed up our scan by combining heading with VLOC</li>
-<li>ILS and localizer backcourse
-
-<ul>
-<li>Set HSI to the “front course” heading; the HSI will read correctly</li>
-<li>Unlike normal CDI, we do not get reverse sensing provided front course is set</li>
-</ul>
-</li>
-</ul>
-
 ]]></content>
   </entry>
   
@@ -724,139 +589,128 @@
     <link href="https://ericgideon.com/lessonplans/instrument-rating-knowledge-areas/"/>
     <updated>2010-04-04T22:19:00-07:00</updated>
     <id>https://ericgideon.com/lessonplans/instrument-rating-knowledge-areas</id>
-    <content type="html"><![CDATA[<p>This is a rough overview of the FAA requirements for an instrument rating &ndash; what <strong>must be part of the checkride</strong> &ndash; and some of the areas that are worth focusing on for the examiners I have sent students to.</p>
+    <content type="html"><![CDATA[<p>This is a rough overview of the FAA requirements for an instrument rating - what <strong>must be part of the checkride</strong> - and some of the areas that are worth focusing on for the examiners I have sent students to.</p>
 
-<blockquote><p>b) Aeronautical knowledge. A person who applies for an instrument rating must have received and logged ground training from an authorized instructor or accomplished a home-study course on the following aeronautical knowledge areas that apply to the instrument rating sought:</p>
+<blockquote>
+  <p>b) Aeronautical knowledge. A person who applies for an instrument rating must have received and logged ground training from an authorized instructor or accomplished a home-study course on the following aeronautical knowledge areas that apply to the instrument rating sought:</p>
 
-<ol>
-<li>Federal Aviation Regulations of this chapter that apply to flight operations under IFR;</li>
-<li>Appropriate information that applies to flight operations under IFR in the &ldquo;Aeronautical Information Manual&rdquo;</li>
-<li>Air traffic control system and procedures for instrument flight operations;</li>
-<li>IFR navigation and approaches by use of navigation systems;</li>
-<li>Use of IFR en route and instrument approach procedure charts;</li>
-<li>Procurement and use of aviation weather reports and forecasts and the elements of forecasting weather trends based on that information and personal observation of weather conditions;</li>
-<li>Safe and efficient operation of aircraft under instrument flight rules and conditions;</li>
-<li>Recognition of critical weather situations and windshear avoidance;</li>
-<li>Aeronautical decision making and judgment; and</li>
-<li>Crew resource management, including crew communication and coordination.</li>
-</ol>
+  <ol>
+    <li>Federal Aviation Regulations of this chapter that apply to flight operations under IFR;</li>
+    <li>Appropriate information that applies to flight operations under IFR in the “Aeronautical Information Manual”</li>
+    <li>Air traffic control system and procedures for instrument flight operations;</li>
+    <li>IFR navigation and approaches by use of navigation systems;</li>
+    <li>Use of IFR en route and instrument approach procedure charts;</li>
+    <li>Procurement and use of aviation weather reports and forecasts and the elements of forecasting weather trends based on that information and personal observation of weather conditions;</li>
+    <li>Safe and efficient operation of aircraft under instrument flight rules and conditions;</li>
+    <li>Recognition of critical weather situations and windshear avoidance;</li>
+    <li>Aeronautical decision making and judgment; and</li>
+    <li>Crew resource management, including crew communication and coordination.</li>
+  </ol>
 
+  <p>c) Flight proficiency. A person who applies for an instrument rating must receive and log training from an authorized instructor in an aircraft, or in a flight simulator or flight training device, in accordance with paragraph (e) of this section, that includes the following areas of operation:</p>
 
-<p>c) Flight proficiency. A person who applies for an instrument rating must receive and log training from an authorized instructor in an aircraft, or in a flight simulator or flight training device, in accordance with paragraph (e) of this section, that includes the following areas of operation:</p>
-
-<ol>
-<li>Preflight preparation;</li>
-<li>Preflight procedures;</li>
-<li>Air traffic control clearances and procedures;</li>
-<li>Flight by reference to instruments;</li>
-<li>Navigation systems;</li>
-<li>Instrument approach procedures;</li>
-<li>Emergency operations; and</li>
-<li>Postflight procedures.</li>
-</ol>
+  <ol>
+    <li>Preflight preparation;</li>
+    <li>Preflight procedures;</li>
+    <li>Air traffic control clearances and procedures;</li>
+    <li>Flight by reference to instruments;</li>
+    <li>Navigation systems;</li>
+    <li>Instrument approach procedures;</li>
+    <li>Emergency operations; and</li>
+    <li>Postflight procedures.</li>
+  </ol>
 </blockquote>
 
-<h3>Technical subjects (briefings)</h3>
+<h3 id="technical-subjects-briefings">Technical subjects (briefings)</h3>
 
 <ol>
-<li>Aircraft flight instruments and navigation equipment
-
-<ul>
-<li>Aircraft flight instruments</li>
-<li>Aircraft navigation equipment</li>
-<li>Precision instrument approach systems</li>
-</ul>
-</li>
-<li>Aeromedical factors</li>
-<li>Regulations and publications related to IFR operations
-
-<ul>
-<li>Enroute and area charts</li>
-<li>Approach plates</li>
-</ul>
-</li>
+  <li>Aircraft flight instruments and navigation equipment
+    <ul>
+      <li>Aircraft flight instruments</li>
+      <li>Aircraft navigation equipment</li>
+      <li>Precision instrument approach systems</li>
+    </ul>
+  </li>
+  <li>Aeromedical factors</li>
+  <li>Regulations and publications related to IFR operations
+    <ul>
+      <li>Enroute and area charts</li>
+      <li>Approach plates</li>
+    </ul>
+  </li>
 </ol>
 
-
-<h3>Preflight preparation (briefings)</h3>
+<h3 id="preflight-preparation-briefings">Preflight preparation (briefings)</h3>
 
 <ol>
-<li>Weather information</li>
-<li>Cross-country flight planning</li>
-<li>Instrument cockpit check</li>
+  <li>Weather information</li>
+  <li>Cross-country flight planning</li>
+  <li>Instrument cockpit check</li>
 </ol>
 
-
-<h3>Air traffic control clearances and procedures</h3>
+<h3 id="air-traffic-control-clearances-and-procedures">Air traffic control clearances and procedures</h3>
 
 <ol>
-<li>ATC clearances</li>
-<li>Compliance with departure, enroute, and arrival procedures and clearances</li>
+  <li>ATC clearances</li>
+  <li>Compliance with departure, enroute, and arrival procedures and clearances</li>
 </ol>
 
-
-<h3>Flight by reference to instruments</h3>
+<h3 id="flight-by-reference-to-instruments">Flight by reference to instruments</h3>
 
 <ol>
-<li>Straight-and-level flight</li>
-<li>Turns</li>
-<li>Change of airspeed in straight and level and turning flight</li>
-<li>Constant airspeed climbs and descents</li>
-<li>Constant rate climbs and descents</li>
-<li>Timed turns to magnetic compass headings</li>
-<li>Steep turns</li>
-<li>Recovery from unusual flight attitudes</li>
+  <li>Straight-and-level flight</li>
+  <li>Turns</li>
+  <li>Change of airspeed in straight and level and turning flight</li>
+  <li>Constant airspeed climbs and descents</li>
+  <li>Constant rate climbs and descents</li>
+  <li>Timed turns to magnetic compass headings</li>
+  <li>Steep turns</li>
+  <li>Recovery from unusual flight attitudes</li>
 </ol>
 
-
-<h3>Navigation systems</h3>
+<h3 id="navigation-systems">Navigation systems</h3>
 
 <ol>
-<li>Intercepting and tracking navigational systems and DME arcs
-
-<ul>
-<li>VOR</li>
-<li>DME</li>
-<li>ADF &amp; NDB</li>
-<li>GPS</li>
-</ul>
-</li>
-<li>Holding procedures</li>
+  <li>Intercepting and tracking navigational systems and DME arcs
+    <ul>
+      <li>VOR</li>
+      <li>DME</li>
+      <li>ADF &amp; NDB</li>
+      <li>GPS</li>
+    </ul>
+  </li>
+  <li>Holding procedures</li>
 </ol>
 
-
-<h3>Instrument approach procedures</h3>
+<h3 id="instrument-approach-procedures">Instrument approach procedures</h3>
 
 <ol>
-<li>Nonprecision instrument approach
-
-<ul>
-<li>LOC / LOC BC</li>
-<li>VOR / VORTAC</li>
-<li>NDB</li>
-<li>GPS</li>
-</ul>
-</li>
-<li>Precision instrument approach</li>
-<li>Missed approach</li>
-<li>Circling approach and visual maneuvering</li>
-<li>Straight-in approach</li>
+  <li>Nonprecision instrument approach
+    <ul>
+      <li>LOC / LOC BC</li>
+      <li>VOR / VORTAC</li>
+      <li>NDB</li>
+      <li>GPS</li>
+    </ul>
+  </li>
+  <li>Precision instrument approach</li>
+  <li>Missed approach</li>
+  <li>Circling approach and visual maneuvering</li>
+  <li>Straight-in approach</li>
 </ol>
 
-
-<h3>Emergency operations</h3>
+<h3 id="emergency-operations">Emergency operations</h3>
 
 <ol>
-<li>Lost communications</li>
-<li>Vacuum failure (gyro-driven heading and attitude indicators)</li>
-<li>Engine failure during straight and level flight and turns</li>
+  <li>Lost communications</li>
+  <li>Vacuum failure (gyro-driven heading and attitude indicators)</li>
+  <li>Engine failure during straight and level flight and turns</li>
 </ol>
 
-
-<h3>Postflight procedures</h3>
+<h3 id="postflight-procedures">Postflight procedures</h3>
 
 <ol>
-<li>Checking instruments and equipment</li>
+  <li>Checking instruments and equipment</li>
 </ol>
 
 ]]></content>
@@ -869,263 +723,233 @@
     <id>https://ericgideon.com/lessonplans/flight-by-reference-to-instruments</id>
     <content type="html"><![CDATA[<p>The student should gain a working knowledge of instrument flight maneuvers and unusual attitude recovery, and understand the techniques and methods required for safe instrument flight.</p>
 
-<p><header class="lessonIntro">
-<section class="module"></p>
+<header class="lessonIntro">
+<section class="module">
 
-<h3>Elements</h3>
-
-<ul>
-<li>Control-performance method</li>
-<li>Primary/supporting method
-
-<ul>
-<li>Basic instrument flight maneuvers</li>
-<li>straight and level</li>
-<li>turns and airspeed changes</li>
-<li>climbs and descents</li>
-</ul>
-</li>
-<li>Instrument steep turns</li>
-<li>Recovery from unusual flight attitudes</li>
-<li>Timed turns</li>
-<li>Compass turns
+### Elements
+* Control-performance method
+* Primary/supporting method
+	* Basic instrument flight maneuvers
+	* straight and level
+	* turns and airspeed changes
+	* climbs and descents
+* Instrument steep turns
+* Recovery from unusual flight attitudes
+* Timed turns
+* Compass turns
 </section>
-<section class="module"></li>
-</ul>
+<section class="module">
 
-
-<h3>Resources</h3>
-
-<ul>
-<li>model aircraft</li>
-<li>pens, pad of paper</li>
-<li>flight simulator</li>
-<li>aircraft standardization manual and operating handbook</li>
-<li><a href="http://selair.selkirk.bc.ca/ProfessionalPilot/ifr_course/section1/scan.htm">Radial scan technique</a></li>
-<li><a href="http://www.allstar.fiu.edu/aero/AIF.htm">Attitude instrument flying</a></li>
-<li><a href="http://www.geocities.com/cfidarren/r-powerperf.htm">Power control</a>
+### Resources
+* model aircraft
+* pens, pad of paper
+* flight simulator
+* aircraft standardization manual and operating handbook
+* [Radial scan technique](http://selair.selkirk.bc.ca/ProfessionalPilot/ifr_course/section1/scan.htm)
+* [Attitude instrument flying](http://www.allstar.fiu.edu/aero/AIF.htm)
+* [Power control](http://www.geocities.com/cfidarren/r-powerperf.htm)
 </section>
-<section class="module"></li>
-</ul>
+<section class="module">
 
-
-<h3>Instructor actions</h3>
-
-<ul>
-<li>Discuss the lesson objective</li>
-<li>Bring up the student’s private instrument reference training</li>
-<li>Demonstrate flight maneuvers, with the model aircraft and flight simulator</li>
-<li>Evaluate student’s learning by posing review questions throughout and correcting to 100%</li>
-<li>Assign homework for next briefing
+### Instructor actions
+* Discuss the lesson objective
+* Bring up the student’s private instrument reference training
+* Demonstrate flight maneuvers, with the model aircraft and flight simulator
+* Evaluate student’s learning by posing review questions throughout and correcting to 100%
+* Assign homework for next briefing
 </section>
-<section class="module"></li>
-</ul>
+<section class="module">
 
-
-<h3>Student actions</h3>
-
-<ul>
-<li>Prepare for the briefing by reading <em>Instrument Flying Handbook</em> chapter 2</li>
-<li>Practice flight maneuvers in flight simulator</li>
-<li>Participate with discussion, taking notes throughout
+### Student actions
+* Prepare for the briefing by reading *Instrument Flying Handbook* chapter 2
+* Practice flight maneuvers in flight simulator
+* Participate with discussion, taking notes throughout
 </section>
-</header></li>
-</ul>
+</header>
 
-
-<h3>Completion Standards</h3>
-
+<h3 id="completion-standards">Completion Standards</h3>
 <p>The lesson is complete when the student can demonstrate flight by reference to instruments in flight simulator with moderate instructor guidance. Throughout the lesson they should be able to demonstrate a general understanding of flight maneuvers by correctly answering a majority of the questions posed without significant instructor prompting.</p>
 
-<h2>Teaching outline</h2>
+<h2 id="teaching-outline">Teaching outline</h2>
 
-<h3>Control/performance method <a href="http://www.flickr.com/photos/thatguyeric/479023414/"><img src="http://farm1.static.flickr.com/208/479023414_f41f33fc4d_m.jpg" alt="" /></a></h3>
-
+<h3 id="controlperformance-method-httpfarm1staticflickrcom208479023414f41f33fc4dmjpghttpwwwflickrcomphotosthatguyeric479023414">Control/performance method <a href="http://www.flickr.com/photos/thatguyeric/479023414/"><img src="http://farm1.static.flickr.com/208/479023414_f41f33fc4d_m.jpg" alt="" /></a></h3>
 <ul>
-<li>Attitude and power control the airplane</li>
-<li>Performance instruments show how the aircraft is working</li>
-<li>Attitude + power = performance</li>
+  <li>Attitude and power control the airplane </li>
+  <li>Performance instruments show how the aircraft is working</li>
+  <li>Attitude + power = performance</li>
 </ul>
 
-
-<h3>Primary/supporting method <a href="http://www.flickr.com/photos/thatguyeric/479023574/"><img src="http://farm1.static.flickr.com/199/479023574_7fa01f9365_m.jpg" alt="" /></a></h3>
-
+<h3 id="primarysupporting-method-httpfarm1staticflickrcom1994790235747fa01f9365mjpghttpwwwflickrcomphotosthatguyeric479023574">Primary/supporting method <a href="http://www.flickr.com/photos/thatguyeric/479023574/"><img src="http://farm1.static.flickr.com/199/479023574_7fa01f9365_m.jpg" alt="" /></a></h3>
 <ul>
-<li>Three categories of instruments:
-
-<ul>
-<li>pitch</li>
-<li>bank</li>
-<li>power</li>
-</ul>
-</li>
-<li>Primary instruments for each category provide the most pertinent information
-
-<ul>
-<li>supported by additional instruments</li>
-</ul>
-</li>
+  <li>Three categories of instruments:
+    <ul>
+      <li>pitch</li>
+      <li>bank</li>
+      <li>power</li>
+    </ul>
+  </li>
+  <li>Primary instruments for each category provide the most pertinent information
+    <ul>
+      <li>supported by additional instruments</li>
+    </ul>
+  </li>
 </ul>
 
-
-<h3>Basic instrument flight maneuvers</h3>
-
+<h3 id="basic-instrument-flight-maneuvers">Basic instrument flight maneuvers</h3>
 <ul>
-<li>straight and level
-
-<ul>
-<li>pitch, bank, and power relationship</li>
-<li>trim and control usage</li>
-<li>partial and full-panel</li>
-</ul>
-</li>
-<li>turns
-
-<ul>
-<li>TAS, bank angle, and standard rate relationship</li>
-<li>constant rate, standard and half-standard</li>
-<li>partial and full-panel</li>
-<li>bank control during roll-in and -out</li>
-<li>coordination just as important during IFR</li>
-</ul>
-</li>
-<li>airspeed changes
-
-<ul>
-<li>using VSI, trim, and altimeter</li>
-<li>partial and full-panel</li>
-</ul>
-</li>
-<li>climbs and descents
-
-<ul>
-<li>constant airspeed vs constant rate</li>
-<li>level-off techniques</li>
-<li>entry procedures – power-fpm relationship</li>
-<li>partial and full-panel</li>
-</ul>
-</li>
-<li>steep turns
-
-<ul>
-<li>cross-check even more important</li>
-<li>coordination during roll-in, turn, and roll-out</li>
-<li>precession of the attitude indicator</li>
-<li>partial and full-panel</li>
-</ul>
-</li>
-<li>maintain altitudes ±100 feet, heading ±10°, airspeed ±10 knots, and bank ±5°</li>
-<li>proper instrument crosscheck and interpretation</li>
-<li>slow or improper crosscheck leads to poor situational awareness</li>
-<li>abrupt control inputs and the need for smooth corrections while shooting approaches
-
-<ul>
-<li>trim</li>
-<li>power</li>
-</ul>
-</li>
+  <li>straight and level
+    <ul>
+      <li>pitch, bank, and power relationship</li>
+      <li>trim and control usage</li>
+      <li>partial and full-panel</li>
+    </ul>
+  </li>
+  <li>turns
+    <ul>
+      <li>TAS, bank angle, and standard rate relationship</li>
+      <li>constant rate, standard and half-standard</li>
+      <li>partial and full-panel</li>
+      <li>bank control during roll-in and -out</li>
+      <li>coordination just as important during IFR</li>
+    </ul>
+  </li>
+  <li>airspeed changes
+    <ul>
+      <li>using VSI, trim, and altimeter</li>
+      <li>partial and full-panel</li>
+    </ul>
+  </li>
+  <li>climbs and descents
+    <ul>
+      <li>constant airspeed vs constant rate</li>
+      <li>level-off techniques</li>
+      <li>entry procedures – power-fpm relationship</li>
+      <li>partial and full-panel</li>
+    </ul>
+  </li>
+  <li>steep turns
+    <ul>
+      <li>cross-check even more important</li>
+      <li>coordination during roll-in, turn, and roll-out</li>
+      <li>precession of the attitude indicator</li>
+      <li>partial and full-panel</li>
+    </ul>
+  </li>
+  <li>maintain altitudes ±100 feet, heading ±10°, airspeed ±10 knots, and bank ±5°</li>
+  <li>proper instrument crosscheck and interpretation</li>
+  <li>slow or improper crosscheck leads to poor situational awareness</li>
+  <li>abrupt control inputs and the need for smooth corrections while shooting approaches
+    <ul>
+      <li>trim</li>
+      <li>power</li>
+    </ul>
+  </li>
 </ul>
 
-
-<h3>Recovery from unusual flight attitudes</h3>
-
+<h3 id="recovery-from-unusual-flight-attitudes">Recovery from unusual flight attitudes</h3>
 <ul>
-<li>understanding of recovery techniques</li>
-<li>proper instrument crosscheck and interpretation
-
-<ul>
-<li>wrongly interpreting the instruments can worsen the situation</li>
-</ul>
-</li>
-<li>proper sequence of inputs to return to level flight
-
-<ul>
-<li>correctly identifying the upset attitude doesn’t help if the recovery is improper</li>
-</ul>
-</li>
-<li>full and partial panel recoveries</li>
+  <li>understanding of recovery techniques</li>
+  <li>proper instrument crosscheck and interpretation
+    <ul>
+      <li>wrongly interpreting the instruments can worsen the situation</li>
+    </ul>
+  </li>
+  <li>proper sequence of inputs to return to level flight
+    <ul>
+      <li>correctly identifying the upset attitude doesn’t help if the recovery is improper</li>
+    </ul>
+  </li>
+  <li>full and partial panel recoveries</li>
 </ul>
 
-
-<h3>Timed and compass turns</h3>
-
+<h3 id="timed-and-compass-turns">Timed and compass turns</h3>
 <p>Reference the <em>Instrument Flying Handbook</em> 5-24 and 5-25</p>
 
 <ul>
-<li>Standard rate turn: 3°/sec
-
-<ul>
-<li>45° in 15 seconds,</li>
-<li>90° in 30 seconds, etc.</li>
-</ul>
-</li>
-<li>Stopwatch or clock + turn coordinator
-
-<ul>
-<li>use the ‘cardinal’ points on the clock – 3, 6, 9, 12</li>
-<li>clock substitutes for the heading indicator</li>
-<li>reference a spare CDI – each numbered radial is 10 seconds of turn</li>
-</ul>
-</li>
-<li>Compass operating errors and characteristics
-
-<ul>
-<li>UNOS
-
-<ul>
-<li><strong>undershoot north</strong>: when turning northerly, roll out when the compass indicates around 30° before the desired heading</li>
-<li><strong>overshoot south</strong>: when turning southerly, roll out when the compass indicates around 30° past the desired heading</li>
-<li>in the southern hemisphere, reverse the corrections</li>
-</ul>
-</li>
-<li>ANDS (on east/west headings)
-
-<ul>
-<li><strong>accelerate north</strong>: when we accelerate, the compass will indicate towards the north
-
-<ul>
-<li><strong>decelerate south</strong>: when we decelerate, the compass will indicate towards the south</li>
-<li>due to the inertia of the weighted end of the compass</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>calibration procedures</li>
-<li>importance of proper timing and trim</li>
-</ul>
-</li>
+  <li>Standard rate turn: 3°/sec
+    <ul>
+      <li>45° in 15 seconds,</li>
+      <li>90° in 30 seconds, etc.</li>
+    </ul>
+  </li>
+  <li>Stopwatch or clock + turn coordinator
+    <ul>
+      <li>use the ‘cardinal’ points on the clock – 3, 6, 9, 12</li>
+      <li>clock substitutes for the heading indicator</li>
+      <li>reference a spare CDI – each numbered radial is 10 seconds of turn</li>
+    </ul>
+  </li>
+  <li>Compass operating errors and characteristics
+    <ul>
+      <li>UNOS
+        <ul>
+          <li><strong>undershoot north</strong>: when turning northerly, roll out when the compass indicates around 30° before the desired heading</li>
+          <li><strong>overshoot south</strong>: when turning southerly, roll out when the compass indicates around 30° past the desired heading</li>
+          <li>in the southern hemisphere, reverse the corrections</li>
+        </ul>
+      </li>
+      <li>ANDS (on east/west headings)
+        <ul>
+          <li><strong>accelerate north</strong>: when we accelerate, the compass will indicate towards the north
+            <ul>
+              <li><strong>decelerate south</strong>: when we decelerate, the compass will indicate towards the south</li>
+              <li>due to the inertia of the weighted end of the compass</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>calibration procedures</li>
+      <li>importance of proper timing and trim</li>
+    </ul>
+  </li>
 </ul>
 
-
-<h4>Compass tips (IFH)</h4>
-
+<h4 id="compass-tips-ifh">Compass tips (IFH)</h4>
 <ol>
-<li>If you are on a northerly heading and you start a turn to the east or west, the compass indication lags, or shows a turn in the opposite direction.</li>
-<li>If you are on a southerly heading and you start a turn toward the east or west, the compass indication precedes the turn, showing a greater amount of turn than is actually occurring.</li>
-<li>When you are on an east or west heading, the compass indicates correctly as you start a turn in either direction.</li>
-<li>If you are on an easterly or westerly heading, acceleration results in a northerly turn indication; deceleration results in a southerly turn indication.</li>
-<li>If you maintain a north or south heading, no error results from diving, climbing, or changing airspeed.</li>
+  <li>If you are on a northerly heading and you start a turn to the east or west, the compass indication lags, or shows a turn in the opposite direction.</li>
+  <li>If you are on a southerly heading and you start a turn toward the east or west, the compass indication precedes the turn, showing a greater amount of turn than is actually occurring.</li>
+  <li>When you are on an east or west heading, the compass indicates correctly as you start a turn in either direction.</li>
+  <li>If you are on an easterly or westerly heading, acceleration results in a northerly turn indication; deceleration results in a southerly turn indication.</li>
+  <li>If you maintain a north or south heading, no error results from diving, climbing, or changing airspeed.</li>
 </ol>
 
-
-<h3>Worksheet</h3>
-
+<h3 id="worksheet">Worksheet</h3>
 <p>Answer the following prior to the briefing, using <em>Instrument Flying Handbook</em> chapter 4:</p>
 
 <ol>
-<li>The four elements of aircraft control are <code>_____</code>, <code>_____</code>, <code>_____</code>, and <code>_____</code>.</li>
-<li>How do we determine our aircraft’s attitude without reference to the horizon?</li>
-<li>How do we use the selected radial cross-check pattern?</li>
-<li>When would the inverted-V cross-check be more appropriate?</li>
-<li>The rectangular cross check?</li>
-<li>What are the control instruments?</li>
-<li>What are the performance instruments?</li>
-<li>How do we interpret the control and performance instruments? <code>_____</code> + <code>_____</code> = <code>_____</code>.</li>
-<li>In instrument flying, the standard rate of turn is <code>__</code>° per second.</li>
-<li>Radius of turn can be decreased by { increasing | decreasing } airspeed.</li>
-<li>In a constant-bank level turn, a decrease in airspeed would { increase | decrease | not affect } the rate of turn, and { increase | decrease | not affect } the radius of turn.</li>
+  <li>The four elements of aircraft control are <code>_____</code>, <code>_____</code>, <code>_____</code>, and <code>_____</code>.</li>
+  <li>How do we determine our aircraft’s attitude without reference to the horizon?</li>
+  <li>How do we use the selected radial cross-check pattern?</li>
+  <li>When would the inverted-V cross-check be more appropriate?</li>
+  <li>The rectangular cross check?</li>
+  <li>What are the control instruments?</li>
+  <li>What are the performance instruments?</li>
+  <li>How do we interpret the control and performance instruments? <code>_____</code> + <code>_____</code> = <code>_____</code>.</li>
+  <li>In instrument flying, the standard rate of turn is <code>__</code>° per second.</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Radius of turn can be decreased by { increasing</td>
+          <td>decreasing } airspeed.</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>In a constant-bank level turn, a decrease in airspeed would { increase</td>
+          <td>decrease</td>
+          <td>not affect } the rate of turn, and { increase</td>
+          <td>decrease</td>
+          <td>not affect } the radius of turn.</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
 </ol>
-
 ]]></content>
   </entry>
   

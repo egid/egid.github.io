@@ -9,7 +9,7 @@
   <meta name="author" content="Eric Gideon">
 
   
-  <meta name="description" content="Over a year ago I wrote about my initial experiences building and testing out the open-source Stratux ADS-B In receiver. I&rsquo;ve gotten more &hellip;">
+  <meta name="description" content="Over a year ago I wrote about my initial experiences building and testing out the open-source Stratux ADS-B In receiver. I’ve gotten more involved &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -108,67 +108,71 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	</header>
 
 
-	<div class="entry-content"><p>Over a year ago I wrote about my initial experiences building and testing out the <a href="https://github.com/cyoung/stratux">open-source Stratux</a> ADS-B In receiver. I&rsquo;ve gotten more involved with the project since then, testing out new hardware and changing my existing build. I&rsquo;ve also had the chance to use some competing hardware!</p>
+	<div class="entry-content"><p>Over a year ago I wrote about my initial experiences building and testing out the <a href="https://github.com/cyoung/stratux">open-source Stratux</a> ADS-B In receiver. I’ve gotten more involved with the project since then, testing out new hardware and changing my existing build. I’ve also had the chance to use some competing hardware!</p>
 
-<h2>TL;DR: build yourself this $140 Stratux</h2>
+<h2 id="tldr-build-yourself-this-140-stratux">TL;DR: build yourself this $140 Stratux</h2>
 
 <table>
-<thead>
-<tr>
-<th></th>
-<th align="right"> Cost      </th>
-<th> Description </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td align="right">  $ 37.20  </td>
-<td> <a href="http://amzn.to/2utYnC6">Raspberry Pi 3</a> to run the whole show</td>
-</tr>
-<tr>
-<td></td>
-<td align="right">  $ 14.99  </td>
-<td> <a href="http://amzn.to/2tA1ALP">8GB SD card with Stratux installed</a></td>
-</tr>
-<tr>
-<td></td>
-<td align="right">  $ 39.99  </td>
-<td> <a href="http://amzn.to/2tzVoUf">Tuned antennas and radios</a> for receiving weather and two traffic channels</td>
-</tr>
-<tr>
-<td></td>
-<td align="right">  $ 14.99  </td>
-<td> <a href="http://amzn.to/2tkrXu9">GPS receiver</a> for integrated position data</td>
-</tr>
-<tr>
-<td></td>
-<td align="right">  $ 14.99  </td>
-<td> <a href="http://amzn.to/2utOaFz">ABS plastic case</a>, designed by /u/helno of Reddit</td>
-</tr>
-<tr>
-<td></td>
-<td align="right">  $ 12.99  </td>
-<td> <a href="http://amzn.to/2t9LcCh">Anker 24W 12VDC charger</a> can run both an iPad and your Stratux</td>
-</tr>
-<tr>
-<td></td>
-<td align="right">  $  6.99  </td>
-<td> <a href="http://amzn.to/2talwoZ">Anker 10&#8217; USB cable</a> lets you position the Stratux anywhere in the cockpit</td>
-</tr>
-<tr>
-<td></td>
-<td align="right"><strong>$142.14</strong></td>
-<td> <strong>total price</strong></td>
-</tr>
-</tbody>
+  <thead>
+    <tr>
+      <th style="text-align: right">Cost</th>
+      <th>Description (prices current as of 06 January 2019)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">$ 37.95</td>
+      <td><a href="https://amzn.to/2LRJM9R" target="_blank">Raspberry Pi 3</a> to run the whole show</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">$ 14.99</td>
+      <td><a href="http://amzn.to/2tA1ALP" target="_blank">8GB SD card with Stratux installed</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: right">$ 38.99</td>
+      <td><a href="http://amzn.to/2tzVoUf" target="_blank">Tuned antennas and radios</a> for receiving weather and two traffic channels</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">$ 14.99</td>
+      <td><a href="http://amzn.to/2tkrXu9" target="_blank">GPS receiver</a> for integrated position data</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">$ 14.99</td>
+      <td><a href="http://amzn.to/2utOaFz" target="_blank">ABS plastic case</a>, designed by /u/helno of Reddit</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">$ 11.99</td>
+      <td><a href="http://amzn.to/2t9LcCh" target="_blank">Anker 24W 12VDC charger</a> can run both an iPad and your Stratux</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">$  5.99</td>
+      <td><a href="https://amzn.to/2RhUble" target="_blank">Anker 10’ USB cable</a> lets you position the Stratux anywhere in the cockpit</td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><strong>$139.89</strong></td>
+      <td><strong>total price</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align: right">+</td>
+      <td><em>optional extras</em></td>
+    </tr>
+    <tr>
+      <td style="text-align: right">$ 14.98</td>
+      <td><a href="https://amzn.to/2AvSypu" target="_blank">AHRS + fan controller</a> for attitude display</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">$ 22.00</td>
+      <td><a href="https://amzn.to/2VAOltI" target="_blank">EasyAcc 6000mAh battery</a> with passthrough charging</td>
+    </tr>
+    <tr>
+      <td style="text-align: right"><strong>$176.87</strong></td>
+      <td><strong>with AHRS and battery backup</strong></td>
+    </tr>
+  </tbody>
 </table>
 
-
-<br/>
-
-
-<p>If you&rsquo;re a pilot without existing access to ADS-B In weather and traffic, build this list. The same results <a href="http://ericgideon.com/flying/open-source/building-and-flying-with-stratux-homebuilt-ads-b-in/">cost $233 a year ago</a>, and the software has matured while the hardware has improved. For under $150, you can get dual-band ADS-B In traffic and weather with WAAS position data. It&rsquo;s fantastic.</p>
+<p><br />
+If you’re a pilot without existing access to ADS-B In weather and traffic, build this list. The same results <a href="http://ericgideon.com/flying/open-source/building-and-flying-with-stratux-homebuilt-ads-b-in/">cost $233 a year ago</a>, and the software has matured while the hardware has improved. For under $150, you can get dual-band ADS-B In traffic and weather with WAAS position data. It’s fantastic.</p>
 
 </div>
 	
@@ -209,9 +213,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	</header>
 
 
-	<div class="entry-content"><h3><a href="/flying/open-source/building-and-flying-with-stratux-ads-b-in-part-2/">UPDATE: new writeup 17 July 2017, with a new $140 parts list</a></h3>
+	<div class="entry-content"><h3 id="update-new-writeup-17-july-2017-with-a-new-140-parts-listflyingopen-sourcebuilding-and-flying-with-stratux-ads-b-in-part-2"><a href="/flying/open-source/building-and-flying-with-stratux-ads-b-in-part-2/">UPDATE: new writeup 17 July 2017, with a new $140 parts list</a></h3>
 
-<p>I first heard about the <a href="http://stratux.me">Stratux project</a> a few months back, in a <a href="http://reddit.com/r/stratux">subreddit</a> that described how to build your own ADS-B In receiver for under $120. It uses software-defined radios to pick up ADS-B data, then processes it using <a href="http://github.com/cyoung/stratux">open-source software</a>. As a pilot who&rsquo;s dabbled with the idea of plunking down around $1000 on the Stratus 2S, this was a pretty attractive idea: less than $200 for traffic and weather on my iPad? Heck, I could build a receiver and order a new iPad for less than the list price of the Stratus.</p>
+<p>I first heard about the <a href="http://stratux.me">Stratux project</a> a few months back, in a <a href="http://reddit.com/r/stratux">subreddit</a> that described how to build your own ADS-B In receiver for under $120. It uses software-defined radios to pick up ADS-B data, then processes it using <a href="http://github.com/cyoung/stratux">open-source software</a>. As a pilot who’s dabbled with the idea of plunking down around $1000 on the Stratus 2S, this was a pretty attractive idea: less than $200 for traffic and weather on my iPad? Heck, I could build a receiver and order a new iPad for less than the list price of the Stratus.</p>
 
 <p>I took the plunge, ordered the parts, and tried it out.</p>
 
@@ -256,10 +260,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	</header>
 
 
-	<div class="entry-content"><p><a href="http://www.flickr.com/photos/thatguyeric/8088858114/" title="AlÞing (site of the world's first parliament), Þingvallir, Ísland by thatguyeric, on Flickr"><img class="flex-content" src="https://farm9.staticflickr.com/8183/8088858114_21298589de_b.jpg" width="1024" height="228" alt="AlÞing (site of the world's first parliament), Þingvallir, Ísland"></a></p>
+	<div class="entry-content"><p><a href="http://www.flickr.com/photos/thatguyeric/8088858114/" title="AlÞing (site of the world's first parliament), Þingvallir, Ísland by thatguyeric, on Flickr"><img class="flex-content" src="https://farm9.staticflickr.com/8183/8088858114_21298589de_b.jpg" width="1024" height="228" alt="AlÞing (site of the world's first parliament), Þingvallir, Ísland" /></a></p>
 
-<p>I previously talked about <a href="/flying/travel/flying-in-iceland">figuring out how to use an FAA certificate</a> and other steps towards flight-seeing as a pilot in Iceland. This is a more in-depth review of the planning involved, what I used, and where I went.</p>
-
+<p>I previously talked about <a href="/flying/travel/flying-in-iceland">figuring out how to use an FAA certificate</a> and other steps towards flight-seeing as a pilot in Iceland. This is a more in-depth review of the planning involved, what I used, and where I went.
 </div>
 	
 	<footer>
