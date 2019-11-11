@@ -1,353 +1,57 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/styles.54782abd852d6fd06e95.css">header{display:flex;flex-direction:row;justify-content:space-between;align-items:bottom;text-transform:lowercase}header *{display:flex;box-sizing:border-box}header h1,header ul{margin:0;padding:0}nav{align-items:flex-end}nav ul{justify-content:flex-end;align-content:flex-end;list-style-type:none;font-size:1.5em;font-weight:700;overflow:hidden}nav ul a{padding:1em;margin:-1em -1em -1em 1em}header .gatsby-image-wrapper{height:150px!important;width:150px!important}#SiteFooter{display:flex;justify-content:center;padding:2rem 0}
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>ericgideon.com</title>
-  <meta name="author" content="Eric Gideon">
-
-  
-  <meta name="description" content="Over a year ago I wrote about my initial experiences building and testing out the open-source Stratux ADS-B In receiver. I’ve gotten more involved &hellip;">
-  
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  
-  <link rel="canonical" href="https://ericgideon.com/">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="ericgideon.com" type="application/atom+xml">
-  <!-- // <script src="/javascripts/modernizr-2.0.js"></script> -->
-  <!-- // <script src="/javascripts/libs/jquery.min.js"></script> -->
-  <!-- // <script src="/javascripts/octopress.js" type="text/javascript"></script> -->
-  <!-- URL.LV button -->
-	<!-- // <script src="http://static.uri.lv/js/button.js" async></script> -->
-<!-- Rich Object stuff -->
-	<meta name="google-site-verification" content="qHxhLvCpmi9WMlWIdF6U5gSTEvRI-bSZUelil4czDLs" />
-	<meta property="og:url" value="https://ericgideon.com/index.html">
-	<meta property="og:type" content="website" />
-	
-		<meta property="og:title" value="ericgideon.com">
-		<meta property="og:description" value="I'm a pilot and web developer in Seattle.">
-	
-	
-  
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-11479088-2', 'auto');
-        ga('send', 'pageview');
-    </script>
-    <!-- Google Tag Manager -->
-    <script>
-        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-T8QSK57');
-    </script>
-    <!-- End Google Tag Manager -->
-
-
-</head>
-
-<body   class="collapse-sidebar sidebar-footer" >
-  <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T8QSK57"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-  <header role="banner"><hgroup>
-  <h1><a href="/">ericgideon.com</a></h1>
-</hgroup>
-
-</header>
-  <nav role="navigation"><ul class="main-navigation">
-	<li><a href="/about">about me</a></li>
-	<li><a href="/instruction">flight instruction</a></li>
-</ul>
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-	<header>
-		
-			<h1 class="entry-title"><a href="/flying/open-source/building-and-flying-with-stratux-ads-b-in-part-2/">Building and flying with Stratux ADS-B In, part 2</a></h1>
-		
-	
-		<p class="meta">
-			
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2017-07-17T18:00:00-07:00" pubdate data-updated="true">Jul 17<span>th</span>, 2017</time>
-			
-		</p>
-	
-	</header>
-
-
-	<div class="entry-content"><p>Over a year ago I wrote about my initial experiences building and testing out the <a href="https://github.com/cyoung/stratux">open-source Stratux</a> ADS-B In receiver. I’ve gotten more involved with the project since then, testing out new hardware and changing my existing build. I’ve also had the chance to use some competing hardware!</p>
-
-<h2 id="tldr-build-yourself-this-140-stratux">TL;DR: build yourself this $140 Stratux</h2>
-
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}[hidden],template{display:none}:root{color-scheme:light dark;--body-text:#222;--head-text:#444;--link-default:#0055b8;--link-hover:#d77925;--header-bg:#ccc}@media (prefers-color-scheme:dark){:root{--body-text:#eee;--head-text:#ccc;--link-default:#d77925;--link-hover:#de914b;--header-bg:#444}}body{font-family:sans-serif;color:var(--body-text);display:flex;justify-content:center}footer,header,main{display:flex;padding:0 1em;box-sizing:border-box;width:100%;max-width:50em}@media (min-width:700px){footer,header,main{padding:0 4em}}header a{color:var(--head-text)}header a:hover{color:var(--link-hover)}main{padding-top:3em;padding-bottom:3em}.mt-0{margin-top:0}.mt-L{margin-top:2em}.mt-M{margin-top:1.5em}.mt-S{margin-top:1em}.mb-0{margin-bottom:0}.mb-L{margin-bottom:2em}.mb-M{margin-bottom:1.5em}.mg-S{margin-bottom:1em}h1,h2,h3,h4,h5{color:var(--head-text);font-weight:700;line-height:1.5;margin:2em 0 .5rem}h1{font-size:2rem}h2{font-size:1.5rem}h3{font-size:1.25rem;line-height:1.4}h4,li,p{font-size:1rem}li,p{line-height:1.5}a,a *{color:var(--link-default)}a:hover,a:hover *{color:var(--link-hover)}table{border-collapse:collapse}th{text-align:left}td{padding:.25rem;border:1px solid grey}li>*{margin:0}.flex-content,.gatsby-resp-image-image,main p img{max-width:100%}.block{display:block}.flex{display:flex}.border-box{box-sizing:border-box}</style><meta name="generator" content="Gatsby 2.17.11"/><title data-react-helmet="true">Home | ericgideon.com</title><meta data-react-helmet="true" name="description" content=""/><meta data-react-helmet="true" property="og:title" content="Home"/><meta data-react-helmet="true" property="og:description" content=""/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="@egid"/><meta data-react-helmet="true" name="twitter:title" content="Home"/><meta data-react-helmet="true" name="twitter:description" content=""/><style type="text/css">.gatsby-resp-image-image{width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;color:transparent;}</style><link as="script" rel="preload" href="/webpack-runtime-849c0231625a23421a06.js"/><link as="script" rel="preload" href="/app-e1288b530b0a1eff82d2.js"/><link as="script" rel="preload" href="/styles-db4ba60dbd366867b266.js"/><link as="script" rel="preload" href="/commons-ad256b8bac339243b706.js"/><link as="script" rel="preload" href="/component---src-pages-index-js-e89f9e0d25eb9e3a80b0.js"/><link as="fetch" rel="preload" href="/page-data/index/page-data.json" crossorigin="anonymous"/></head><body><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group" id="gatsby-focus-wrapper"><header><h1><a aria-current="page" class="" href="/"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:150px;height:150px"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAABhklEQVQ4y2O4XqlKNmIY1TyqmXzNVWrXq9WvV6mDGKRprlK/ViJ3pUD8SoHY1RJZXPoZsNp5tVj63iTft4fnvj0y78HUICAXq36gZjWw28DOAzlVA6j00fzkf3///Aehv////3+yLBesXwOqBqIepLlC5VqpPAiVKV4rVwJyr5crfr17Aqjn44VNH86uAzK+P7kM0lOuBFQAUlamAFQPVMlwvUbrTrfjnU6HWy0WNxuNgDbfqNX5+fLOv18/Xm7rfLmt48+3j7+/vL1ZpwvUD1QAVHan0/5Ot/ONWm2GG7W696cEPpwV/XhB6tOluU9Xlb7Y2PBm7+T3p1benxpyb5Lf+xPL3uyb9nxD/bNVZU+W5QGVPZwd82Bq8I16PZCzrxbLAIMU5JgKZYjnbzUafrqyE+Thf3++3Dx4q8XseoUq0FHXK5RBykpkQUFQoQwKsBvVmjeAEuAwAPkZaESFyq1W88cL0x8vzrzdZgURASFw6AIVA7UA2TjjGewiqatFUmDnYI9nADC5b1P+7Cz5AAAAAElFTkSuQmCC" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source srcset="/static/82e401409ba5700dfb93f15def8b20b9/4148e/logo.png 1x,
+/static/82e401409ba5700dfb93f15def8b20b9/de03e/logo.png 1.5x,
+/static/82e401409ba5700dfb93f15def8b20b9/1e9e2/logo.png 2x" /><img loading="lazy" width="150" height="150" srcset="/static/82e401409ba5700dfb93f15def8b20b9/4148e/logo.png 1x,
+/static/82e401409ba5700dfb93f15def8b20b9/de03e/logo.png 1.5x,
+/static/82e401409ba5700dfb93f15def8b20b9/1e9e2/logo.png 2x" src="/static/82e401409ba5700dfb93f15def8b20b9/4148e/logo.png" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></a></h1><nav><ul><li><a href="/about">About</a></li><li><a href="/archive">Archive</a></li></ul></nav></header><main><div><article class="Excerpt mb-L"><h2 class="mb-0"><a href="/flying/open-source/building-and-flying-with-stratux-ads-b-in-part-2">Building and Flying with Stratux ADS-B In, part 2</a></h2><time class="block mb-M">July 17, 2017</time><div><p>Over a year ago I wrote about my initial experiences building and testing out the <a href="https://github.com/cyoung/stratux">open-source Stratux</a> ADS-B In receiver. I've gotten more involved with the project since then, testing out new hardware and changing my existing build. I've also had the chance to use some competing hardware!</p>
+<h4>TL;DR: build yourself this $140 Stratux</h4>
 <table>
-  <thead>
-    <tr>
-      <th style="text-align: right">Cost</th>
-      <th>Description (prices current as of 06 January 2019)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: right">$ 37.95</td>
-      <td><a href="https://amzn.to/2LRJM9R" target="_blank">Raspberry Pi 3</a> to run the whole show</td>
-    </tr>
-    <tr>
-      <td style="text-align: right">$ 14.99</td>
-      <td><a href="http://amzn.to/2tA1ALP" target="_blank">8GB SD card with Stratux installed</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: right">$ 38.99</td>
-      <td><a href="http://amzn.to/2tzVoUf" target="_blank">Tuned antennas and radios</a> for receiving weather and two traffic channels</td>
-    </tr>
-    <tr>
-      <td style="text-align: right">$ 14.99</td>
-      <td><a href="http://amzn.to/2tkrXu9" target="_blank">GPS receiver</a> for integrated position data</td>
-    </tr>
-    <tr>
-      <td style="text-align: right">$ 14.99</td>
-      <td><a href="http://amzn.to/2utOaFz" target="_blank">ABS plastic case</a>, designed by /u/helno of Reddit</td>
-    </tr>
-    <tr>
-      <td style="text-align: right">$ 11.99</td>
-      <td><a href="http://amzn.to/2t9LcCh" target="_blank">Anker 24W 12VDC charger</a> can run both an iPad and your Stratux</td>
-    </tr>
-    <tr>
-      <td style="text-align: right">$  5.99</td>
-      <td><a href="https://amzn.to/2RhUble" target="_blank">Anker 10’ USB cable</a> lets you position the Stratux anywhere in the cockpit</td>
-    </tr>
-    <tr>
-      <td style="text-align: right"><strong>$139.89</strong></td>
-      <td><strong>total price</strong></td>
-    </tr>
-    <tr>
-      <td style="text-align: right">+</td>
-      <td><em>optional extras</em></td>
-    </tr>
-    <tr>
-      <td style="text-align: right">$ 14.98</td>
-      <td><a href="https://amzn.to/2AvSypu" target="_blank">AHRS + fan controller</a> for attitude display</td>
-    </tr>
-    <tr>
-      <td style="text-align: right">$ 22.00</td>
-      <td><a href="https://amzn.to/2VAOltI" target="_blank">EasyAcc 6000mAh battery</a> with passthrough charging</td>
-    </tr>
-    <tr>
-      <td style="text-align: right"><strong>$176.87</strong></td>
-      <td><strong>with AHRS and battery backup</strong></td>
-    </tr>
-  </tbody>
+<thead>
+<tr>
+<th align="right">Cost</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">$ 37.20</td>
+<td><a href="http://amzn.to/2utYnC6">Raspberry Pi 3</a> to run the whole show</td>
+</tr>
+<tr>
+<td align="right">$ 14.99</td>
+<td><a href="http://amzn.to/2tA1ALP">8GB SD card with Stratux installed</a></td>
+</tr>
+<tr>
+<td align="right">$ 39.99</td>
+<td><a href="http://amzn.to/2tzVoUf">Tuned antennas and radios</a> for receiving weather and two traffic channels</td>
+</tr>
+<tr>
+<td align="right">$ 14.99</td>
+<td><a href="http://amzn.to/2tkrXu9">GPS receiver</a> for integrated position data</td>
+</tr>
+<tr>
+<td align="right">$ 14.99</td>
+<td><a href="http://amzn.to/2utOaFz">ABS plastic case</a>, designed by /u/helno of Reddit</td>
+</tr>
+<tr>
+<td align="right">$ 12.99</td>
+<td><a href="http://amzn.to/2t9LcCh">Anker 24W 12VDC charger</a> can run both an iPad and your Stratux</td>
+</tr>
+<tr>
+<td align="right">$  6.99</td>
+<td><a href="http://amzn.to/2talwoZ">Anker 10' USB cable</a> lets you position the Stratux anywhere in the cockpit</td>
+</tr>
+<tr>
+<td align="right"><strong>$142.14</strong></td>
+<td><strong>total price</strong></td>
+</tr>
+</tbody>
 </table>
-
-<p><br />
-If you’re a pilot without existing access to ADS-B In weather and traffic, build this list. The same results <a href="http://ericgideon.com/flying/open-source/building-and-flying-with-stratux-homebuilt-ads-b-in/">cost $233 a year ago</a>, and the software has matured while the hardware has improved. For under $150, you can get dual-band ADS-B In traffic and weather with WAAS position data. It’s fantastic.</p>
-
-</div>
-	
-	<footer>
-		
-			<a rel="full-article" href="/flying/open-source/building-and-flying-with-stratux-ads-b-in-part-2/">Read more &rarr;</a>
-		
-	</footer>
-
-
-    </article>
-  
-  
-    <article>
-      
-	<header>
-		
-			<h1 class="entry-title"><a href="/flying/open-source/building-and-flying-with-stratux-homebuilt-ads-b-in/">Building (and flying with) Stratux homebuilt ADS-B In</a></h1>
-		
-	
-		<p class="meta">
-			
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2016-03-26T15:18:00-07:00" pubdate data-updated="true">Mar 26<span>th</span>, 2016</time>
-			
-		</p>
-	
-	</header>
-
-
-	<div class="entry-content"><h3 id="update-new-writeup-17-july-2017-with-a-new-140-parts-listflyingopen-sourcebuilding-and-flying-with-stratux-ads-b-in-part-2"><a href="/flying/open-source/building-and-flying-with-stratux-ads-b-in-part-2/">UPDATE: new writeup 17 July 2017, with a new $140 parts list</a></h3>
-
-<p>I first heard about the <a href="http://stratux.me">Stratux project</a> a few months back, in a <a href="http://reddit.com/r/stratux">subreddit</a> that described how to build your own ADS-B In receiver for under $120. It uses software-defined radios to pick up ADS-B data, then processes it using <a href="http://github.com/cyoung/stratux">open-source software</a>. As a pilot who’s dabbled with the idea of plunking down around $1000 on the Stratus 2S, this was a pretty attractive idea: less than $200 for traffic and weather on my iPad? Heck, I could build a receiver and order a new iPad for less than the list price of the Stratus.</p>
-
+<br/>
+<p>If you're a pilot without existing access to ADS-B In weather and traffic, build this list. The same results <a href="http://ericgideon.com/flying/open-source/building-and-flying-with-stratux-homebuilt-ads-b-in/">cost $233 a year ago</a>, and the software has matured while the hardware has improved. For under $150, you can get dual-band ADS-B In traffic and weather with WAAS position data. It's fantastic.</p>
+</div></article><article class="Excerpt mb-L"><h2 class="mb-0"><a href="/flying/open-source/building-and-flying-with-stratux-homebuilt-ads-b-in">Building (and flying with) Stratux homebuilt ADS-B In</a></h2><time class="block mb-M">March 26, 2016</time><div><h4><a href="/flying/open-source/building-and-flying-with-stratux-ads-b-in-part-2/">UPDATE: new writeup 17 July 2017, with a new $140 parts list</a></h4>
+<p>I first heard about the <a href="http://stratux.me">Stratux project</a> a few months back, in a <a href="http://reddit.com/r/stratux">subreddit</a> that described how to build your own ADS-B In receiver for under $120. It uses software-defined radios to pick up ADS-B data, then processes it using <a href="http://github.com/cyoung/stratux">open-source software</a>. As a pilot who's dabbled with the idea of plunking down around $1000 on the Stratus 2S, this was a pretty attractive idea: less than $200 for traffic and weather on my iPad? Heck, I could build a receiver and order a new iPad for less than the list price of the Stratus.</p>
 <p>I took the plunge, ordered the parts, and tried it out.</p>
-
 <p>The verdict? It works brilliantly.</p>
-
-</div>
-	
-	<footer>
-		
-			<a rel="full-article" href="/flying/open-source/building-and-flying-with-stratux-homebuilt-ads-b-in/">Read more &rarr;</a>
-		
-	</footer>
-
-
-    </article>
-  
-  
-    <article>
-      
-	<header>
-		
-			<h1 class="entry-title"><a href="/flying/travel/flight-seeing-in-iceland/">Flight-seeing in Iceland</a></h1>
-		
-	
-		<p class="meta">
-			
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-04-09T19:19:00-07:00" pubdate data-updated="true">Apr 9<span>th</span>, 2013</time>
-			
-		</p>
-	
-	</header>
-
-
-	<div class="entry-content"><p><a href="http://www.flickr.com/photos/thatguyeric/8088858114/" title="AlÞing (site of the world's first parliament), Þingvallir, Ísland by thatguyeric, on Flickr"><img class="flex-content" src="https://farm9.staticflickr.com/8183/8088858114_21298589de_b.jpg" width="1024" height="228" alt="AlÞing (site of the world's first parliament), Þingvallir, Ísland" /></a></p>
-
-<p>I previously talked about <a href="/flying/travel/flying-in-iceland">figuring out how to use an FAA certificate</a> and other steps towards flight-seeing as a pilot in Iceland. This is a more in-depth review of the planning involved, what I used, and where I went.
-</div>
-	
-	<footer>
-		
-			<a rel="full-article" href="/flying/travel/flight-seeing-in-iceland/">Read more &rarr;</a>
-		
-	</footer>
-
-
-    </article>
-  
-  <div class="pagination">
-    
-      <a class="prev" href="/archives/page/2/">&larr; Older</a>
-    
-    <a href="/archives">Blog Archives</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/flying/open-source/building-and-flying-with-stratux-ads-b-in-part-2/">Building and flying with Stratux ADS-B In, part 2</a>
-      </li>
-    
-      <li class="post">
-        <a href="/flying/open-source/building-and-flying-with-stratux-homebuilt-ads-b-in/">Building (and flying with) Stratux homebuilt ADS-B In</a>
-      </li>
-    
-      <li class="post">
-        <a href="/lessonplans/instrument-proficiency-check-plan-of-action/">Plan of Action: Instrument Proficiency Check</a>
-      </li>
-    
-      <li class="post">
-        <a href="/flying/travel/flight-seeing-in-iceland/">Flight-seeing in Iceland</a>
-      </li>
-    
-      <li class="post">
-        <a href="/flying/travel/flying-in-iceland/">Flying in Iceland</a>
-      </li>
-    
-  </ul>
-</section>
-
-
-
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo">
-
-<ul class="moreactions">
-	<li><a href="/about">Read about the site</a> or </li>
-	<li><a href="/archives">explore the archives</a>.</li>
-</ul>
-
-<ul class="subscription" data-subscription="rss">
-	<!-- <li><a href="http://ericgideon.com/atom.xml" class="urilv-button" name="feed-603">Subscribe to ericgideon.com</a></li> -->
-	<li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-	
-</ul>
-
-<span class="toTop">
-	<a href="#">&uarr; Top</a>
-</span>
-<p>
-  Copyright &copy; 2019 Eric Gideon  <a href="https://twitter.com/egid" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow @egid</a>
-
-</p>
-</footer>
-  
-
-
-
-
-
-
-
-</body>
-</html>
+</div></article><article class="Excerpt mb-L"><h2 class="mb-0"><a href="/lessonplans/flight-review">Plan of Action: Flight Review</a></h2><time class="block mb-M">April 20, 2013</time><div>A basic outline for a complete Flight Review in the United States.</div></article><article class="Excerpt mb-L"><h2 class="mb-0"><a href="/lessonplans/instrument-proficiency-check-plan-of-action/">Plan of Action: Instrument Proficiency Check</a></h2><time class="block mb-M">April 20, 2013</time><div>A basic outline for a complete Instrument Proficiency Check as required in the United States.</div></article><article class="Excerpt mb-L"><h2 class="mb-0"><a href="/flying/travel/flight-seeing-in-iceland/">Flight-seeing in Iceland</a></h2><time class="block mb-M">April 9, 2013</time><div>Lots of words about flying in Iceland as a tourist.</div></article></div></main><footer id="SiteFooter">© <!-- -->2019<!-- --> <a href="https://github.com/egid">Eric Gideon</a>  •  <a href="/archive">archive</a></footer></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-e1288b530b0a1eff82d2.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-890879252ebff2650986.js"],"component---src-pages-404-js":["/component---src-pages-404-js-9b37774f8033162af493.js"],"component---src-pages-about-js":["/component---src-pages-about-js-9cd4379616097c87fef7.js"],"component---src-pages-archive-js":["/component---src-pages-archive-js-21b7d86318b2cbe1db02.js"],"component---src-pages-index-js":["/component---src-pages-index-js-e89f9e0d25eb9e3a80b0.js"]};/*]]>*/</script><script src="/component---src-pages-index-js-e89f9e0d25eb9e3a80b0.js" async=""></script><script src="/commons-ad256b8bac339243b706.js" async=""></script><script src="/styles-db4ba60dbd366867b266.js" async=""></script><script src="/app-e1288b530b0a1eff82d2.js" async=""></script><script src="/webpack-runtime-849c0231625a23421a06.js" async=""></script></body></html>
