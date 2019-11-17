@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>https://ericgideon.com/lessonplans/navigation-flight-planning</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://ericgideon.com/lessonplans/short-field-takeoff-and-landing/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ericgideon.com/lessonplans/demonstration-stalls</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ericgideon.com/lessonplans/short-field-takeoff-and-landing/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ericgideon.com/lessonplans/slow-flight/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://ericgideon.com/lessonplans/proficiency-stalls/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ericgideon.com/lessonplans/spins-and-spin-awareness/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ericgideon.com/lessonplans/proficiency-stalls/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ericgideon.com/lessonplans/chandelles/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ericgideon.com/lessonplans/fundamentals-of-flight/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ericgideon.com/lessonplans/basic-instrument-flight/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ericgideon.com/lessonplans/weight-balance/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ericgideon.com/lessonplans/instrument-cockpit-check/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://ericgideon.com/lessonplans/visual-maneuvering/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ericgideon.com/lessonplans/holding-procedures/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ericgideon.com/lessonplans/aeronautical-decision-making/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://ericgideon.com/lessonplans/national-airspace-system/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ericgideon.com/lessonplans/visual-maneuvering/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ericgideon.com/lessonplans/weather-products/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ericgideon.com/lessonplans/national-airspace-system/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ericgideon.com/lessonplans/departure-and-arrival-procedures-and-clearances/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ericgideon.com/lessonplans/ifr-cross-country-planning-and-regulations/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ericgideon.com/lessonplans/ils-dme/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ericgideon.com/lessonplans/air-traffic-control-clearances/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ericgideon.com/lessonplans/steep-spirals/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ericgideon.com/lessonplans/steep-turns/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://ericgideon.com/aviation/checkride-season/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ericgideon.com/aviation/flying-for-fun/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ericgideon.com/aviation/checkride-season/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ericgideon.com/lessonplans/correlation-question-bank/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ericgideon.com/lessonplans/instrument-approaches/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ericgideon.com/lessonplans/flight-by-reference-to-instruments/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
